@@ -1,0 +1,92 @@
+divine_ascension_focus = {
+	lifestyle = pure_divine_lifestyle
+	
+	modifier = {
+		learning = 3
+	}
+
+	desc = {
+		desc = divine_ascension_focus_desc
+		desc = line_break
+	}
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_diplomacy_trigger = yes
+			}
+			add = 1989
+		}
+		if = {
+			limit = {
+				has_trait = shy
+			}
+			multiply = 0
+		}
+	}
+	
+	focus_id = 6000
+}
+
+divine_blood_focus = {
+	lifestyle = pure_divine_lifestyle
+	
+	modifier = {
+		intrigue = 3
+	}
+
+	desc = {
+		desc = divine_blood_focus_desc
+		desc = line_break
+	}
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_diplomacy_trigger = yes
+			}
+			add = 1989
+		}
+		if = {
+			limit = {
+				has_trait = shy
+			}
+			multiply = 0
+		}
+	}
+	
+	focus_id = 6001
+}
+
+divine_magic_focus = {
+	lifestyle = pure_divine_lifestyle
+	
+	modifier = {
+		diplomacy = 3
+	}
+
+	desc = {
+		desc = divine_magic_focus_desc
+		desc = line_break
+	}
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_diplomacy_trigger = yes
+			}
+			add = 1989
+		}
+		if = {
+			limit = {
+				has_trait = shy
+			}
+			multiply = 0
+		}
+	}
+	
+	focus_id = 6002
+}
