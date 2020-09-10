@@ -2,7 +2,7 @@ divine_ascension_focus = {
 	lifestyle = pure_divine_lifestyle
 	
 	modifier = {
-		learning = 3
+		diplomacy = 3
 	}
 
 	desc = {
@@ -29,15 +29,15 @@ divine_ascension_focus = {
 	focus_id = 6000
 }
 
-divine_blood_focus = {
+divine_renewal_focus = {
 	lifestyle = pure_divine_lifestyle
 	
 	modifier = {
-		intrigue = 3
+		stewardship = 3
 	}
 
 	desc = {
-		desc = divine_blood_focus_desc
+		desc = divine_renewal_focus_desc
 		desc = line_break
 	}
 
@@ -64,7 +64,7 @@ divine_magic_focus = {
 	lifestyle = pure_divine_lifestyle
 	
 	modifier = {
-		diplomacy = 3
+		learning = 3
 	}
 
 	desc = {
@@ -89,4 +89,97 @@ divine_magic_focus = {
 	}
 	
 	focus_id = 6002
+}
+
+divine_dark_legions_focus = {
+	lifestyle = fallen_divine_lifestyle
+	
+	modifier = {
+		martial = 3
+	}
+
+	desc = {
+		desc = divine_dark_legions_focus_desc
+		desc = line_break
+	}
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_diplomacy_trigger = yes
+			}
+			add = 1989
+		}
+		if = {
+			limit = {
+				has_trait = shy
+			}
+			multiply = 0
+		}
+	}
+	
+	focus_id = 6003
+}
+
+divine_sanguine_consumption_focus = {
+	lifestyle = fallen_divine_lifestyle
+	
+	modifier = {
+		intrigue = 3
+	}
+
+	desc = {
+		desc = divine_sanguine_consumption_focus_desc
+		desc = line_break
+	}
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_diplomacy_trigger = yes
+			}
+			add = 1989
+		}
+		if = {
+			limit = {
+				has_trait = shy
+			}
+			multiply = 0
+		}
+	}
+	
+	focus_id = 6004
+}
+
+divine_occultism_focus = {
+	lifestyle = fallen_divine_lifestyle
+	
+	modifier = {
+		learning = 3
+	}
+
+	desc = {
+		desc = divine_occultism_focus_desc
+		desc = line_break
+	}
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_diplomacy_trigger = yes
+			}
+			add = 1989
+		}
+		if = {
+			limit = {
+				has_trait = shy
+			}
+			multiply = 0
+		}
+	}
+	
+	focus_id = 6005
 }

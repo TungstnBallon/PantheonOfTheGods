@@ -1,0 +1,170 @@
+uplifter_perk = {
+	lifestyle = pure_divine_lifestyle
+	tree = divine_ascension_focus
+	position = { 2 0 }
+	icon = node_purity
+
+	effect = {
+		custom_description_no_bullet = {
+			text = uplifter_perk_effect
+		}
+	}
+	character_modifier = {
+		monthy_income = 5
+	}
+}
+
+bringer_of_rain_perk = {
+	lifestyle = pure_divine_lifestyle
+	tree = divine_ascension_focus
+	position = { 0 1.25 }
+	icon = node_purity
+
+	parent = uplifter_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = bringer_of_rain_perk_effect
+		}
+	}
+}
+
+
+pure_metal_perk = {
+	lifestyle = pure_divine_lifestyle
+	tree = divine_ascension_focus
+	position = { 0 2.5 }
+	icon = node_purity
+
+	parent = bringer_of_rain_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = pure_metal_perk_effect
+		}
+	}
+	character_modifier = {
+		army_maintenance_mult = -0.5
+		controlled_province_advantage = 5
+	}
+}
+
+
+blessed_armies_perk = {
+	lifestyle = pure_divine_lifestyle
+	tree = divine_ascension_focus
+	position = { 2 1.25 }
+	icon = node_purity
+
+	parent = uplifter_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = blessed_armies_perk_effect
+		}
+	}
+	character_modifier = {
+		levy_size = 0.5
+		garrison_size = 0.5
+		levy_reinforcement_rate = 2
+	}
+}
+
+
+martial_prowess_perk = {
+	lifestyle = pure_divine_lifestyle
+	tree = divine_ascension_focus
+	position = { 2 2.5 }
+	icon = node_purity
+
+	parent = blessed_armies_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = martial_prowess_perk_effect
+		}
+	}
+	character_modifier = {
+		prowess = 15
+		no_prowess_loss_from_age = yes
+	}
+}
+
+
+eternal_summer_perk = {
+	lifestyle = pure_divine_lifestyle
+	tree = divine_ascension_focus
+	position = { 4 1.25 }
+	icon = node_purity
+
+	parent = uplifter_perk
+
+	character_modifier = {
+		independent_ruler_opinion = 15
+		fellow_vassal_opinion = 15
+		supply_limit_mult = 1.25
+	}
+	effect = {
+		custom_description_no_bullet = {
+			text = eternal_summer_perk_effect
+		}
+	}
+}
+
+
+beloved_god_perk = {
+	lifestyle = pure_divine_lifestyle
+	tree = divine_ascension_focus
+	position = { 4 2.5 }
+	icon = node_purity
+
+	parent = eternal_summer_perk
+
+	character_modifier = {
+		general_opinion = 25
+	}
+	effect = {
+		custom_description_no_bullet = {
+			text = beloved_god_perk_effect
+		}
+	}
+}
+
+
+lightbringer_perk = {
+	lifestyle = pure_divine_lifestyle
+	tree = divine_ascension_focus
+	position = { 2 3.75 }
+	icon = node_purity
+
+	parent = pure_metal_perk
+	parent = martial_prowess_perk
+	parent = beloved_god_perk
+
+	character_modifier = {
+		learning = 15
+		monthly_prestige = 5
+	}
+	effect = {
+		custom_description_no_bullet = {
+			text = lightbringer_perk_effect
+		}
+	}
+}
+
+
+god_rankup_ascension = {
+	lifestyle = pure_divine_lifestyle
+	tree = divine_ascension_focus
+	position = { 2 5 }
+	icon = pure_divine_rankup
+
+	parent = lightbringer_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = lightbringer_perk_effect
+		}
+		# add_trait_force_tooltip = diplomat
+	}
+}

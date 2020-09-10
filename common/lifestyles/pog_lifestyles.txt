@@ -1,4 +1,4 @@
-divine_lifestyle = {
+pure_divine_lifestyle = {
 
 	is_highlighted = {
         OR = {
@@ -8,14 +8,31 @@ divine_lifestyle = {
 	}
 	
     is_valid = {
-        AND = {
-            has_trait = fallen_deity
+        OR = {
             has_trait = pure_deity
             has_trait = young_fallen_deity
-            has_trait = young_pure_deity
         }
      }
 	
-	xp_per_level = 5000
+	xp_per_level = 1750
+	base_xp_gain = 25
+}
+
+fallen_divine_lifestyle = {
+
+	is_highlighted = {
+        OR = {
+            has_trait = fallen_deity
+        }		
+	}
+	
+    is_valid = {
+        OR = {
+            has_trait = fallen_deity
+            has_trait = young_fallen_deity
+        }
+     }
+	
+	xp_per_level = 1750
 	base_xp_gain = 25
 }

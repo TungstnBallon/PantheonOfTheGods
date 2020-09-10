@@ -1,0 +1,83 @@
+uplifter_perk_effect = {
+	global = uplifter_perk_effect_desc
+}
+bringer_of_rain_perk_effect = {
+	global = bringer_of_rain_perk_effect_desc
+}
+pure_metal_perk_effect = {
+	global = pure_metal_perk_effect_desc
+}
+blessed_armies_perk_effect = {
+	global = blessed_armies_perk_effect_desc
+}
+martial_prowess_perk_effect = {
+	global = martial_prowess_perk_effect_desc
+}
+eternal_summer_perk_effect = {
+	global = eternal_summer_perk_effect_desc
+}
+beloved_god_perk_effect = {
+	global = beloved_god_perk_effect_desc
+}
+lightbringer_perk_effect = {
+	global = lightbringer_perk_effect_desc
+}
+god_rankup_ascension = {
+	global = god_rankup_ascension_desc
+}
+
+regeneration_perk_effect = {
+	global = regeneration_perk_effect_desc
+}
+lesser_bless_perk_effect = {
+	global = lesser_bless_perk_effect_desc
+}
+greater_bless_perk_effect = {
+	global = greater_bless_perk_effect_desc
+}
+gift_immortality_perk_effect = {
+	global = gift_immortality_perk_effect_desc
+}
+lesser_curse_perk_effect = {
+	global = lesser_curse_perk_effect_desc
+}
+greater_curse_perk_effect = {
+	global = greater_curse_perk_effect_desc
+}
+smite_perk_effect = {
+	global = smite_perk_effect_desc
+}
+flesh_sculpting_perk_effect = {
+	global = flesh_sculpting_perk_effect_desc
+}
+god_rankup_renewal = {
+	global = god_rankup_renewal_desc
+}
+
+light_conjuration_perk_effect = {
+	global = light_conjuration_perk_effect_desc
+}
+dark_conjuration_perk_effect = {
+	global = dark_conjuration_perk_effect_desc
+}
+light_illusion_perk_effect = {
+	global = light_illusion_perk_effect_desc
+}
+dark_illusion_perk_effect = {
+	global = dark_illusion_perk_effect_desc
+}
+thriving_malice_perk_effect = {
+	global = thriving_malice_perk_effect_desc
+}
+artful_meditation_perk_effect = {
+	global = artful_meditation_perk_effect_desc
+}
+black_scion_perk_effect = {
+	global = black_scion_perk_effect_desc
+}
+white_scion_perk_effect = {
+	global = white_scion_perk_effect_desc
+}
+god_rankup_divine_magic = {
+	global = god_rankup_divine_magic_desc
+}
