@@ -1,0 +1,17 @@
+﻿l_english:
+ pog_character_interaction.0001.t:0 "Sculpting of Flesh"
+ pog_character_interaction.0001.desc:0 "With my divine powers fully realized I can now sculpt the body of anyone I chose, even myself. I study [recipient.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] and [recipient.GetSheHe] does not please me. Thus I shall sculpt [recipient.GetHerHis] body"
+ pog_character_interaction.0001.a:0 "I shall sculpt [recipient.GetHerHis] face, increasing [recipient.GetHerHim] attractiveness."
+ pog_character_interaction.0001.b:0 "I shall reshape [recipient.GetHerHis] body."
+ pog_character_interaction.0001.c:0 "I shall set [recipient.GetHerHis] immortal age."
+ pog_character_interaction.0001.a.tt:0 "Giving the target a beautiful visage."
+ pog_character_interaction.0001.b.tt:0 "Reshaping the body height and weight."
+ pog_character_interaction.0001.c.tt:0 "Note that this will not work if you or the character you are editing aren't immortal."
+ pog_character_interaction.0002.t:0 "Sculpting of Flesh - Weight"
+ pog_character_interaction.0002.desc:0 "I reach out and pull from within myself divine power, which flows through me. I know now that I can change the very physique of whoever I choose."
+ pog_character_interaction.0002.a:0 "Remove a small amount of weight."
+ pog_character_interaction.0002.b:0 "Remove a large amount of weight."
+ pog_character_interaction.0002.c:0 "Add a small amount of weight."
+ pog_character_interaction.0002.d:0 "Add a large amount of weight."
+
+

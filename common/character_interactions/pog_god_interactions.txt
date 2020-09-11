@@ -261,10 +261,10 @@ apotheosis_interaction = {
   auto_accept = yes
 }
 
-bless_interaction = {
+lesser_bless_interaction = {
   category = interaction_category_friendly
 
-  desc = bless_interaction_desc
+  desc = lesser_bless_interaction_desc
 
   is_shown = {
     scope:recipient = {
@@ -273,13 +273,19 @@ bless_interaction = {
         has_trait = pure_deity
         has_trait = demi_deity
         has_trait = undying
-        has_character_flag = pog_blessed_mortal
+        has_character_flag = pog_lesser_blessed_mortal
       }
     }
     scope:actor = {
-      OR = {
-        has_trait = fallen_deity
-        has_trait = pure_deity
+      AND = {
+        OR = {
+          has_trait = fallen_deity
+          has_trait = pure_deity
+        }
+        OR = {
+          has_perk = lesser_bless_perk
+          has_perk = dark_bless_perk
+        }
       }
     }
   }
@@ -290,31 +296,8 @@ bless_interaction = {
 
   on_accept = {
     scope:recipient = {
-      random_list = {
-        50 = {
-          add_trait = intellect_good_1
-        }
-        30 = {
-          add_trait = intellect_good_2
-        }
-        20 = {
-          add_trait = intellect_good_3
-        }
-      }
-
-      random_list = {
-        50 = {
-          add_trait = physique_good_1
-        }
-        30 = {
-          add_trait = physique_good_2
-        }
-        20 = {
-          add_trait = physique_good_3
-        }
-      }
-
-      add_health = 3
+      add_trait = intellect_good_2
+      add_trait = physique_good_2
 
       if = {
         add_opinion = {
@@ -323,17 +306,17 @@ bless_interaction = {
           opinion = 25
         }
       }
-      add_character_flag = { flag = pog_blessed_mortal }
+      add_character_flag = { flag = pog_lesser_blessed_mortal }
     }
   }
 
   auto_accept = yes
 }
 
-curse_interaction = {
+greater_bless_interaction = {
   category = interaction_category_friendly
 
-  desc = curse_interaction_desc
+  desc = greater_bless_interaction_desc
 
   is_shown = {
     scope:recipient = {
@@ -342,13 +325,75 @@ curse_interaction = {
         has_trait = pure_deity
         has_trait = demi_deity
         has_trait = undying
-        has_character_flag = pog_cursed_mortal
+        has_character_flag = pog_greater_blessed_mortal
       }
     }
     scope:actor = {
-      OR = {
+      AND = {
+        OR = {
+          has_trait = fallen_deity
+          has_trait = pure_deity
+        }
+        OR = {
+          has_perk = greater_bless_perk
+          has_perk = darker_bless_perk
+        }
+      }
+    }
+  }
+
+  cost = {
+    piety = 350
+  }
+
+  on_accept = {
+    scope:recipient = {
+      remove_trait = intellect_good_2
+      remove_trait = physique_good_2
+      add_trait = intellect_good_3
+      add_trait = physique_good_3
+
+      add_health = 2
+
+      if = {
+        add_opinion = {
+          target = scope:actor
+          modifier = grateful_opinion
+          opinion = 25
+        }
+      }
+      add_character_flag = { flag = pog_greater_blessed_mortal }
+    }
+  }
+
+  auto_accept = yes
+}
+
+lesser_curse_interaction = {
+  category = interaction_category_friendly
+
+  desc = lesser_curse_interaction_desc
+
+  is_shown = {
+    scope:recipient = {
+      NOR = {
         has_trait = fallen_deity
         has_trait = pure_deity
+        has_trait = demi_deity
+        has_trait = undying
+        has_character_flag = pog_lesser_cursed_mortal
+      }
+    }
+    scope:actor = {
+      AND = {
+        OR = {
+          has_trait = fallen_deity
+          has_trait = pure_deity
+        }
+        OR = {
+          has_perk = lesser_curse_perk
+          has_perk = dark_curse_perk
+        }
       }
     }
   }
@@ -359,29 +404,59 @@ curse_interaction = {
 
   on_accept = {
     scope:recipient = {
-      random_list = {
-        50 = {
-          add_trait = intellect_bad_1
-        }
-        30 = {
-          add_trait = intellect_bad_2
-        }
-        20 = {
-          add_trait = intellect_bad_3
-        }
-      }
+      add_trait = intellect_bad_2
+      add_trait = physique_bad_2
 
-      random_list = {
-        50 = {
-          add_trait = physique_bad_1
-        }
-        30 = {
-          add_trait = physique_bad_2
-        }
-        20 = {
-          add_trait = physique_bad_3
+      if = {
+        add_opinion = {
+          target = scope:actor
+          opinion = -35
         }
       }
+      add_character_flag = { flag = pog_lesser_cursed_mortal }
+    }
+  }
+
+  auto_accept = yes
+}
+
+greater_curse_interaction = {
+  category = interaction_category_friendly
+
+  desc = greater_curse_interaction_desc
+
+  is_shown = {
+    scope:recipient = {
+      NOR = {
+        has_trait = fallen_deity
+        has_trait = pure_deity
+        has_trait = demi_deity
+        has_trait = undying
+        has_character_flag = pog_greater_cursed_mortal
+      }
+    }
+    scope:actor = {
+      AND = {
+        OR = {
+          has_trait = fallen_deity
+          has_trait = pure_deity
+        }
+        OR = {
+          has_perk = greater_curse_perk
+          has_perk = darker_curse_perk
+        }
+      }
+    }
+  }
+
+  cost = {
+    piety = 350
+  }
+
+  on_accept = {
+    scope:recipient = {
+      add_trait = intellect_bad_3
+      add_trait = physique_bad_3
 
       add_health = -3
 
@@ -391,7 +466,7 @@ curse_interaction = {
           opinion = -35
         }
       }
-      add_character_flag = { flag = pog_cursed_mortal }
+      add_character_flag = { flag = pog_greater_cursed_mortal }
     }
   }
 
@@ -399,7 +474,7 @@ curse_interaction = {
 }
 
 undying_interaction = {
-  category = interaction_category_deity
+  category = interaction_category_friendly
 
   desc = undying_interaction_desc
 
@@ -411,18 +486,27 @@ undying_interaction = {
         has_trait = demi_deity
         has_trait = undying
       }
-      has_character_flag = pog_blessed_mortal
+      AND = {
+        has_character_flag = pog_lesser_blessed_mortal
+        has_character_flag = pog_greater_blessed_mortal
+      }
     }
     scope:actor = {
-      OR = {
-        has_trait = fallen_deity
-        has_trait = pure_deity
+      AND = {
+        OR = {
+          has_trait = fallen_deity
+          has_trait = pure_deity
+        }
+        OR = {
+          has_perk = regeneration_perk
+          has_perk = dark_mending_perk
+        }
       }
     }
   }
 
   cost = {
-    piety = 350
+    piety = 450
   }
 
   on_accept = {
@@ -435,6 +519,88 @@ undying_interaction = {
           modifier = grateful_opinion
           opinion = 35
         }
+      }
+    }
+  }
+
+  auto_accept = yes
+}
+
+heal_interaction = {
+  category = interaction_category_friendly
+
+  desc = heal_interaction_desc
+
+  is_shown = {
+    scope:recipient = {
+      is_healable = yes
+    }
+    scope:actor = {
+      AND = {
+        OR = {
+          has_trait = fallen_deity
+          has_trait = pure_deity
+        }
+        OR = {
+          has_perk = dark_mending_perk
+          has_perk = regeneration_perk
+        }
+      }
+    }
+  }
+
+  cost = {
+    piety = 150
+  }
+
+  on_accept = {
+    scope:recipient = {
+      heal_interaction_effect = yes
+
+      if = {
+        add_opinion = {
+          target = scope:actor
+          modifier = grateful_opinion
+          opinion = 15
+        }
+      }
+    }
+  }
+
+  auto_accept = yes
+}
+
+flesh_sculpt_interaction = {
+  category = interaction_category_friendly
+
+  desc = flesh_sculpt_interaction_desc
+
+  is_shown = {
+    scope:recipient = {
+      is_adult = yes
+    }
+    scope:actor = {
+      AND = {
+        OR = {
+          has_trait = fallen_deity
+          has_trait = pure_deity
+        }
+        OR = {
+          has_perk = insidious_sculpting_perk
+          has_perk = flesh_sculpting_perk
+        }
+      }
+    }
+  }
+
+  cost = {
+    piety = 450
+  }
+
+  on_accept = {
+    scope:actor = {
+      trigger_event = {
+        id = pog_character_interaction.0001
       }
     }
   }

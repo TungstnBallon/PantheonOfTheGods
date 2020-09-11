@@ -1,0 +1,97 @@
+namespace = pog_character_interaction
+
+pog_character_interaction.0001 = {
+    type = character_event
+    title = pog_character_interaction.0001.t
+    desc = pog_character_interaction.0001.desc
+    theme = family
+
+    left_portrait = {
+        character = scope:recipient
+        animation = personality_humble
+    }
+
+    trigger = {
+        is_adult = yes
+    }
+
+    immediate = {
+        add_character_flag = {
+            flag = pog_sculpted_character
+        }
+    }
+
+    option = {
+        name = pog_character_interaction.0001.a
+        custom_tooltip = "pog_character_interaction.0001.a.tt"
+
+        scope:recipient = {
+            add_trait = beauty_good_3
+        }
+    }
+    option = {
+        name = pog_character_interaction.0001.b
+        custom_tooltip = "pog_character_interaction.0001.b.tt"
+
+        trigger_event = {
+            id = pog_character_interaction.0002
+        }
+
+    }
+    option = {
+        name = pog_character_interaction.0001.c
+        custom_tooltip = "pog_character_interaction.0001.c.tt"
+
+        scope:recipient = {
+            set_immortal_age = 18
+        }
+    }
+}
+
+pog_character_interaction.0002 = {
+    type = character_event
+    title = pog_character_interaction.0002.t
+    desc = pog_character_interaction.0002.desc
+    theme = family
+
+    left_portrait = {
+        character = scope:recipient
+        animation = personality_humble
+    }
+
+    trigger = {
+        is_adult = yes
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = pog_character_interaction.0002.a
+
+        scope:recipient = {
+            change_current_weight = -25
+        }
+    }
+    option = {
+        name = pog_character_interaction.0002.b
+
+        scope:recipient = {
+            change_current_weight = -50
+        }
+    }
+    option = {
+        name = pog_character_interaction.0002.c
+
+        scope:recipient = {
+            change_current_weight = 25
+        }
+    }
+    option = {
+        name = pog_character_interaction.0002.d
+
+        scope:recipient = {
+            change_current_weight = 50
+        }
+    }
+}
