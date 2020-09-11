@@ -1,0 +1,181 @@
+dark_mending_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_sanguine_consumption_focus
+	position = { 1 0 }
+	icon = node_corruption
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_martial_trigger = yes
+			}
+			add = 1989
+		}
+		if = {
+			limit = {
+				has_focus = divine_sanguine_consumption_focus
+			}
+			multiply = 5
+		}
+		if = {
+			limit = {
+				can_start_new_lifestyle_tree_trigger = no
+			}
+			multiply = 0
+		}
+	}
+	effect = {
+		custom_description_no_bullet = {
+			text = dark_mending_perk_effect
+		}
+	}
+	character_modifier = {
+		health = 5
+	}
+}
+
+dark_bless_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_sanguine_consumption_focus
+	position = { 0 1 }
+	icon = node_corruption
+
+	parent = dark_mending_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = dark_bless_perk_effect
+		}
+	}
+	character_modifier = {
+		general_opinion = 3
+	}
+}
+
+darker_bless_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_sanguine_consumption_focus
+	position = { 0 2 }
+	icon = node_corruption
+
+	parent = dark_bless_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = darker_bless_perk_effect
+		}
+	}
+	character_modifier = {
+		general_opinion = 10
+	}
+}
+
+gift_undying_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_sanguine_consumption_focus
+	position = { 0 3 }
+	icon = node_corruption
+
+	parent = darker_bless_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = gift_undying_perk_effect
+		}
+	}
+	character_modifier = {
+		current_weight = -10
+	}
+}
+
+dark_curse_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_sanguine_consumption_focus
+	position = { 2 1 }
+	icon = node_corruption
+
+	parent = dark_mending_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = dark_curse_perk_effect
+		}
+	}
+	character_modifier = {
+		revolting_siege_morale_loss_mult = 0.5
+		dread_gain_mult = 0.2
+	}
+}
+
+darker_curse_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_sanguine_consumption_focus
+	position = { 2 2 }
+	icon = node_corruption
+
+	parent = dark_curse_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = darker_curse_perk_effect
+		}
+	}
+	character_modifier = {
+		revolting_siege_morale_loss_mult = 0.5
+		dread_gain_mult = 0.5
+	}
+}
+
+dark_smite_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_sanguine_consumption_focus
+	position = { 2 3 }
+	icon = node_corruption
+
+	parent = darker_curse_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = dark_smite_perk_effect
+		}
+	}
+	character_modifier = {
+		general_opinion = -5
+	}
+}
+
+insidious_sculpting_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_sanguine_consumption_focus
+	position = { 1 4 }
+	icon = node_corruption
+
+	parent = gift_undying_perk
+	parent = dark_smite_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = insidious_sculpting_perk_effect
+		}
+	}
+	character_modifier = {
+		fertility = 0.5
+	}
+}
+
+god_rankup_sanguine_consumption = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_sanguine_consumption_focus
+	position = { 1 5 }
+	icon = fallen_divine_rankup
+
+	parent = insidious_sculpting_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = god_rankup_sanguine_consumption_effect
+		}
+		# add_trait_force_tooltip = overseer
+	}
+}

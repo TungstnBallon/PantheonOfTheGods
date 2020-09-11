@@ -1,0 +1,150 @@
+light_conjuration_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_occultism_focus
+	position = { 0 0 }
+	icon = node_corruption
+	
+	can_be_picked = {
+		always = yes
+	}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = dark_insights_perk_effect
+		}
+	}
+}
+
+dark_conjuration_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_occultism_focus
+	position = { 0 1 }
+	icon = node_corruption
+	
+	parent = light_conjuration_perk
+
+	can_be_picked = {
+		always = yes
+	}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = divine_retribution_perk_effect
+		}
+	}
+}
+
+light_illusion_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_occultism_focus
+	position = { 2 0 }
+	icon = node_corruption
+
+	can_be_picked = {
+		always = yes
+	}
+	
+	character_modifier = {
+	}
+}
+
+dark_illusion_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_occultism_focus
+	position = { 2 1 }
+	icon = node_corruption
+
+	parent = light_illusion_perk
+	
+	can_be_picked = {
+		always = yes
+	}
+	
+	character_modifier = {
+	}
+}
+
+thriving_malice_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_occultism_focus
+	position = { 1 2 }
+	icon = node_corruption
+
+	parent = dark_illusion_perk
+	parent = dark_conjuration_perk
+	
+	can_be_picked = {
+		always = yes
+	}
+	
+	character_modifier = {
+	}
+}
+
+artful_meditation_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_occultism_focus
+	position = { 1 3 }
+	icon = node_corruption
+	parent = thriving_malice_perk
+	
+	can_be_picked = {
+		always = yes
+	}
+	
+	character_modifier = {
+	}
+}
+
+black_scion_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_occultism_focus
+	position = { 0 3 }
+	icon = node_corruption
+
+	parent = artful_meditation_perk
+	
+	can_be_picked = {
+		always = yes
+	}
+	
+	character_modifier = {
+	}
+}
+
+white_scion_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_occultism_focus
+	position = { 2 3 }
+	icon = node_corruption
+
+	parent = artful_meditation_perk
+	
+	can_be_picked = {
+		always = yes
+	}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = white_scion_effect
+		}
+	}
+}
+
+god_rankup_occultism = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_occultism_focus
+	position = { 1 5 }
+	icon = fallen_divine_rankup
+	
+	parent = white_scion_perk
+    parent = black_scion_perk
+	
+	can_be_picked = {
+		always = yes
+	}
+	
+	effect = {
+		# add_trait_force_tooltip = torturer
+	}
+}

@@ -81,3 +81,89 @@ white_scion_perk_effect = {
 god_rankup_divine_magic = {
 	global = god_rankup_divine_magic_desc
 }
+
+
+
+betrayer_perk_effect = {
+	global = betrayer_perk_effect_desc
+}
+rain_of_fire_perk_effect = {
+	global = rain_of_fire_perk_effect_desc
+}
+cursed_metal_perk_effect = {
+	global = cursed_metal_perk_effect_desc
+}
+heathen_armies_perk_effect = {
+	global = heathen_armies_perk_effect_desc
+}
+terrible_prowess_perk_effect = {
+	global = terrible_prowess_perk_effect_desc
+}
+eternal_taskmasters_perk_effect = {
+	global = eternal_taskmasters_perk_effect_desc
+}
+terrible_presence_perk_effect = {
+	global = terrible_presence_perk_effect_desc
+}
+dark_god_perk_effect = {
+	global = dark_god_perk_effect_desc
+}
+god_rankup_dark_legions = {
+	global = god_rankup_dark_legions_desc
+}
+
+dark_mending_perk_effect = {
+	global = dark_mending_perk_effect_desc
+}
+dark_bless_perk_effect = {
+	global = dark_bless_perk_effect_desc
+}
+darker_bless_perk_effect = {
+	global = darker_bless_perk_effect_desc
+}
+gift_undying_perk_effect = {
+	global = gift_undying_perk_effect_desc
+}
+dark_curse_perk_effect = {
+	global = dark_curse_perk_effect_desc
+}
+darker_curse_perk_effect = {
+	global = darker_curse_perk_effect_desc
+}
+dark_smite_perk_effect = {
+	global = dark_smite_perk_effect_desc
+}
+insidious_sculpting_perk_effect = {
+	global = insidious_sculpting_perk_effect_desc
+}
+god_rankup_sanguine_consumption = {
+	global = god_rankup_sanguine_consumption_desc
+}
+
+light_conjuration_perk_effect = {
+	global = light_conjuration_perk_effect_desc
+}
+dark_conjuration_perk_effect = {
+	global = dark_conjuration_perk_effect_desc
+}
+light_illusion_perk_effect = {
+	global = light_illusion_perk_effect_desc
+}
+dark_illusion_perk_effect = {
+	global = dark_illusion_perk_effect_desc
+}
+thriving_malice_perk_effect = {
+	global = thriving_malice_perk_effect_desc
+}
+artful_meditation_perk_effect = {
+	global = artful_meditation_perk_effect_desc
+}
+black_scion_perk_effect = {
+	global = black_scion_perk_effect_desc
+}
+white_scion_perk_effect = {
+	global = white_scion_perk_effect_desc
+}
+god_rankup_occultism = {
+	global = god_rankup_occultism_desc
+}

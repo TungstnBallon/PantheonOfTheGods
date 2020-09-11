@@ -1,0 +1,170 @@
+betrayer_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_dark_legions_focus
+	position = { 2 0 }
+	icon = node_corruption
+
+	effect = {
+		custom_description_no_bullet = {
+			text = betrayer_perk_effect
+		}
+	}
+	character_modifier = {
+		monthy_income = 5
+	}
+}
+
+rain_of_fire_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_dark_legions_focus
+	position = { 0 1.25 }
+	icon = node_corruption
+
+	parent = betrayer_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = rain_of_fire_perk_effect
+		}
+	}
+}
+
+
+cursed_metal_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_dark_legions_focus
+	position = { 0 2.5 }
+	icon = node_corruption
+
+	parent = rain_of_fire_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = cursed_metal_perk_effect
+		}
+	}
+	character_modifier = {
+		army_maintenance_mult = -0.5
+		controlled_province_advantage = 5
+	}
+}
+
+
+heathen_armies_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_dark_legions_focus
+	position = { 2 1.25 }
+	icon = node_corruption
+
+	parent = betrayer_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = heathen_armies_perk_effect
+		}
+	}
+	character_modifier = {
+		levy_size = 0.5
+		garrison_size = 0.5
+		levy_reinforcement_rate = 2
+	}
+}
+
+
+terrible_prowess_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_dark_legions_focus
+	position = { 2 2.5 }
+	icon = node_corruption
+
+	parent = heathen_armies_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = terrible_prowess_perk_effect
+		}
+	}
+	character_modifier = {
+		prowess = 15
+		no_prowess_loss_from_age = yes
+	}
+}
+
+
+eternal_taskmasters_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_dark_legions_focus
+	position = { 4 1.25 }
+	icon = node_corruption
+
+	parent = betrayer_perk
+
+	character_modifier = {
+		independent_ruler_opinion = 15
+		fellow_vassal_opinion = 15
+		supply_limit_mult = 1.25
+	}
+	effect = {
+		custom_description_no_bullet = {
+			text = eternal_taskmasters_perk_effect
+		}
+	}
+}
+
+
+terrible_presence_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_dark_legions_focus
+	position = { 4 2.5 }
+	icon = node_corruption
+
+	parent = eternal_taskmasters_perk
+
+	character_modifier = {
+		general_opinion = 25
+	}
+	effect = {
+		custom_description_no_bullet = {
+			text = terrible_presence_perk_effect
+		}
+	}
+}
+
+
+dark_god_perk = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_dark_legions_focus
+	position = { 2 3.75 }
+	icon = node_corruption
+
+	parent = cursed_metal_perk
+	parent = terrible_prowess_perk
+	parent = terrible_presence_perk
+
+	character_modifier = {
+		learning = 15
+		monthly_prestige = 5
+	}
+	effect = {
+		custom_description_no_bullet = {
+			text = dark_god_perk_effect
+		}
+	}
+}
+
+
+god_rankup_dark_legions = {
+	lifestyle = fallen_divine_lifestyle
+	tree = divine_dark_legions_focus
+	position = { 2 5 }
+	icon = fallen_divine_rankup
+
+	parent = dark_god_perk
+
+	effect = {
+		custom_description_no_bullet = {
+			text = dark_god_perk_effect
+		}
+		# add_trait_force_tooltip = diplomat
+	}
+}
