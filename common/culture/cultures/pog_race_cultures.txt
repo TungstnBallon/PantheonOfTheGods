@@ -1,0 +1,52 @@
+elven_group = {
+    graphical_cultures = {
+        western_coa_gfx
+        western_building_gfx
+        western_clothing_gfx
+        western_unit_gfx
+    }
+
+    aos_si = {
+        color = { 0.00 0.55 0.00 }
+
+        graphical_cultures = {
+            scottish_coa_gfx
+            northern_clothing_gfx
+        }
+
+        male_names = {
+            Aubron Rhalyf Ayluin Ailduin Glanduil Wirenth Eroan Thallan Katar Yesanith Kelvhan Yalathanil Ranaeril Larongar 
+            Gantar Gaeleath Emmyth Giullis Aired Naertho Belanor Vulen Katyr Pharom Orym Folre Arathorn Inialos Onvyr 
+            Urdusin Adamar Laeroth Lhoris Lysanthir Aias Durlan Ailmer Flardryn Rolim Travaran Kolvar Tassarion Varitan Triandal 
+            Cohnal Hagen Khiiral Fhaornik Ayas Vulmon Eriladar Ruvyn Eilauver Ailmon Lianthorn Orym Shaundyl Wistari Tamnaeth 
+            Illithor Vaalyun Uldreyin Raeran Wirenth Sundamar Cornaith Traeliorn Theodmer Gorluin Evindal Thalanil Bialaer 
+        }
+
+        female_names = {
+            Elora Shalana Zaleria Lazziar Geminara Sumina Renna Roshia Alasse Halaema Radelia Aerith Ealirel Yalanue Thasinia Gweyir 
+            Aila Yaereene Ikeshia Omylia Elenaril Filaurel Kilyn Anarzee Elmyra Zentha Tialha Lyeneru Elanalue Tinesi Amedee Immianthe 
+            Kaylin Itireae Ilsevel Solana Eshenesra Shanaera Siora Ysildea Selphie Haera Filaurel Tsarra Tephysea Dirue Shaerra Nylathria 
+            Merethyl Gaelira Kenia Rathiain Haciathra Valindra Naexi Vasati Fayeth Elisen Taenya Ashryn Myriani Muelara Cremia Nyana 
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+           100 = race_elf
+        }
+    }
+}

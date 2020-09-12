@@ -1,0 +1,15 @@
+is_elf = {
+    has_trait = elf
+}
+
+is_half_elf = {
+    has_trait = half_elf
+}
+
+is_dwarf = {
+    has_trait = dwarf
+}
+
+is_human = {
+    has_trait = human
+}

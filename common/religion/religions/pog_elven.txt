@@ -1,0 +1,57 @@
+aos_pantheon_religion = {
+    family = rf_elven
+
+    doctrine_background_icon = core_tenet_banner_divine.dds
+    doctrine = divine_hostility_doctrine
+
+    #Main Group
+    doctrine = doctrine_temporal_head
+    doctrine = doctrine_gender_equal
+    doctrine = doctrine_pluralism_fundamentalist
+    doctrine = doctrine_theocracy_temporal
+
+    #Marriage
+    doctrine = doctrine_monogamy
+    doctrine = doctrine_divorce_allowed
+    doctrine = doctrine_bastardry_legitimization
+    doctrine = doctrine_consanguinity_unrestricted
+
+    #Crimes
+    doctrine = doctrine_homosexuality_accepted
+    doctrine = doctrine_adultery_men_accepted
+    doctrine = doctrine_adultery_women_accepted
+    doctrine = doctrine_kinslaying_crime
+    doctrine = doctrine_deviancy_crime
+    doctrine = doctrine_witchcraft_accepted
+
+    #Clerical Functions
+    doctrine = doctrine_clerical_function_taxation
+    doctrine = doctrine_clerical_gender_either
+    doctrine = doctrine_clerical_marriage_allowed
+    doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+    custom_faith_icons = {
+        custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+    }
+
+    traits = {
+        virtues = { humble generous }
+        sins = { vengeful wrathful}
+    }
+
+    faiths = {
+        aos_way = {
+            color = { 0.0 0.3 0.0 }
+            graphical_faith = "pagan_gfx"
+
+            holy_site = kiev
+            holy_site = novgorod
+            holy_site = barlad
+            holy_site = plock
+
+            doctrine = tenet_divine_blood
+            doctrine = tenet_ritual_cannibalism
+            doctrine = tenet_sanctity_of_nature
+        }
+    }
+}

@@ -1,0 +1,128 @@
+# called for the newborn child
+# scope:child is the new born character
+# scope:mother is the pregnant mother
+# scope:father is the family father (not the biological)
+# scope:real_father is the biological father
+# scope:is_bastard, true if a known bastard
+on_birth_child = {
+    events = {
+    }
+    effect = {
+        if = {
+            limit = {
+                AND = {
+                    scope:real_father = {
+                        is_elf = yes
+                    }
+                    scope:mother = {
+                        is_elf = yes
+                    }
+                }
+            }
+            add_trait = elf
+        }
+
+        if = {
+            limit = {
+                AND = {
+                    scope:real_father = {
+                        is_half_elf = yes
+                    }
+                    scope:mother = {
+                        is_half_elf = yes
+                    }
+                }
+            }
+            add_trait = half_elf
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    AND = {
+                        scope:real_father = {
+                            is_elf = no
+                        }
+                        scope:mother = {
+                            is_elf = yes
+                        }
+                    }
+                    AND = {
+                        scope:real_father = {
+                            is_elf = yes
+                        }
+                        scope:mother = {
+                            is_elf = no
+                        }
+                    }
+                }
+            }
+            add_trait = half_elf
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    AND = {
+                        scope:real_father = {
+                            is_half_elf = yes
+                        }
+                        scope:mother = {
+                            is_elf = yes
+                        }
+                    }
+                    AND = {
+                        scope:real_father = {
+                            is_elf = yes
+                        }
+                        scope:mother = {
+                            is_half_elf = yes
+                        }
+                    }
+                }
+            }
+            random = {
+                40 = {
+                    add_trait = elf
+                }
+                60 = {
+                    add_trait = half_elf
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    AND = {
+                        scope:real_father = {
+                            is_half_elf = yes
+                        }
+                        scope:mother = {
+                            is_half_elf = no
+                            is_elf = no
+                        }
+                    }
+                    AND = {
+                        scope:real_father = {
+                            is_half_elf = no
+                            is_elf = no
+                        }
+                        scope:mother = {
+                            is_half_elf = yes
+                        }
+                    }
+                }
+            }
+            random = {
+                40 = {
+                    # add_trait = human
+                }
+                60 = {
+                    add_trait = half_elf
+                }
+            }
+        }
+
+    }
+}
