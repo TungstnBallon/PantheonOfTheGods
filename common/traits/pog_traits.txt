@@ -6,13 +6,14 @@ pure_deity = {
 	opposites = {
 		fallen_deity
 		young_fallen_deity
+		elder_fallen_deity
 	}
 
-	diplomacy = 20
-	intrigue = 20
-	stewardship = 20
-	martial = 20
-	learning = 20
+	diplomacy = 15
+	intrigue = 15
+	stewardship = 15
+	martial = 15
+	learning = 15
 
 	immortal = yes
 	health = 10
@@ -51,13 +52,14 @@ fallen_deity = {
 	opposites = {
 		pure_deity
 		young_pure_deity
+		elder_pure_deity
 	}
 
-	diplomacy = 20
-	intrigue = 20
-	stewardship = 20
-	martial = 20
-	learning = 20
+	diplomacy = 15
+	intrigue = 15
+	stewardship = 15
+	martial = 15
+	learning = 15
 
 	immortal = yes
 	health = 10
@@ -93,13 +95,13 @@ fallen_deity = {
 demi_deity = {
 	index = 90002
 
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	martial = 10
-	learning = 10
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 8
+	martial = 8
+	learning = 8
 
-	health = 10
+	health = 5
 
 	good = yes
 	physical = yes
@@ -229,15 +231,16 @@ young_pure_deity = {
 	opposites = {
 		fallen_deity
 		young_fallen_deity
+		elder_fallen_deity
 	}
 
-	diplomacy = 20
-	intrigue = 20
-	stewardship = 20
-	martial = 20
-	learning = 20
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	martial = 10
+	learning = 10
 
-	health = 10
+	health = 5
 
 	good = yes
 	physical = yes
@@ -273,15 +276,16 @@ young_fallen_deity = {
 	opposites = {
 		pure_deity
 		young_pure_deity
+		elder_pure_deity
 	}
 
-	diplomacy = 20
-	intrigue = 20
-	stewardship = 20
-	martial = 20
-	learning = 20
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	martial = 10
+	learning = 10
 
-	health = 10
+	health = 5
 
 	good = yes
 	physical = yes
@@ -311,14 +315,94 @@ young_fallen_deity = {
 
 }
 
-selenes_blessing = {
+elder_pure_deity = {
 	index = 90015
 
-	genetic = yes
-	physical = yes
-	good = yes
+	opposites = {
+		fallen_deity
+		young_fallen_deity
+		elder_fallen_deity
+	}
 
-	martial = 5
-	intrigue = 5
-	fertility = 0.25
+	diplomacy = 20
+	intrigue = 20
+	stewardship = 20
+	martial = 20
+	learning = 20
+
+	immortal = yes
+	health = 10
+
+	good = yes
+	physical = yes
+
+	opposite_opinion = -1000
+	same_opinion = 20
+
+	ai_rationality = dominant_positive_ai_value
+	monthly_lifestyle_xp_gain_mult = 1
+
+	compatibility = {
+		fallen_deity = @pos_compat_mortal_enemies
+	}
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = this
+					is_female = yes
+				}
+				desc = trait_elder_pure_goddess
+			}
+			desc = trait_elder_pure_god
+		}
+	}
+
+}
+
+elder_fallen_deity = {
+	index = 90016
+
+	opposites = {
+		pure_deity
+		young_pure_deity
+		elder_pure_deity
+	}
+
+	diplomacy = 20
+	intrigue = 20
+	stewardship = 20
+	martial = 20
+	learning = 20
+
+	immortal = yes
+	health = 10
+
+	good = yes
+	physical = yes
+
+	opposite_opinion = -1000
+	same_opinion = 20
+
+	ai_rationality = dominant_positive_ai_value
+	monthly_lifestyle_xp_gain_mult = 1
+
+	compatibility = {
+		pure_deity = @pos_compat_mortal_enemies
+	}
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = this
+					is_female = yes
+				}
+				desc = trait_elder_fallen_goddess
+			}
+			desc = trait_elder_fallen_god
+		}
+	}
+
 }

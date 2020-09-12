@@ -73,6 +73,10 @@ pog_religion_culture.0001 = {
         root = {
             set_character_faith_with_conversion  = faith:pure_abrahamic_pantheon
             set_culture = culture:pure_abrahamic
+
+            root.capital_province.county = {
+                set_county_culture = culture:pure_abrahamic
+            }
         }
     }
     option = {
@@ -82,15 +86,23 @@ pog_religion_culture.0001 = {
         root = {
             set_character_faith_with_conversion  = faith:pure_celtic_pantheon
             set_culture = culture:pure_celtic
+
+            root.capital_province.county = {
+                set_county_culture = culture:pure_celtic
+            }
         }
     }
     option = {
         name = pog_religion_culture.0001.k
         custom_tooltip = "pog.tooltip.conversion.hellenic"
 
-       root = {
+        root = {
             set_character_faith_with_conversion  = faith:pure_hellenic_pantheon
             set_culture = culture:pure_hellenic
+
+            root.capital_province.county = {
+                set_county_culture = culture:pure_hellenic
+            }
         }
     }
     option = {
@@ -100,6 +112,10 @@ pog_religion_culture.0001 = {
         root = {
             set_character_faith_with_conversion  = faith:pure_slavic_pantheon
             set_culture = culture:pure_slavic
+
+            root.capital_province.county = {
+                set_county_culture = culture:pure_slavic
+            }
         }
     }
     option = {
@@ -109,6 +125,10 @@ pog_religion_culture.0001 = {
         root = {
             set_character_faith_with_conversion = faith:pure_norse_pantheon
             set_culture = culture:pure_norse
+
+            root.capital_province.county = {
+                set_county_culture = culture:pure_norse
+            }
         }
     }
     option = {
@@ -118,6 +138,10 @@ pog_religion_culture.0001 = {
         root = {
             set_character_faith_with_conversion = faith:pure_eastern_pantheon
             set_culture = culture:pure_eastern
+
+            root.capital_province.county = {
+                set_county_culture = culture:pure_eastern
+            }
         }
     }
     option = {
@@ -127,6 +151,10 @@ pog_religion_culture.0001 = {
         root = {
             set_character_faith_with_conversion = faith:pure_hindu_pantheon
             set_culture = culture:pure_hindu
+
+            root.capital_province.county = {
+                set_county_culture = culture:pure_hindu
+            }
         }
     }
     option = {
@@ -136,6 +164,10 @@ pog_religion_culture.0001 = {
         root = {
             set_character_faith_with_conversion = faith:pure_egyptian_pantheon
             set_culture = culture:pure_egyptian
+
+            root.capital_province.county = {
+                set_county_culture = culture:pure_egyptian
+            }
         }
     }
     option = {
@@ -145,6 +177,10 @@ pog_religion_culture.0001 = {
         root = {
             set_character_faith_with_conversion = faith:pure_persian_pantheon
             set_culture = culture:pure_persian
+
+            root.capital_province.county = {
+                set_county_culture = culture:pure_persian
+            }
         }
     }
     option = {
@@ -154,6 +190,10 @@ pog_religion_culture.0001 = {
         root = {
             set_character_faith_with_conversion = faith:pure_african_pantheon
             set_culture = culture:pure_african
+
+            root.capital_province.county = {
+                set_county_culture = culture:pure_african
+            }
         }
     }
     option = {
@@ -192,6 +232,10 @@ pog_religion_culture.0002 = {
         root = {
             set_character_faith_with_conversion = faith:fallen_abrahamic_pantheon
             set_culture = culture:fallen_abrahamic
+
+            root.capital_province.county = {
+                set_county_culture = culture:pure_abrahamic
+            }
         }
     }
     option = {
@@ -201,15 +245,23 @@ pog_religion_culture.0002 = {
         root = {
             set_character_faith_with_conversion = faith:fallen_celtic_pantheon
             set_culture = culture:fallen_celtic
+
+            root.capital_province.county = {
+                set_county_culture = culture:fallen_celtic
+            }
         }
     }
     option = {
         name = pog_religion_culture.0002.k
         custom_tooltip = "pog.tooltip.conversion.hellenic"
 
-       root = {
+        root = {
             set_character_faith_with_conversion  = faith:fallen_hellenic_pantheon
             set_culture = culture:fallen_hellenic
+
+            root.capital_province.county = {
+                set_county_culture = culture:fallen_hellenic
+            }
         }
     }
     option = {
@@ -219,6 +271,10 @@ pog_religion_culture.0002 = {
         root = {
             set_character_faith_with_conversion = faith:fallen_slavic_pantheon
             set_culture = culture:fallen_slavic
+
+            root.capital_province.county = {
+                set_county_culture = culture:fallen_slavic
+            }
         }
     }
     option = {
@@ -228,6 +284,10 @@ pog_religion_culture.0002 = {
         root = {
             set_character_faith_with_conversion = faith:fallen_norse_pantheon
             set_culture = culture:fallen_norse
+
+            root.capital_province.county = {
+                set_county_culture = culture:fallen_norse
+            }
         }
     }
     option = {
@@ -237,6 +297,10 @@ pog_religion_culture.0002 = {
         root = {
             set_character_faith_with_conversion = faith:fallen_eastern_pantheon
             set_culture = culture:fallen_eastern
+
+            root.capital_province.county = {
+                set_county_culture = culture:fallen_eastern
+            }
         }
     }
     option = {
@@ -246,6 +310,10 @@ pog_religion_culture.0002 = {
         root = {
             set_character_faith_with_conversion = faith:fallen_hindu_pantheon
             set_culture = culture:fallen_hindu
+
+            root.capital_province.county = {
+                set_county_culture = culture:fallen_hindu
+            }
         }
     }
     option = {
@@ -255,6 +323,10 @@ pog_religion_culture.0002 = {
         root = {
             set_character_faith_with_conversion = faith:fallen_egyptian_pantheon
             set_culture = culture:fallen_egyptian
+
+            root.capital_province.county = {
+                set_county_culture = culture:fallen_egyptian
+            }
         }
     }
     option = {
@@ -264,6 +336,10 @@ pog_religion_culture.0002 = {
         root = {
             set_character_faith_with_conversion = faith:fallen_persian_pantheon
             set_culture = culture:fallen_persian
+
+            root.capital_province.county = {
+                set_county_culture = culture:fallen_persian
+            }
         }
     }
     option = {
@@ -273,6 +349,10 @@ pog_religion_culture.0002 = {
         root = {
             set_character_faith_with_conversion = faith:fallen_african_pantheon
             set_culture = culture:fallen_african
+
+            root.capital_province.county = {
+                set_county_culture = culture:fallen_african
+            }
         }
     }
     option = {

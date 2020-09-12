@@ -514,3 +514,54 @@ pog_become_a_god.1001 = {
 		}
 	}
 }
+
+pog_become_a_god.1003 = {
+	hidden = yes
+
+	trigger = {
+		age > 199
+		OR = {
+			has_trait = fallen_deity
+			has_trait = pure_deity
+		}
+	}
+
+	immediate = {
+		root = {
+			if = {
+				limit = {
+					has_trait = fallen_deity
+				}
+				remove_trait = fallen_deity
+				add_trait = elder_fallen_deity
+				effect = { set_immortal_age = 18 }
+			}
+			else = {
+				remove_trait = pure_deity
+				add_trait = elder_pure_deity
+				effect = { set_immortal_age = 18 }
+			}
+		}
+	}
+}
+
+pog_become_a_god.1004 = {
+	hidden = yes
+
+	trigger = {
+		is_deity = yes
+	}
+
+	immediate = {
+		root = {
+			if = {
+				limit = {
+					is_fallen = yes
+				}
+				unlock_maa = fallen_divine_infantry
+			}
+			else = {
+				unlock_maa = pure_divine_infantry
+			}
+		}
+	}
