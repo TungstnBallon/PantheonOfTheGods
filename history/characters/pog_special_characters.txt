@@ -14,7 +14,6 @@
     trait = diligent
     trait = zealous
     trait = beauty_good_3
-    trait = elf
     health = 7
 
     830.1.1 = {
@@ -42,7 +41,6 @@
     trait = diligent
     trait = zealous
     trait = beauty_good_3
-    trait = elf
     health = 7
 
     845.1.1 = {
@@ -66,7 +64,6 @@
     trait = brave
     trait = zealous
     trait = beauty_good_3
-    trait = elf
     health = 7
 
     836.1.1 = {
@@ -93,7 +90,6 @@
     trait = diligent
     trait = zealous
     trait = beauty_good_3
-    trait = elf
     health = 7
 
     847.5.12 = {

@@ -12,7 +12,7 @@ elf = {
 	same_opinion = 10
     opposite_opinion = -10
 
-    health = 3
+    health = 2
 
 	ai_rationality = dominant_positive_ai_value
 
@@ -52,7 +52,7 @@ dwarf = {
 	same_opinion = 10
     opposite_opinion = -10
 
-    health = 3
+    health = 2
 
 	ai_rationality = dominant_positive_ai_value
 
@@ -74,7 +74,7 @@ half_elf = {
 	same_opinion = 10
     opposite_opinion = -10
 
-    health = 3
+    health = 1
 
 	ai_rationality = dominant_positive_ai_value
 

@@ -49,7 +49,7 @@ aos_pantheon_religion = {
             holy_site = barlad
             holy_site = plock
 
-            doctrine = tenet_divine_blood
+            doctrine = tenet_divine_marriage
             doctrine = tenet_ritual_cannibalism
             doctrine = tenet_sanctity_of_nature
         }
