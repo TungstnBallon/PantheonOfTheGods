@@ -15,14 +15,12 @@ disciple_interaction = {
     NOT = { scope:recipient = scope:actor }
     scope:actor = {
       OR = {
-        has_trait = fallen_deity
-        has_trait = pure_deity
+        is_deity = yes
       }
     }
     scope:recipient = {
       OR = {
-        NOT = { has_trait = fallen_deity }
-        NOT = { has_trait = pure_deity }
+        is_diety = no
         NOT = { has_trait = blood_of_gods }
         NOT = { has_trait = demi_deity }
       }
@@ -148,16 +146,12 @@ apotheosis_interaction = {
     NOT = { scope:recipient = scope:actor }
     scope:actor = {
       OR = {
-        has_trait = fallen_deity
-        has_trait = pure_deity
+        is_deity = yes
       }
     }
     scope:recipient = {
       OR = {
-        NOT = { has_trait = fallen_deity }
-        NOT = { has_trait = pure_deity }
-        NOT = { has_trait = young_fallen_deity }
-        NOT = { has_trait = young_pure_deity }
+        is_deity = no
       }
     }
   }
@@ -268,20 +262,11 @@ lesser_bless_interaction = {
 
   is_shown = {
     scope:recipient = {
-      NOR = {
-        has_trait = fallen_deity
-        has_trait = pure_deity
-        has_trait = demi_deity
-        has_trait = undying
-        has_character_flag = pog_lesser_blessed_mortal
-      }
+      NOT = { has_character_flag = pog_lesser_blessed_mortal }
     }
     scope:actor = {
       AND = {
-        OR = {
-          has_trait = fallen_deity
-          has_trait = pure_deity
-        }
+        is_deity = yes
         OR = {
           has_perk = lesser_bless_perk
           has_perk = dark_bless_perk
@@ -320,20 +305,11 @@ greater_bless_interaction = {
 
   is_shown = {
     scope:recipient = {
-      NOR = {
-        has_trait = fallen_deity
-        has_trait = pure_deity
-        has_trait = demi_deity
-        has_trait = undying
-        has_character_flag = pog_greater_blessed_mortal
-      }
+      NOT = { has_character_flag = pog_greater_blessed_mortal }
     }
     scope:actor = {
       AND = {
-        OR = {
-          has_trait = fallen_deity
-          has_trait = pure_deity
-        }
+        is_deity = yes
         OR = {
           has_perk = greater_bless_perk
           has_perk = darker_bless_perk
@@ -376,20 +352,12 @@ lesser_curse_interaction = {
 
   is_shown = {
     scope:recipient = {
-      NOR = {
-        has_trait = fallen_deity
-        has_trait = pure_deity
-        has_trait = demi_deity
-        has_trait = undying
-        has_character_flag = pog_lesser_cursed_mortal
-      }
+      is_immortal_being = no
+      NOT = { has_character_flag = pog_lesser_cursed_mortal }
     }
     scope:actor = {
       AND = {
-        OR = {
-          has_trait = fallen_deity
-          has_trait = pure_deity
-        }
+        is_deity = yes
         OR = {
           has_perk = lesser_curse_perk
           has_perk = dark_curse_perk
@@ -427,20 +395,12 @@ greater_curse_interaction = {
 
   is_shown = {
     scope:recipient = {
-      NOR = {
-        has_trait = fallen_deity
-        has_trait = pure_deity
-        has_trait = demi_deity
-        has_trait = undying
-        has_character_flag = pog_greater_cursed_mortal
-      }
+     is_immortal_being = no
+      NOT = { has_character_flag = pog_greater_cursed_mortal }
     }
     scope:actor = {
       AND = {
-        OR = {
-          has_trait = fallen_deity
-          has_trait = pure_deity
-        }
+        is_deity = yes
         OR = {
           has_perk = greater_curse_perk
           has_perk = darker_curse_perk
@@ -480,23 +440,15 @@ undying_interaction = {
 
   is_shown = {
     scope:recipient = {
-      NOR = {
-        has_trait = fallen_deity
-        has_trait = pure_deity
-        has_trait = demi_deity
-        has_trait = undying
-      }
-      AND = {
+      is_immortal_being = no
+      OR = {
         has_character_flag = pog_lesser_blessed_mortal
         has_character_flag = pog_greater_blessed_mortal
       }
     }
     scope:actor = {
       AND = {
-        OR = {
-          has_trait = fallen_deity
-          has_trait = pure_deity
-        }
+        is_deity = yes
         OR = {
           has_perk = regeneration_perk
           has_perk = dark_mending_perk
@@ -537,10 +489,7 @@ heal_interaction = {
     }
     scope:actor = {
       AND = {
-        OR = {
-          has_trait = fallen_deity
-          has_trait = pure_deity
-        }
+        is_deity = yes
         OR = {
           has_perk = dark_mending_perk
           has_perk = regeneration_perk
@@ -581,10 +530,7 @@ flesh_sculpt_interaction = {
     }
     scope:actor = {
       AND = {
-        OR = {
-          has_trait = fallen_deity
-          has_trait = pure_deity
-        }
+        is_deity = yes
         OR = {
           has_perk = insidious_sculpting_perk
           has_perk = flesh_sculpting_perk
@@ -644,10 +590,7 @@ divine_conception_interaction = {
     scope:actor = {
       is_adult = yes
       OR = {
-        has_trait = young_pure_deity
-        has_trait = young_fallen_deity
-        has_trait = pure_deity
-        has_trait = fallen_deity
+        is_deity = yes
       }
     }
     trigger_if = {
@@ -655,10 +598,7 @@ divine_conception_interaction = {
         scope:actor = {
           is_ai = yes
           OR = {
-            has_trait = young_pure_deity
-            has_trait = young_fallen_deity
-            has_trait = pure_deity
-            has_trait = fallen_deity
+            is_deity = yes
           }
         }
       }

@@ -1,4 +1,4 @@
-light_conjuration_perk = {
+pure_light_conjuration_perk = {
 	lifestyle = pure_divine_lifestyle
 	tree = divine_magic_focus
 	position = { 0 0 }
@@ -10,18 +10,18 @@ light_conjuration_perk = {
 	
 	effect = {
 		custom_description_no_bullet = {
-			text = dark_insights_perk_effect
+			text = light_conjuration_perk_effect
 		}
 	}
 }
 
-dark_conjuration_perk = {
+pure_dark_conjuration_perk = {
 	lifestyle = pure_divine_lifestyle
 	tree = divine_magic_focus
 	position = { 0 1 }
 	icon = node_purity
 	
-	parent = light_conjuration_perk
+	parent = pure_light_conjuration_perk
 
 	can_be_picked = {
 		always = yes
@@ -29,12 +29,12 @@ dark_conjuration_perk = {
 	
 	effect = {
 		custom_description_no_bullet = {
-			text = divine_retribution_perk_effect
+			text = dark_conjuration_perk_effect
 		}
 	}
 }
 
-light_illusion_perk = {
+pure_light_illusion_perk = {
 	lifestyle = pure_divine_lifestyle
 	tree = divine_magic_focus
 	position = { 2 0 }
@@ -46,15 +46,21 @@ light_illusion_perk = {
 	
 	character_modifier = {
 	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = light_illusion_perk_effect
+		}
+	}
 }
 
-dark_illusion_perk = {
+pure_dark_illusion_perk = {
 	lifestyle = pure_divine_lifestyle
 	tree = divine_magic_focus
 	position = { 2 1 }
 	icon = node_purity
 
-	parent = light_illusion_perk
+	parent = pure_light_illusion_perk
 	
 	can_be_picked = {
 		always = yes
@@ -62,16 +68,22 @@ dark_illusion_perk = {
 	
 	character_modifier = {
 	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = dark_illusion_perk_effect
+		}
+	}
 }
 
-thriving_malice_perk = {
+pure_thriving_malice_perk = {
 	lifestyle = pure_divine_lifestyle
 	tree = divine_magic_focus
 	position = { 1 2 }
 	icon = node_purity
 
-	parent = dark_illusion_perk
-	parent = dark_conjuration_perk
+	parent = pure_dark_illusion_perk
+	parent = pure_dark_conjuration_perk
 	
 	can_be_picked = {
 		always = yes
@@ -79,14 +91,20 @@ thriving_malice_perk = {
 	
 	character_modifier = {
 	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = thriving_malice_perk_effect
+		}
+	}
 }
 
-artful_meditation_perk = {
+pure_artful_meditation_perk = {
 	lifestyle = pure_divine_lifestyle
 	tree = divine_magic_focus
 	position = { 1 3 }
 	icon = node_purity
-	parent = thriving_malice_perk
+	parent = pure_thriving_malice_perk
 	
 	can_be_picked = {
 		always = yes
@@ -94,15 +112,21 @@ artful_meditation_perk = {
 	
 	character_modifier = {
 	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = artful_meditation_perk_effect
+		}
+	}
 }
 
-black_scion_perk = {
+pure_black_scion_perk = {
 	lifestyle = pure_divine_lifestyle
 	tree = divine_magic_focus
 	position = { 0 3 }
 	icon = node_purity
 
-	parent = artful_meditation_perk
+	parent = pure_artful_meditation_perk
 	
 	can_be_picked = {
 		always = yes
@@ -110,15 +134,21 @@ black_scion_perk = {
 	
 	character_modifier = {
 	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = black_scion_perk_effect
+		}
+	}
 }
 
-white_scion_perk = {
+pure_white_scion_perk = {
 	lifestyle = pure_divine_lifestyle
 	tree = divine_magic_focus
 	position = { 2 3 }
 	icon = node_purity
 
-	parent = artful_meditation_perk
+	parent = pure_artful_meditation_perk
 	
 	can_be_picked = {
 		always = yes
@@ -126,7 +156,7 @@ white_scion_perk = {
 	
 	effect = {
 		custom_description_no_bullet = {
-			text = white_scion_effect
+			text = white_scion_perk_effect
 		}
 	}
 }
@@ -137,8 +167,8 @@ god_rankup_divine_magic = {
 	position = { 1 5 }
 	icon = pure_divine_rankup
 	
-	parent = white_scion_perk
-    parent = black_scion_perk
+	parent = pure_white_scion_perk
+    parent = pure_black_scion_perk
 	
 	can_be_picked = {
 		always = yes
@@ -146,5 +176,6 @@ god_rankup_divine_magic = {
 	
 	effect = {
 		# add_trait_force_tooltip = torturer
+		text = god_rankup_divine_magic_effect
 	}
 }

@@ -672,18 +672,12 @@ apotheosis = {
 		scope:owner = {
 			is_adult = yes
 			is_imprisoned = no
-			OR = {
-				has_trait = pure_deity
-				has_trait = fallen_deity
-			}
+			is_deity = yes
 		}
 		scope:target = {
 			is_adult = yes
 			is_imprisoned = no
-			NOT = { has_trait = pure_deity }
-			NOT = { has_trait = fallen_deity }
-			NOT = { has_trait = young_pure_deity }
-			NOT = { has_trait = young_fallen_deity }
+			is_diety = no
 			NOT = {
 				has_opinion_modifier = {
 					target = scope:owner
@@ -713,8 +707,7 @@ apotheosis = {
 		scope:owner = {
 			NOT = { is_at_war_with = scope:target }
 			OR = {
-				has_trait = pure_deity
-				has_trait = fallen_deity
+				is_deity = yes
 			}
 		}
 	}

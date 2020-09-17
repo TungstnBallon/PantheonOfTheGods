@@ -5,25 +5,6 @@ random_yearly_everyone_pulse = {
 
 	events = {
 		pog_become_a_god.1001
-	}
-}
-
-random_yearly_everyone_pulse = {
-	trigger = {
-		age > 199
-	}
-
-	events = {
 		pog_become_a_god.1003
-	}
-}
-
-random_yearly_everyone_pulse = {
-	trigger = {
-		is_deity = yes
-	}
-
-	events = {
-		pog_become_a_god.1004
 	}
 }

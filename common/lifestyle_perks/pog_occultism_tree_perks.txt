@@ -1,4 +1,4 @@
-light_conjuration_perk = {
+fallen_light_conjuration_perk = {
 	lifestyle = fallen_divine_lifestyle
 	tree = divine_occultism_focus
 	position = { 0 0 }
@@ -15,13 +15,13 @@ light_conjuration_perk = {
 	}
 }
 
-dark_conjuration_perk = {
+fallen_dark_conjuration_perk = {
 	lifestyle = fallen_divine_lifestyle
 	tree = divine_occultism_focus
 	position = { 0 1 }
 	icon = node_corruption
 	
-	parent = light_conjuration_perk
+	parent = fallen_light_conjuration_perk
 
 	can_be_picked = {
 		always = yes
@@ -34,7 +34,7 @@ dark_conjuration_perk = {
 	}
 }
 
-light_illusion_perk = {
+fallen_light_illusion_perk = {
 	lifestyle = fallen_divine_lifestyle
 	tree = divine_occultism_focus
 	position = { 2 0 }
@@ -48,13 +48,13 @@ light_illusion_perk = {
 	}
 }
 
-dark_illusion_perk = {
+fallen_dark_illusion_perk = {
 	lifestyle = fallen_divine_lifestyle
 	tree = divine_occultism_focus
 	position = { 2 1 }
 	icon = node_corruption
 
-	parent = light_illusion_perk
+	parent = fallen_light_illusion_perk
 	
 	can_be_picked = {
 		always = yes
@@ -64,14 +64,14 @@ dark_illusion_perk = {
 	}
 }
 
-thriving_malice_perk = {
+fallen_thriving_malice_perk = {
 	lifestyle = fallen_divine_lifestyle
 	tree = divine_occultism_focus
 	position = { 1 2 }
 	icon = node_corruption
 
-	parent = dark_illusion_perk
-	parent = dark_conjuration_perk
+	parent = fallen_dark_illusion_perk
+	parent = fallen_dark_conjuration_perk
 	
 	can_be_picked = {
 		always = yes
@@ -81,12 +81,12 @@ thriving_malice_perk = {
 	}
 }
 
-artful_meditation_perk = {
+fallen_artful_meditation_perk = {
 	lifestyle = fallen_divine_lifestyle
 	tree = divine_occultism_focus
 	position = { 1 3 }
 	icon = node_corruption
-	parent = thriving_malice_perk
+	parent = fallen_thriving_malice_perk
 	
 	can_be_picked = {
 		always = yes
@@ -96,13 +96,13 @@ artful_meditation_perk = {
 	}
 }
 
-black_scion_perk = {
+fallen_black_scion_perk = {
 	lifestyle = fallen_divine_lifestyle
 	tree = divine_occultism_focus
 	position = { 0 3 }
 	icon = node_corruption
 
-	parent = artful_meditation_perk
+	parent = fallen_artful_meditation_perk
 	
 	can_be_picked = {
 		always = yes
@@ -112,13 +112,13 @@ black_scion_perk = {
 	}
 }
 
-white_scion_perk = {
+fallen_white_scion_perk = {
 	lifestyle = fallen_divine_lifestyle
 	tree = divine_occultism_focus
 	position = { 2 3 }
 	icon = node_corruption
 
-	parent = artful_meditation_perk
+	parent = fallen_artful_meditation_perk
 	
 	can_be_picked = {
 		always = yes
@@ -137,8 +137,8 @@ god_rankup_occultism = {
 	position = { 1 5 }
 	icon = fallen_divine_rankup
 	
-	parent = white_scion_perk
-    parent = black_scion_perk
+	parent = fallen_white_scion_perk
+    parent = fallen_black_scion_perk
 	
 	can_be_picked = {
 		always = yes

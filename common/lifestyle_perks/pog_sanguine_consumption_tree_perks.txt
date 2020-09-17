@@ -4,27 +4,6 @@ dark_mending_perk = {
 	position = { 1 0 }
 	icon = node_corruption
 
-	auto_selection_weight = {
-		value = 11
-		if = {
-			limit = {
-				has_education_martial_trigger = yes
-			}
-			add = 1989
-		}
-		if = {
-			limit = {
-				has_focus = divine_sanguine_consumption_focus
-			}
-			multiply = 5
-		}
-		if = {
-			limit = {
-				can_start_new_lifestyle_tree_trigger = no
-			}
-			multiply = 0
-		}
-	}
 	effect = {
 		custom_description_no_bullet = {
 			text = dark_mending_perk_effect

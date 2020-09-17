@@ -234,7 +234,7 @@ pog_religion_culture.0002 = {
             set_culture = culture:fallen_abrahamic
 
             root.capital_province.county = {
-                set_county_culture = culture:pure_abrahamic
+                set_county_culture = culture:fallen_abrahamic
             }
         }
     }
