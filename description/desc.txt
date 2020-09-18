@@ -1,30 +1,69 @@
-[img]https://static.wixstatic.com/media/f0b89c_5929ae018776490bb2c3ec30cbbcd744~mv2.png/v1/fill/w_452,h_89,al_c,q_85/Logo.webp[/img]
+[img]https://static.wixstatic.com/media/f0b89c_62b81e3a92e34177b2cfb983e84177f0~mv2.png/v1/fill/w_735,h_119,al_c,q_95/2.webp[/img]
+
+[b]VERSION 2.0 IS HERE: Elves/God Progression/Cultures & More![/b]
+
+Welcome to the second iteration of the mod, there's a whole bunch of shizz that's new so it is mandatory to add in new saves. Coming with this update most notably is new god powers and lifestyle trees for pure and fallen deities. This will allow your god to feel like he/she is progressing gaining cool new abilities along the way. And next of course if a long awaited request. ELVES!!! With the help of the amazing @Mitsu, new elven portraits are available as well as a new culture, religion and trait. Elves get their blood diluted much like gods and become weaker if their blood isn't kept pure. You can find landed elves in the Slavic states in the 867 bookmark date.
+
+Of course there are also many bug fixes, most notably localization, events and culture fixes. No longer shall your culture be hamstringed by no innovations. All god cultures are on par or higher advanced than the vanilla cultures. As well the culture head problem has been fixed.
+
+There are many other amazing new fixes and easter eggs. But I think you will have to find out for yourself!
+
 
 [b]Pantheon of the Gods is a new mod inspired by the fantastic work done by many CKII modders to bring us the many fantasy and alternate history mods, most specifically  "The Gods" mod. This is in a similar vein to those great ck2 mods but by no means the same. In fact I have many dramatic and large plans for this mod, even going as far as adding new races, magic systems and a comprehensive and immersion filled storyline. The point of this mod is not to retread the steps of previous mods, but to give a convincing and enthralling alternative history for the normal Crusader Kings setting.[/b]
 
 
-[img]https://static.wixstatic.com/media/f0b89c_02c987cece254e3e8868ac27744933ca~mv2.png/v1/fill/w_362,h_89,al_c,q_85/logo_current_features.webp[/img]
+[img]https://static.wixstatic.com/media/f0b89c_cdfa49d60e7745c8bc911159ac253774~mv2.png/v1/fill/w_580,h_119,al_c,q_85/1.webp[/img]
 🌟 Traits for Gods, Goddesses and Demi-Gods.
+
 🌟 New religions and cultures related to the various god types.
+
 🌟 A basic corruption system where you can become a fallen god.
+
 🌟 A fleshed out event chain for becoming a god which gives a sneak peak into the lore I will be building into the mod in the future.
+
 🌟 Stat increase and inheritance of traits using a new system separate from paradox's congenital trait system.
+
 🌟 Dilution of blood through inheritance which can lead to blood of the gods running through families as a congenital 
       trait.
+
 🌟 Apotheosis and gifting others the power of godhood.
+
 🌟 Blessing and cursing characters, even so far as to give chosen ones the gift of immortality (without god traits).
 
 
 
-[img]https://static.wixstatic.com/media/f0b89c_f6397a4d5f434919890ce50046112383~mv2.png/v1/fill/w_590,h_89,al_c,q_85/Future_features.webp[/img]
+[img]https://static.wixstatic.com/media/f0b89c_0e04e9f9f98949acb4319e4dd4577eb6~mv2.png/v1/fill/w_600,h_74,al_c,q_85,usm_0.66_1.00_0.01/3%20(1).webp[/img]
 🌟 More expanded traits to do with gods, including a tiered system of power so you can rise to not only be a god, but the most powerful one at that
+
 🌟 Education and profession based traits for the divine man or woman.
+
 🌟 Fleshed out religions an cultures with already established god characters and pantheons.
+
 🌟 Dramatic story based wars against pantheons as they battle for supremacy of the mortal coil.
+
 🌟 New regiments and men-at-arms. Fight with an army of angels or demons at your side.
+
 🌟 New lifestyle trees to do with powerful divine magic.
+
 🌟 Implementation of a magic system that even mortals can access.
+
 🌟 Strange new races and creatures, that are deeply connected with their local mythology.
+
+
+
+[img]https://static.wixstatic.com/media/f0b89c_df9a3425aad247e18756d77b4e42c240~mv2.png/v1/fill/w_686,h_119,al_c,q_95/FAQ_logo.webp[/img]
+❓  How do I become a god?
+ ❗  Use the decision in the interface to start the event chain. Read and you should be fine.
+
+❓  How do I make other people gods?
+ ❗  Once you have become a god, you can then use a character interaction (right-clicking on char) to use Apotheosis.
+
+❓  How do I gain a god religion and culture?
+ ❗  When completing the god questline you should automatically be given the choice after a certain amount of time being a god.
+
+❓  How compatible is the mod?
+ ❗  Most everything is compatible, if you see any issues let us know in the bugs section.
+
 
 
 Thanks for reading, and enjoy the mod how it is currently. If you have any bugs or request let me know in the comments...
