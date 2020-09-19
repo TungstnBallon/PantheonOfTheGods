@@ -9,3 +9,9 @@ attempted_discipleship = {
 attempted_divine_conception = {
 	icon = intrigue_positive
 }
+
+dark_legions_betrayer = {
+	icon = diplomacy_positive
+
+	monthly_income = 5
+}

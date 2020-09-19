@@ -442,7 +442,7 @@ pog_become_a_god.1002 = {
 	immediate = {
 		if = {
 			limit = {
-				scope:owner = { has_trait = fallen_deity }
+				scope:owner = { is_fallen = yes }
 			}
 			scope:target = {
 				remove_trait = demi_deity
@@ -457,7 +457,10 @@ pog_become_a_god.1002 = {
 				}
 			}
 		}
-		else = {
+		if = {
+			limit = {
+				scope:owner = { is_pure = yes }
+			}
 			scope:target = {
 				remove_trait = demi_deity
 				remove_trait = blood_of_gods
