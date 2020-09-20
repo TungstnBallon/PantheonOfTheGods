@@ -29,6 +29,11 @@ elven_group = {
             Merethyl Gaelira Kenia Rathiain Haciathra Valindra Naexi Vasati Fayeth Elisen Taenya Ashryn Myriani Muelara Cremia Nyana 
         }
 
+        dynasty_names = {
+			"dynn_Elsinthar"
+            "dynn_Tal_Ferres"
+		}
+
         dynasty_of_location_prefix = "dynnp_di"
 
         patronym_prefix_male = "dynnpat_pre_di"

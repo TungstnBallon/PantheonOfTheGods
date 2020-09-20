@@ -1,0 +1,11 @@
+# Aelven dynasties
+# House Elsinthar, lead by Lyklor the whirldoor traveler
+97543201 = {
+    name = "dynn_Elsinthar"
+	culture = "aos_si"
+}
+
+97543202 = {
+    name = "dynn_Tal_Ferres"
+	culture = "aos_si"
+}

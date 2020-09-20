@@ -23,3 +23,5 @@
  msg_apotheosis_interaction_desc:0 "[actor.GetCharacter.GetFirstNameNoTooltip] has gifted [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] with god-like powers through apotheosis."
  divine_conception_interaction:0 "Divine Conception"
  divine_conception_interaction_desc:0 "Conceive a divine child with this character."
+ smite_interaction:0 "Divine Smite"
+ smite_interaction_desc:0 "Smite [recipient.GetFirstName] with your divine fire. This will cause the death of [recipient.GetHerHim]."

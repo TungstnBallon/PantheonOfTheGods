@@ -40,7 +40,7 @@ pog_become_a_god.0001 = {
 		name = pog_become_a_god.0001.a
 		custom_tooltip = "pog.tooltip.becomagod.0001.a"
 
-		scope:religious_head = {
+		faith.religious_head = {
 			add_opinion = {
 				target = root
 				modifier = impious_opinion

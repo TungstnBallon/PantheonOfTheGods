@@ -13,6 +13,7 @@ pog_character_interaction.0001 = {
 
     trigger = {
         is_adult = yes
+        is_deity = yes
     }
 
     immediate = {
@@ -24,6 +25,8 @@ pog_character_interaction.0001 = {
     option = {
         name = pog_character_interaction.0001.a
         custom_tooltip = "pog_character_interaction.0001.a.tt"
+
+        add_piety = massive_piety_loss
 
         scope:recipient = {
             add_trait = beauty_good_3
@@ -42,9 +45,15 @@ pog_character_interaction.0001 = {
         name = pog_character_interaction.0001.c
         custom_tooltip = "pog_character_interaction.0001.c.tt"
 
+        add_piety = medium_piety_loss
+
         scope:recipient = {
             set_immortal_age = 18
         }
+    }
+    option = {
+        name = pog_character_interaction.0001.d
+        custom_tooltip = "pog_character_interaction.0001.d.tt"
     }
 }
 
@@ -61,6 +70,7 @@ pog_character_interaction.0002 = {
 
     trigger = {
         is_adult = yes
+        is_deity = yes
     }
 
     immediate = {
@@ -69,29 +79,94 @@ pog_character_interaction.0002 = {
     option = {
         name = pog_character_interaction.0002.a
 
+        add_piety = minor_piety_loss
+
         scope:recipient = {
             change_current_weight = -25
+        }
+
+        trigger_event = {
+            id = pog_character_interaction.0002
         }
     }
     option = {
         name = pog_character_interaction.0002.b
 
+        add_piety = medium_piety_loss
+
         scope:recipient = {
             change_current_weight = -50
+        }
+
+        trigger_event = {
+            id = pog_character_interaction.0002
         }
     }
     option = {
         name = pog_character_interaction.0002.c
 
+        add_piety = minor_piety_loss
+
         scope:recipient = {
             change_current_weight = 25
+        }
+
+        trigger_event = {
+            id = pog_character_interaction.0002
         }
     }
     option = {
         name = pog_character_interaction.0002.d
 
+        add_piety = medium_piety_loss
+
         scope:recipient = {
             change_current_weight = 50
+        }
+
+        trigger_event = {
+            id = pog_character_interaction.0002
+        }
+    }
+    option = {
+        name = pog_character_interaction.0002.e
+        custom_tooltip = "pog_character_interaction.0002.e.tt"
+
+        trigger_event = {
+            id = pog_character_interaction.0001
+        }
+    }
+}
+
+pog_character_interaction.0003 = {
+    type = character_event
+    title = pog_character_interaction.0003.t
+    desc = pog_character_interaction.0003.desc
+    theme = war
+
+    left_portrait = {
+        character = scope:recipient
+        animation = fear
+    }
+    right_portrait = {
+        character = root
+        animation = schadenfreude
+    }
+
+    trigger = {
+        is_adult = yes
+        is_deity = yes
+    }
+
+    option = {
+        name = pog_character_interaction.0003.a
+        custom_tooltip = "pog_character_interaction.0003.a.tt"
+
+        add_piety = massive_piety_loss
+        add_piety = massive_piety_loss
+
+        scope:recipient = {
+            death = death_divine_smite
         }
     }
 }

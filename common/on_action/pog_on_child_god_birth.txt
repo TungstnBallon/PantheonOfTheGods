@@ -274,17 +274,21 @@ on_birth_child = {
 					AND = {
 						scope:real_father = {
 							is_elf = no
+							is_half_elf = no
 						}
 						scope:mother = {
 							is_elf = yes
+							is_half_elf = no
 						}
 					}
 					AND = {
 						scope:real_father = {
 							is_elf = yes
+							is_half_elf = no
 						}
 						scope:mother = {
 							is_elf = no
+							is_half_elf = no
 						}
 					}
 				}
@@ -301,11 +305,13 @@ on_birth_child = {
 						}
 						scope:mother = {
 							is_elf = yes
+							is_half_elf = no
 						}
 					}
 					AND = {
 						scope:real_father = {
 							is_elf = yes
+							is_half_elf = no
 						}
 						scope:mother = {
 							is_half_elf = yes

@@ -1,17 +1,27 @@
 ﻿l_english:
+ # Flesh Sculpting Interaction
  pog_character_interaction.0001.t:0 "Sculpting of Flesh"
  pog_character_interaction.0001.desc:0 "With my divine powers fully realized I can now sculpt the body of anyone I chose, even myself. I study [recipient.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] and [recipient.GetSheHe] does not please me. Thus I shall sculpt [recipient.GetHerHis] body"
  pog_character_interaction.0001.a:0 "I shall sculpt [recipient.GetHerHis] face, increasing [recipient.GetHerHim] attractiveness."
  pog_character_interaction.0001.b:0 "I shall reshape [recipient.GetHerHis] body."
  pog_character_interaction.0001.c:0 "I shall set [recipient.GetHerHis] immortal age."
+ pog_character_interaction.0001.d:0 "Exit."
  pog_character_interaction.0001.a.tt:0 "Giving the target a beautiful visage."
  pog_character_interaction.0001.b.tt:0 "Reshaping the body height and weight."
  pog_character_interaction.0001.c.tt:0 "Note that this will not work if you or the character you are editing aren't immortal."
+ pog_character_interaction.0001.d.tt:0 "This will exit the sculpting menu."
  pog_character_interaction.0002.t:0 "Sculpting of Flesh - Weight"
  pog_character_interaction.0002.desc:0 "I reach out and pull from within myself divine power, which flows through me. I know now that I can change the very physique of whoever I choose."
  pog_character_interaction.0002.a:0 "Remove a small amount of weight."
  pog_character_interaction.0002.b:0 "Remove a large amount of weight."
  pog_character_interaction.0002.c:0 "Add a small amount of weight."
  pog_character_interaction.0002.d:0 "Add a large amount of weight."
+ pog_character_interaction.0002.e:0 "Go Back."
+ pog_character_interaction.0002.e.tt:0 "This will take you back to the previous menu."
+ # Smite Event Ineraction
+ pog_character_interaction.0003.t:0 "Destroyed By Divine Fire"
+ pog_character_interaction.0003.desc:0 "I decide that [recipient.GetFirstName] must die this night. I reach into the very essence of my being and pull from myself divine power. With an eruption of energy and heat I let out a scream into the sky and see a shining bolt of fire surge out of my body. \n \n My vision goes black, but with what seems like a fourth eye I see through the fireball that surges across the sky. The feeling is exhilarating, yet I must focus on the task at hand, after all [recipient.GetFirstName]'s death is still waiting. \n \n It only takes a small amount of time, the fireball of divine flame reaches [recipient.GetFirstName], [recipient.GetSheHe] screams in agony as [recipient.GetHerHis] very being is torn asunder by my divine power."
+ pog_character_interaction.0003.a:0 "I am spent, I need rest now."
+ pog_character_interaction.0003.a.tt:0 "[recipient.GetFirstName] has been consumed by divine fire from the heavens."
 
 

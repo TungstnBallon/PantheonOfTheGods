@@ -366,7 +366,7 @@ greater_curse_interaction = {
 
   is_shown = {
     scope:recipient = {
-     is_immortal_being = no
+      is_immortal_being = no
       NOT = { has_character_flag = pog_greater_cursed_mortal }
     }
     scope:actor = {
@@ -509,10 +509,6 @@ flesh_sculpt_interaction = {
         }
       }
     }
-  }
-
-  cost = {
-    piety = 450
   }
 
   on_accept = {
@@ -969,4 +965,45 @@ divine_conception_interaction = {
       }
     }
   }
+}
+
+# God smiting interaction mechanics
+smite_interaction = {
+  category = interaction_category_hostile
+
+  desc = smite_interaction_desc
+
+  is_shown = {
+    scope:actor = {
+      AND = {
+        is_deity = yes
+        OR = {
+          has_perk = smite_perk
+          has_perk = dark_smite_perk
+        }
+      }
+    }
+  }
+
+  is_valid = {
+    scope:actor = {
+      AND = {
+        is_deity = yes
+        OR = {
+          has_perk = smite_perk
+          has_perk = dark_smite_perk
+        }
+      }
+    }
+  }
+
+  on_accept = {
+    scope:actor = {
+      trigger_event = {
+        id = pog_character_interaction.0003
+      }
+    }
+  }
+
+  auto_accept = yes
 }
