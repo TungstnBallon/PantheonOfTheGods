@@ -1,3 +1,5 @@
+@cultural_maa_extra_ai_score = 25
+
 divine_infantry = {
 	type = heavy_infantry
 	

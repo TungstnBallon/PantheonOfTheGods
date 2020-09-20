@@ -40,7 +40,7 @@ pog_become_a_god.0001 = {
 		name = pog_become_a_god.0001.a
 		custom_tooltip = "pog.tooltip.becomagod.0001.a"
 
-		faith:religious_head = {
+		scope:religious_head = {
 			add_opinion = {
 				target = root
 				modifier = impious_opinion
@@ -442,7 +442,7 @@ pog_become_a_god.1002 = {
 	immediate = {
 		if = {
 			limit = {
-				scope:owner = { is_fallen = yes }
+				scope:owner = { has_trait = fallen_deity }
 			}
 			scope:target = {
 				remove_trait = demi_deity
@@ -457,10 +457,7 @@ pog_become_a_god.1002 = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				scope:owner = { is_pure = yes }
-			}
+		else = {
 			scope:target = {
 				remove_trait = demi_deity
 				remove_trait = blood_of_gods
@@ -507,12 +504,12 @@ pog_become_a_god.1001 = {
 				}
 				remove_trait = young_fallen_deity
 				add_trait = fallen_deity
-				effect = { set_immortal_age = 18 }
+				set_immortal_age = 18
 			}
 			else = {
 				remove_trait = young_pure_deity
 				add_trait = pure_deity
-				effect = { set_immortal_age = 18 }
+				set_immortal_age = 18
 			}
 		}
 	}
@@ -537,17 +534,19 @@ pog_become_a_god.1003 = {
 				}
 				remove_trait = fallen_deity
 				add_trait = elder_fallen_deity
-				effect = { set_immortal_age = 18 }
+				set_immortal_age = 18
 			}
 			else = {
 				remove_trait = pure_deity
 				add_trait = elder_pure_deity
-				effect = { set_immortal_age = 18 }
+				set_immortal_age = 18
 			}
 		}
 	}
 }
 
+
+#There is no unlock_maa effect commenting it out for now
 pog_become_a_god.1004 = {
 	hidden = yes
 
@@ -561,10 +560,10 @@ pog_become_a_god.1004 = {
 				limit = {
 					is_fallen = yes
 				}
-				unlock_maa = fallen_divine_infantry
+				#unlock_maa = fallen_divine_infantry
 			}
 			else = {
-				unlock_maa = pure_divine_infantry
+				#unlock_maa = pure_divine_infantry
 			}
 		}
 	}
