@@ -78,9 +78,10 @@ gift_undying_perk = {
 		custom_description_no_bullet = {
 			text = gift_undying_perk_effect
 		}
+		change_current_weight = -10
 	}
 	character_modifier = {
-		change_current_weight = -10
+		
 	}
 }
 

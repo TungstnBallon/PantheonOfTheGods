@@ -78,9 +78,10 @@ gift_immortality_perk = {
 		custom_description_no_bullet = {
 			text = gift_immortality_perk_effect
 		}
+		change_current_weight = -10
 	}
 	character_modifier = {
-		change_current_weight = -10
+		
 	}
 }
 
