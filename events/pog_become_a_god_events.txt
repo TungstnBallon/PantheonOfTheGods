@@ -442,13 +442,24 @@ pog_become_a_god.1002 = {
 	immediate = {
 		if = {
 			limit = {
-				scope:owner = { has_trait = fallen_deity }
+				scope:owner = { is_fallen = yes }
 			}
 			scope:target = {
-				remove_trait = demi_deity
-				remove_trait = blood_of_gods
-				remove_trait = undying
-				add_trait = fallen_deity
+				if = {
+					limit = {
+						age < 18
+					}
+					remove_trait = demi_deity
+					remove_trait = blood_of_gods
+					remove_trait = undying
+					add_trait = young_fallen_deity
+				}
+				else = {
+					remove_trait = demi_deity
+					remove_trait = blood_of_gods
+					remove_trait = undying
+					add_trait = fallen_deity
+				}
 
 				add_opinion = {
 					target = scope:actor
@@ -457,12 +468,26 @@ pog_become_a_god.1002 = {
 				}
 			}
 		}
-		else = {
+		if = {
+			limit = {
+				scope:owner = { is_pure = yes }
+			}
 			scope:target = {
-				remove_trait = demi_deity
-				remove_trait = blood_of_gods
-				remove_trait = undying
-				add_trait = pure_deity
+				if = {
+					limit = {
+						age < 18
+					}
+					remove_trait = demi_deity
+					remove_trait = blood_of_gods
+					remove_trait = undying
+					add_trait = young_pure_deity
+				}
+				else = {
+					remove_trait = demi_deity
+					remove_trait = blood_of_gods
+					remove_trait = undying
+					add_trait = pure_deity
+				}
 
 				add_opinion = {
 					target = scope:actor
