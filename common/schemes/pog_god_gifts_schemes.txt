@@ -1,9 +1,7 @@
 disciple = {
 
 	skill = diplomacy
-	is_adult = yes
-	is_imprisoned = no
-
+	
 	allow = {
 		scope:target = {
 			is_adult = yes
@@ -665,8 +663,7 @@ disciple = {
 apotheosis = {
 
 	skill = learning
-	is_adult = yes
-	is_imprisoned = no
+	
 
 	allow = {
 		scope:owner = {
@@ -677,7 +674,7 @@ apotheosis = {
 		scope:target = {
 			is_adult = yes
 			is_imprisoned = no
-			is_diety = no
+			is_deity = no
 			NOT = {
 				has_opinion_modifier = {
 					target = scope:owner

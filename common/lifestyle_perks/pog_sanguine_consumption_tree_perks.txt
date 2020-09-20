@@ -4,6 +4,22 @@ dark_mending_perk = {
 	position = { 1 0 }
 	icon = node_corruption
 
+	auto_selection_weight = {
+		value = 0
+		if = {
+			limit = {
+				is_fallen = yes
+			}
+			add = 100000
+		}
+		if = {
+			limit = {
+				can_start_new_lifestyle_tree_trigger = no
+			}
+			multiply = 0
+		}
+	}
+
 	effect = {
 		custom_description_no_bullet = {
 			text = dark_mending_perk_effect
@@ -64,7 +80,7 @@ gift_undying_perk = {
 		}
 	}
 	character_modifier = {
-		current_weight = -10
+		change_current_weight = -10
 	}
 }
 

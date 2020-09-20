@@ -20,7 +20,7 @@ disciple_interaction = {
     }
     scope:recipient = {
       OR = {
-        is_diety = no
+        is_deity = no
         NOT = { has_trait = blood_of_gods }
         NOT = { has_trait = demi_deity }
       }
@@ -33,21 +33,6 @@ disciple_interaction = {
         type = disciple
         target = scope:recipient
       }
-    }
-  }
-
-  desc = {
-    triggered_desc = {
-      trigger = {
-        scope:actor = {
-          NOT = { is_at_war_with = scope:recipient }
-          can_start_scheme = {
-            type = disciple
-            target = scope:recipient
-          }
-        }
-      }
-      desc = scheme_interaction_tt_disciple_approved
     }
   }
 
@@ -162,21 +147,6 @@ apotheosis_interaction = {
         type = apotheosis
         target = scope:recipient
       }
-    }
-  }
-
-  desc = {
-    triggered_desc = {
-      trigger = {
-        scope:actor = {
-          NOT = { is_at_war_with = scope:recipient }
-          can_start_scheme = {
-            type = apotheosis
-            target = scope:recipient
-          }
-        }
-      }
-      desc = scheme_interaction_tt_apotheosis_approved
     }
   }
 
@@ -329,7 +299,8 @@ greater_bless_interaction = {
       add_trait = intellect_good_3
       add_trait = physique_good_3
 
-      add_health = 2
+      #doesn't exist as an effect will need to be replaced by a modifier later
+      #add_health = 2
 
       if = {
         add_opinion = {
@@ -418,7 +389,8 @@ greater_curse_interaction = {
       add_trait = intellect_bad_3
       add_trait = physique_bad_3
 
-      add_health = -3
+      #doesn't exist needs to be replaced by a modifier later
+      #add_health = -3
 
       if = {
         add_opinion = {

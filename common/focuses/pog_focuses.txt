@@ -1,4 +1,10 @@
 divine_ascension_focus = {
+	
+	is_valid = {
+		is_pure = yes
+		
+	}
+
 	lifestyle = pure_divine_lifestyle
 	
 	modifier = {
@@ -30,6 +36,11 @@ divine_ascension_focus = {
 }
 
 divine_renewal_focus = {
+
+	is_valid = {
+		is_pure = yes	
+	}
+
 	lifestyle = pure_divine_lifestyle
 	
 	modifier = {
@@ -61,6 +72,12 @@ divine_renewal_focus = {
 }
 
 divine_magic_focus = {
+	
+	is_valid = {
+		is_pure = yes
+		
+	}
+
 	lifestyle = pure_divine_lifestyle
 	
 	modifier = {
@@ -92,6 +109,12 @@ divine_magic_focus = {
 }
 
 divine_dark_legions_focus = {
+
+	is_valid = {
+		is_fallen = yes
+		
+	}
+
 	lifestyle = fallen_divine_lifestyle
 	
 	modifier = {
@@ -123,6 +146,12 @@ divine_dark_legions_focus = {
 }
 
 divine_sanguine_consumption_focus = {
+
+	is_valid = {
+		is_fallen = yes
+		
+	}
+
 	lifestyle = fallen_divine_lifestyle
 	
 	modifier = {
@@ -154,6 +183,12 @@ divine_sanguine_consumption_focus = {
 }
 
 divine_occultism_focus = {
+
+	is_valid = {
+		is_fallen = yes
+		
+	}
+	
 	lifestyle = fallen_divine_lifestyle
 	
 	modifier = {

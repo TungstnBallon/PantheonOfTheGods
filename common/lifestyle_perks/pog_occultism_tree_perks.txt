@@ -4,9 +4,23 @@ fallen_light_conjuration_perk = {
 	position = { 0 0 }
 	icon = node_corruption
 	
-	can_be_picked = {
-		always = yes
+	auto_selection_weight = {
+		value = 0
+		if = {
+			limit = {
+				is_fallen = yes
+			}
+			add = 100000
+		}
+		if = {
+			limit = {
+				can_start_new_lifestyle_tree_trigger = no
+			}
+			multiply = 0
+		}
 	}
+
+
 	
 	effect = {
 		custom_description_no_bullet = {
@@ -23,9 +37,6 @@ fallen_dark_conjuration_perk = {
 	
 	parent = fallen_light_conjuration_perk
 
-	can_be_picked = {
-		always = yes
-	}
 	
 	effect = {
 		custom_description_no_bullet = {
@@ -40,9 +51,31 @@ fallen_light_illusion_perk = {
 	position = { 2 0 }
 	icon = node_corruption
 
-	can_be_picked = {
-		always = yes
+	auto_selection_weight = {
+		value = 0
+		if = {
+			limit = {
+				is_fallen = yes
+			}
+			add = 100000
+		}
+		if = {
+			limit = {
+				can_start_new_lifestyle_tree_trigger = no
+			}
+			multiply = 0
+		}
 	}
+
+	
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = dark_insights_perk_effect
+		}
+	}
+	
+	
 	
 	character_modifier = {
 	}
@@ -56,9 +89,7 @@ fallen_dark_illusion_perk = {
 
 	parent = fallen_light_illusion_perk
 	
-	can_be_picked = {
-		always = yes
-	}
+	
 	
 	character_modifier = {
 	}
@@ -73,9 +104,7 @@ fallen_thriving_malice_perk = {
 	parent = fallen_dark_illusion_perk
 	parent = fallen_dark_conjuration_perk
 	
-	can_be_picked = {
-		always = yes
-	}
+
 	
 	character_modifier = {
 	}
@@ -88,9 +117,7 @@ fallen_artful_meditation_perk = {
 	icon = node_corruption
 	parent = fallen_thriving_malice_perk
 	
-	can_be_picked = {
-		always = yes
-	}
+	
 	
 	character_modifier = {
 	}
@@ -104,9 +131,7 @@ fallen_black_scion_perk = {
 
 	parent = fallen_artful_meditation_perk
 	
-	can_be_picked = {
-		always = yes
-	}
+	
 	
 	character_modifier = {
 	}
@@ -120,9 +145,7 @@ fallen_white_scion_perk = {
 
 	parent = fallen_artful_meditation_perk
 	
-	can_be_picked = {
-		always = yes
-	}
+	
 	
 	effect = {
 		custom_description_no_bullet = {
@@ -140,9 +163,7 @@ god_rankup_occultism = {
 	parent = fallen_white_scion_perk
     parent = fallen_black_scion_perk
 	
-	can_be_picked = {
-		always = yes
-	}
+	
 	
 	effect = {
 		# add_trait_force_tooltip = torturer

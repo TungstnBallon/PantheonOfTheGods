@@ -2,9 +2,8 @@ pure_divine_lifestyle = {
 
 	is_highlighted = {
         OR = {
-            has_trait = fallen_deity
             has_trait = pure_deity
-            has_trait = elder_fallen_deity
+            has_trait = elder_pure_deity
         }		
 	}
 	
@@ -25,6 +24,7 @@ fallen_divine_lifestyle = {
 	is_highlighted = {
         OR = {
             has_trait = fallen_deity
+            has_trait = elder_fallen_deity
         }		
 	}
 	
