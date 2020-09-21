@@ -983,6 +983,9 @@ smite_interaction = {
         }
       }
     }
+    scope:recipient = {
+      is_immortal_being = no
+    }
   }
 
   is_valid = {
@@ -994,6 +997,9 @@ smite_interaction = {
           has_perk = dark_smite_perk
         }
       }
+    }
+    scope:recipient = {
+      is_immortal_being = no
     }
   }
 
