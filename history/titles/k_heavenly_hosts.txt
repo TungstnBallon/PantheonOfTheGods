@@ -1,0 +1,5 @@
+k_heavenly_hosts = {
+    1.1.1 = {
+		holder = 600000
+	}
+}

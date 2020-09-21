@@ -59,7 +59,7 @@
     stewardship = 10
     religion = aos_way
     culture = aos_si
-    trait = diplomacy_martial_3
+    trait = education_martial_3
     trait = sadistic
     trait = brave
     trait = zealous

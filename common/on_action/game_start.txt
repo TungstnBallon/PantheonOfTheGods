@@ -164,6 +164,7 @@ on_game_start = {
 			}
 		}
 
+		# Start of POG On Actions
 		every_living_character = {
 			if = {
 				limit = {
@@ -171,6 +172,22 @@ on_game_start = {
 				}
 				add_trait = elf
 			}
+		}
+
+		character:600000 = {
+			set_immortal_age = 25
+		}
+		character:600001 = {
+			set_immortal_age = 18
+		}
+		character:600002 = {
+			set_immortal_age = 18
+		}
+		character:600003 = {
+			set_immortal_age = 18
+		}
+		character:600004  = {
+			set_immortal_age = 18
 		}
 	}
 }

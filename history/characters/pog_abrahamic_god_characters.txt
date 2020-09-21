@@ -1,0 +1,117 @@
+600000 = {
+    name = "Michael"
+    dna = michael_custom_dna
+    dynasty = 600000
+    martial = 25
+    diplomacy = 10
+    intrigue = 10
+    stewardship = 10
+    religion = pure_abrahamic_pantheon
+    culture = pure_abrahamic
+    trait = education_martial_4
+    trait = brave
+    trait = zealous
+    trait = stubborn
+    trait = physique_good_3
+    trait = elder_pure_deity
+    health = 100
+
+    1.1.1 = {
+        birth = yes
+    }
+}
+
+600001 = {
+    name = "Raphael"
+    dna = raphael_custom_dna
+    dynasty = 600000
+    martial = 10
+    diplomacy = 25
+    intrigue = 10
+    stewardship = 10
+    religion = pure_abrahamic_pantheon
+    culture = pure_abrahamic
+    trait = education_diplomacy_4
+    trait = zealous
+    trait = patient
+    trait = humble
+    trait = physique_good_2
+    trait = elder_pure_deity
+    health = 100
+
+    1.1.1 = {
+        birth = yes
+    }
+}
+
+600002 = {
+    name = "Gabriel"
+    dna = gabriel_custom_dna
+    dynasty = 600000
+    martial = 10
+    diplomacy = 25
+    intrigue = 10
+    stewardship = 10
+    religion = pure_abrahamic_pantheon
+    culture = pure_abrahamic
+    trait = education_diplomacy_4
+    trait = zealous
+    trait = kind
+    trait = humble
+    trait = physique_good_3
+    trait = elder_pure_deity
+    health = 100
+
+    1.1.1 = {
+        birth = yes
+    }
+}
+
+600003 = {
+    name = "Lucifer"
+    dna = lucifer_custom_dna
+    dynasty = 600001
+    martial = 20
+    diplomacy = 50
+    intrigue = 20
+    stewardship = 20
+    religion = fallen_abrahamic_pantheon
+    culture = fallen_abrahamic
+    trait = education_martial_4
+    trait = zealous
+    trait = callous
+    trait = sadistic
+    trait = physique_good_3
+    trait = elder_fallen_deity
+    health = 100
+
+    1.1.1 = {
+        birth = yes
+    }
+}
+
+600004 = {
+    name = "Lilith"
+    dna = lilith_custom_dna
+    dynasty = 600001
+    female = yes
+    martial = 10
+    diplomacy = 10
+    intrigue = 25
+    stewardship = 10
+    religion = fallen_abrahamic_pantheon
+    culture = fallen_abrahamic
+    trait = education_martial_4
+    trait = lustful
+    trait = seducer
+    trait = vengeful
+    trait = sadistic
+    trait = beauty_good_3
+    trait = intellect_good_3
+    trait = elder_fallen_deity
+    health = 100
+
+    1.1.1 = {
+        birth = yes
+    }
+}
