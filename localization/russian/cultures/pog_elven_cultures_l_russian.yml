@@ -1,0 +1,7 @@
+﻿l_russian:
+ # Культурные группы
+ elven_group:0 "Эйльвейн группа"
+
+ # Культуры
+ aos_si:0 "Аос Си"
+ aos_si_collective_noun:0 "Аос-Си'и"

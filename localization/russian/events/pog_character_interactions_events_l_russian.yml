@@ -1,0 +1,17 @@
+﻿l_russian:
+ pog_character_interaction.0001.t:0 "Скульптура плоти"
+ pog_character_interaction.0001.desc:0 "С моими божественными силами в полной мере осознал, что теперь я могу изменять тело любого, кого выбрал, даже самого себя. Я изучаю [recipient.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] и [recipient.GetSheHe] мне не нравится. Поэтому я буду менять [recipient.GetHerHis] тело"
+ pog_character_interaction.0001.a:0 "Я буду изменять [recipient.GetHerHis] лицо, повышая [recipient.GetHerHim] привлекательность."
+ pog_character_interaction.0001.b:0 "Я изменю форму [recipient.GetHerHis] тела."
+ pog_character_interaction.0001.c:0 "Я установлю  [recipient.GetHerHis] бессмертный возраст."
+ pog_character_interaction.0001.a.tt:0 "Придание цели красивого вида"
+ pog_character_interaction.0001.b.tt:0 "Изменение роста и веса тела."
+ pog_character_interaction.0001.c.tt:0 "Обратите внимание, что это не сработает, если вы или редактируемый вами персонаж не бессмертны."
+ pog_character_interaction.0002.t:0 "Скульптура плоти - вес"
+ pog_character_interaction.0002.desc:0 "Я протягиваю руку и использую свою божественную силу, которая течет через меня. Теперь я знаю, что могу изменить само телосложение того, кого выберу."
+ pog_character_interaction.0002.a:0 "Удалить небольшое количество веса."
+ pog_character_interaction.0002.b:0 "Удалить большое количество веса."
+ pog_character_interaction.0002.c:0 "Добавить небольшое количество веса."
+ pog_character_interaction.0002.d:0 "Добавить большое количество веса."
+
+

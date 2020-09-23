@@ -14,9 +14,21 @@ disciple_interaction = {
   is_shown = {
     NOT = { scope:recipient = scope:actor }
     scope:actor = {
+      is_deity = yes
+    }
+    scope:recipient = {
       OR = {
-        is_deity = yes
+        is_deity = no
+        NOT = { has_trait = blood_of_gods }
+        NOT = { has_trait = demi_deity }
       }
+    }
+  }
+
+  is_valid = {
+    NOT = { scope:recipient = scope:actor }
+    scope:actor = {
+      is_deity = yes
     }
     scope:recipient = {
       OR = {
@@ -130,14 +142,20 @@ apotheosis_interaction = {
   is_shown = {
     NOT = { scope:recipient = scope:actor }
     scope:actor = {
-      OR = {
-        is_deity = yes
-      }
+      is_deity = yes
     }
     scope:recipient = {
-      OR = {
-        is_deity = no
-      }
+      is_deity = no
+    }
+  }
+
+  is_valid = {
+    NOT = { scope:recipient = scope:actor }
+    scope:actor = {
+      is_deity = yes
+    }
+    scope:recipient = {
+      is_deity = no
     }
   }
 
@@ -245,6 +263,21 @@ lesser_bless_interaction = {
     }
   }
 
+  is_valid = {
+    scope:recipient = {
+      NOT = { has_character_flag = pog_lesser_blessed_mortal }
+    }
+    scope:actor = {
+      AND = {
+        is_deity = yes
+        OR = {
+          has_perk = lesser_bless_perk
+          has_perk = dark_bless_perk
+        }
+      }
+    }
+  }
+
   cost = {
     piety = 250
   }
@@ -274,6 +307,21 @@ greater_bless_interaction = {
   desc = greater_bless_interaction_desc
 
   is_shown = {
+    scope:recipient = {
+      NOT = { has_character_flag = pog_greater_blessed_mortal }
+    }
+    scope:actor = {
+      AND = {
+        is_deity = yes
+        OR = {
+          has_perk = greater_bless_perk
+          has_perk = darker_bless_perk
+        }
+      }
+    }
+  }
+
+  is_valid = {
     scope:recipient = {
       NOT = { has_character_flag = pog_greater_blessed_mortal }
     }
@@ -337,6 +385,22 @@ lesser_curse_interaction = {
     }
   }
 
+  is_valid = {
+    scope:recipient = {
+      is_immortal_being = no
+      NOT = { has_character_flag = pog_lesser_cursed_mortal }
+    }
+    scope:actor = {
+      AND = {
+        is_deity = yes
+        OR = {
+          has_perk = lesser_curse_perk
+          has_perk = dark_curse_perk
+        }
+      }
+    }
+  }
+
   cost = {
     piety = 250
   }
@@ -365,6 +429,22 @@ greater_curse_interaction = {
   desc = greater_curse_interaction_desc
 
   is_shown = {
+    scope:recipient = {
+      is_immortal_being = no
+      NOT = { has_character_flag = pog_greater_cursed_mortal }
+    }
+    scope:actor = {
+      AND = {
+        is_deity = yes
+        OR = {
+          has_perk = greater_curse_perk
+          has_perk = darker_curse_perk
+        }
+      }
+    }
+  }
+
+  is_valid = {
     scope:recipient = {
       is_immortal_being = no
       NOT = { has_character_flag = pog_greater_cursed_mortal }
@@ -429,6 +509,25 @@ undying_interaction = {
     }
   }
 
+  is_valid = {
+    scope:recipient = {
+      is_immortal_being = no
+      OR = {
+        has_character_flag = pog_lesser_blessed_mortal
+        has_character_flag = pog_greater_blessed_mortal
+      }
+    }
+    scope:actor = {
+      AND = {
+        is_deity = yes
+        OR = {
+          has_perk = regeneration_perk
+          has_perk = dark_mending_perk
+        }
+      }
+    }
+  }
+
   cost = {
     piety = 450
   }
@@ -470,6 +569,21 @@ heal_interaction = {
     }
   }
 
+  is_valid = {
+    scope:recipient = {
+      is_healable = yes
+    }
+    scope:actor = {
+      AND = {
+        is_deity = yes
+        OR = {
+          has_perk = dark_mending_perk
+          has_perk = regeneration_perk
+        }
+      }
+    }
+  }
+
   cost = {
     piety = 150
   }
@@ -497,6 +611,21 @@ flesh_sculpt_interaction = {
   desc = flesh_sculpt_interaction_desc
 
   is_shown = {
+    scope:recipient = {
+      is_adult = yes
+    }
+    scope:actor = {
+      AND = {
+        is_deity = yes
+        OR = {
+          has_perk = insidious_sculpting_perk
+          has_perk = flesh_sculpting_perk
+        }
+      }
+    }
+  }
+
+  is_valid = {
     scope:recipient = {
       is_adult = yes
     }
@@ -553,6 +682,37 @@ divine_conception_interaction = {
   ai_frequency = 36
 
   is_shown = {
+    NOT = { scope:actor = scope:recipient }
+    scope:recipient = { is_adult = yes }
+    scope:actor = {
+      is_adult = yes
+      OR = {
+        is_deity = yes
+      }
+    }
+    trigger_if = {
+      limit = {
+        scope:actor = {
+          is_ai = yes
+          OR = {
+            is_deity = yes
+          }
+        }
+      }
+      NOT = {
+        scope:recipient = {
+          is_lowborn = yes
+          is_landed = no
+          NOR = {
+            is_courtier_of = scope:actor
+            is_foreign_court_or_pool_guest_of = scope:actor
+          }
+        }
+      }
+    }
+  }
+
+  is_valid = {
     NOT = { scope:actor = scope:recipient }
     scope:recipient = { is_adult = yes }
     scope:actor = {

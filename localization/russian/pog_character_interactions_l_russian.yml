@@ -1,0 +1,25 @@
+﻿l_russian:
+ interaction_category_deity:0 "Сила божества"
+ CATEGORY_DEITY:0 "Полномочия и решения, данные божеству, существу, обладающему божественной силой".
+ disciple_interaction:0 "Сделать своим Последователем".
+ disciple_interaction_desc:0 "Веди этого смертного в любящие объятия твоей божественной воли".
+ apotheosis_interaction:0 "Просветление"
+ apotheosis_interaction_desc:0 "Пришло время наделить любимого ученика силой Божественной. Они станут более могущественными, бессмертными и такими, которые, наконец, смогут стоять рядом со Мной как равные".
+ lesser_bless_interaction:0 "Благословение."
+ lesser_bless_interaction_desc:0 "Благословите этого смертного, сделайте их сильнее, быстрее и быстрее".
+ greater_bless_interaction:0 "Великое Благословение."
+ greater_bless_interaction_desc:0 "Благословите этого смертного, сделайте их сильнее, быстрее и быстрее".
+ lesser_curse_interaction:0 "Проклятие".
+ lesser_curse_interaction_desc:0 "Проклянёте смертных, чтобы сделать слабых и хрупких, заставьте их бояться вас навсегда".
+ greater_curse_interaction:0 "Великое проклятие".
+ greater_curse_interaction_desc:0 "Проклянёте смертных, чтобы сделать слабых и хрупких, заставьте их бояться вас навсегда".
+ undying_interaction:0 "Подари бессмертие".
+ undying_interaction_desc:0 "Подарите этому смиренному смертному не вашу божественность, но благословение или проклятие вечной жизни".
+ heal_interaction:0 "Божественное исцеление"
+ heal_interaction_desc:0 "Исцелить этого персонажа, удалив все изъяны болезни и расчленения".
+ flesh_sculpt_interaction:0 "Скульптура из плоти"
+ flesh_sculpt_interaction_desc:0 "Скальпировать плоть - опасная задача, но менее опасная для божества. Изменяйте свое тело или окружающих, чтобы оно соответствовало вашим потребностям".
+ msg_apotheosis_interaction_title:0 "Апофеоз".
+ msg_apotheosis_interaction_desc:0 "[actor.GetCharacter.GetFirstNameNoTooltip] наделил [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] богоподобными способностями через апофеоз".
+ divine_conception_interaction:0 "Божественное зачатие".
+ divine_conception_interaction_desc:0 "Воспринимать божественного ребенка с этим символом".

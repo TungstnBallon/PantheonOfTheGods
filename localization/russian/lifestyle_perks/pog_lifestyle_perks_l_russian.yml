@@ -1,0 +1,116 @@
+﻿l_russian:
+ # Вознесение Светлых Божеств "Стиль Жизни"
+ uplifter_perk_name:0 "Возвышение"
+ uplifter_perk_effect_desc:0 "Ты наполняешь сердца светом своих граждан, и с их счастьем ты набираешь силу".
+ bringer_of_rain_perk_name:0 "Приносящий дождь".
+ bringer_of_rain_perk_effect_desc:0 "С дождем приходит жизнь, с жизнью щедрость, а с щедростью, богатство". Богатство, которое невозможно представить".
+ pure_metal_perk_name:0 "Благословенный металл".
+ pure_metal_perk_effect_desc:0 "Разрушатся ли мечи армий твоих, если они будут наделены божественным твоим светом? Итог: быстрее обломятся враги."
+ blessed_armies_perk_name:0 "Благословенные армии".
+ blessed_armies_perk_effect_desc:0 "Ваши армии вдохновлены вашим присутствием, они рвутся к победе, убивая врага с именем вашим на их устах".
+ martial_prowess_perk_name:0 "Божественное Достоинство".
+ martial_prowess_perk_effect_desc:0 "Божественная сила, которая течет через ваши вены, не может быть остановлена, вы станете сильнее и быстрее любого смертного".
+ eternal_summer_perk_name:0 "Вечное лето".
+ eternal_summer_perk_effect_desc:0 "С даром дождя и металла приходит весна и лето, и теперь оно никогда не заканчивается".
+ beloved_god_perk_name:0 "Возлюбленный Бог"
+ beloved_god_perk_effect_desc:0 "Любимые всеми, народ ваш, посвятил свою жизнь служению вам, о милосердное божество".
+ lightbringer_perk_name:0 "Световод"
+ lightbringer_perk_effect_desc:0 "Световод - это бог, который достиг высот любви и преданности своих последователей, они теперь обладают почти бесконечным знанием".
+ god_rankup_ascension_name:0 "Божественное Вознесение".
+ god_rankup_ascension_effect_desc:0 "Вы многому научились, благодаря самоотверженности и времени вы поднялись еще выше, чем прежде...
+ # Обновление Светлых Божеств "Стиль Жизни"
+ regeneration_perk_name:0 "Регенерация".
+ regeneration_perk_effect_desc:0 "Мощность регенерации является одной из жизненных и восстановительных. Какой смысл жизни вечной, если вы не можете ею наслаждаться?".
+ lesser_bless_perk_name:0 "Благословение смертного".
+ lesser_bless_perk_effect_desc:0 "Благословить смертного - это подарить ему силу и здоровье. Меньшее благословение позволяет вам дарить скудные, но мощные силы тем, кого вы любите".
+ greater_bless_perk_name:0 "Великое благословение".
+ greater_bless_perk_effect_desc:0 "Благословить смертного - это даровать ему силу и здоровье. Большее благословение позволяет вам даровать величайшие силы тем, кого вы считаете достойными".
+ gift_immortality_perk_name:0 "Подарить бессмертие".
+ gift_immortality_perk_effect_desc:0 "Дар божественности не для всех. Некоторые просто заслуживают вечной жизни, хотя и бессильны против божественного, но обладают временем на всех".
+ lesser_curse_perk_name:0 "Меньшее проклятие".
+ lesser_curse_perk_effect_desc:0 "Проклинать смертного - значит быть им больным или слабым". Меньшее проклятие позволяет нанести легкие недуги врагам".
+ greater_curse_perk_name:0 "Большое проклятие".
+ greater_curse_perk_effect_desc:0 "Проклинать смертных - значит быть им больными или слабыми". Большее проклятие позволяет навязать жестокий геморой тем, кого вы презираете".
+ smite_perk_name:0 "Божественная ярость".
+ smite_perk_effect_desc:0 "Божественная ярость светлого бога - это вещь, с которой нужно считать и уважать. Все смертные подчиняются вашей вечной воле, и даже если вы милостивы, вы не лишены справедливости".
+ flesh_sculpting_perk_name:0 "Скульптура из плоти"
+ flesh_sculpting_perk_effect_desc:0 "Скульптура из плоти - это создание самой жизни. Реформируйте любое божество или смертное, чтобы оно выглядело так, как вам нравится, никто не избежит вашей воли и фантазии".
+ god_rankup_renewal_name:0 "Божественное Вознесение".
+ god_rankup_renewal_effect_desc:0 "Вы многому научились, благодаря самоотверженности и времени вы поднялись еще выше, чем раньше..."
+ # Божественная Волшебство "Светлая Жизнь"
+ pure_light_conjuration_perk_name:0 "Световое спряжение"
+ pure_light_conjuration_perk_effect_desc:0 "Скоро"
+ pure_dark_conjuration_perk_name:0 "Темное спряжение"
+ pure_dark_conjuration_perk_effect_desc:0 "Скоро"
+ pure_light_illusion_perk_name:0 "Световая иллюзия"
+ pure_light_illusion_perk_effect_desc:0 "Скоро"
+ pure_dark_illusion_perk_name:0 "Темная иллюзия"
+ pure_dark_illusion_perk_effect_desc:0 "Скоро"
+ pure_thriving_malice_perk_name:0 "Процветающий Малик"
+ pure_thriving_malice_perk_effect_desc:0 "Скоро"
+ pure_artful_meditation_perk_name:0 "Хитроумная медитация"
+ pure_artful_meditation_perk_effect_desc:0 "Скоро"
+ pure_black_scion_perk_name:0 "Черный ученый"
+ pure_black_scion_perk_effect_desc:0 "Скоро"
+ pure_white_scion_perk_name:0 "Белый ученый"
+ pure_white_scion_perk_effect_desc:0 "Скоро"
+ god_rankup_divine_magic_name:0 "Божественное Вознесение"
+ god_rankup_divine_magic_effect_desc:0 "Вы многому научились, благодаря самоотверженности и времени вы поднялись еще выше..."
+ 
+ # Темное Восхождение Падших "Стиль Жизни"
+ betrayer_perk_name:0 "Предатель"
+ betrayer_perk_effect_desc:0 "Предатель естественного порядка, ты оказываешься благословленным большими силами, чем любой смертный"
+ rain_of_fire_perk_name:0 "Огненный дождь"
+ rain_of_fire_perk_effect_desc:0 "Огонь - горнило души человека, и ты повелеваешь ему. Так ты повелеваешь самой цивилизацией"
+ cursed_metal_perk_name:0 "Проклятый металл".
+ cursed_metal_perk_effect_desc:0 "Как ваши враги могут сражаться с вами, если даже металл их мечей и доспехов против них."
+ heathen_armies_perk_name:0 "Смертоносные Армии"
+ heathen_armies_perk_effect_desc:0 "Ваши армии настолько обширны, что сама земля содрогается, сметая даже самых сильных врагов".
+ terrible_prowess_perk_name:0 "Ужасное величие".
+ terrible_prowess_perk_effect_desc:0 "Даже самый опытный смертный не может стоять в присутствии такого ужасного существа, кто может быть лучшим из тех, кого они боятся"?
+ eternal_taskmasters_perk_name:0 "Железный Кулак".
+ eternal_taskmasters_perk_effect_desc:0 "Такой обильный урожай будет ждать вас, если те, кто работают под вашим кнутом, никогда не узнают как бездельничать".
+ terrible_presence_perk_name:0 "Ужасное присутствие".
+ terrible_presence_perk_effect_desc:0 "Быть любимым - значит быть слабым, сила приходит от страха, а ваше присутствие делает даже самого сильного смертного слабым и мочить свои штаны."
+ dark_god_perk_name:0 "Темный Бог".
+ dark_god_perk_effect_desc:0 "Темный бог обладает почти бесконечными знаниями о темных делах этого мира. Зная темные заклинания которые не знает, даже самый опытный оккультист"
+ god_rankup_dark_legions_name:0 "Божественное Вознесение".
+ god_rankup_dark_legions_effect_desc:0 "Вы многому научились, благодаря самоотверженности и времени вы поднялись еще выше..."
+ # Проклятая кровь Божеств "Стиль Жизни"
+ dark_mending_perk_name:0 "Темная медитация"
+ dark_mending_perk_effect_desc:0 "Вечная жизнь дана вам, но тьма может даже восстановить разорванные\оторванные части тела"
+ dark_bless_perk_name:0 "Меньшее благословение"
+ dark_bless_perk_effect_desc:0 "Благословить смертного - это подарить ему силу и здоровье. Меньшее благословение позволяет вам дарить скудные, но мощные силы тем, кого вы любите"
+ darker_bless_perk_name:0 "Великое благословение".
+ darker_bless_perk_effect_desc:0 "Благословить смертного - это подарить ему силу и здоровье. Большее благословение позволяет дать наибольшую силу тем, кого вы считаете достойными"
+ gift_undying_perk_name:0 "Подарить бессмертие".
+ gift_undying_perk_effect_desc:0 "Дар божественности не для всех. Некоторые просто заслуживают вечной жизни, хотя и бессильны против божественного, но обладают временем на всех"
+ dark_curse_perk_name:0 "Меньшее проклятие".
+ dark_curse_perk_effect_desc:0 "Проклинать смертного - значит быть им больным или слабым". Меньшее проклятие позволяет нанести легкие недуги врагам".
+ darker_curse_perk_name:0 "Большое проклятие".
+ darker_curse_perk_effect_desc:0 "Проклинать смертных - значит быть им больными или слабыми". Большее проклятие позволяет навязать жестокий геморой тем, кого вы презираете"
+ dark_smite_perk_name:0 "Темная Ярость".
+ dark_smite_perk_effect_desc:0 "Божественная ярость падшего бога поистине ужасна. Всякий, кто противится или даже пытается, почувствует божественное проникновение, быстро, остро что обычная смерть покажется благословением"
+ insidious_sculpting_perk_name:0 "Скульптура плоти"
+ insidious_sculpting_perk_effect_desc:0 "Скульптура из плоти - это создавать саму жизнь. Крутите вертите любое божество или смертного так, чтобы оно выглядело так, как вам нравится, никто не избежит вашей воли и фантазии"
+ god_rankup_sanguine_consumption_name:0 "Божественное Темное Вознесение".
+ god_rankup_sanguine_consumption_effect_desc:0 "Вы многому научились, благодаря самоотверженности и времени вы поднялись еще выше, чем раньше..."
+ # Божественная Волшебство "Темная Жизнь"
+  fallen_light_conjuration_perk_name:0 "Световое спряжение"
+ fallen_light_conjuration_perk_effect_desc:0 "Скоро"
+ fallen_dark_conjuration_perk_name:0 "Темное спряжение"
+ fallen_dark_conjuration_perk_effect_desc:0 "Скоро"
+ fallen_light_illusion_perk_name:0 "Светлая иллюзия"
+ fallen_light_illusion_perk_effect_desc:0 "Скоро"
+ fallen_dark_illusion_perk_name:0 "Темная иллюзия"
+ fallen_dark_illusion_perk_effect_desc:0 "Скоро"
+ fallen_thriving_malice_perk_name:0 "Процветающий Малик"
+ fallen_thriving_malice_perk_effect_desc:0 "Скоро"
+ fallen_artful_meditation_perk_name:0 "Умелая медитация"
+ fallen_artful_meditation_perk_effect_desc:0 "Скоро"
+ fallen_black_scion_perk_name:0 "Черный ученый"
+ fallen_black_scion_perk_effect_desc:0 "Скоро"
+ fallen_white_scion_perk_name:0 "Белый ученый"
+ fallen_white_scion_perk_effect_desc:0 "Скоро"                                                       
+ god_rankup_occultism_name:0 "Божественное Вознесение"
+ god_rankup_occultism_effect_desc:0 "Ты многому научился, благодаря самоотверженности и времени ты поднялся еще выше, чем раньше...".

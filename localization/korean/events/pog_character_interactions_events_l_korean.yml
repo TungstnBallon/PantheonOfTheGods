@@ -1,0 +1,17 @@
+﻿l_korean:
+ pog_character_interaction.0001.t:0 "살을 붙이다."
+ pog_character_interaction.0001.desc:0 "내 힘을 완전히 깨달아 마침내 내가 원하는 대상을 바꿀 수 있게 되었다. 나 자신 조차도. 나는 [recipient.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] 를 공부했고 [recipient.GetSheHe] 가 나를 만족시켜주지 못 한다는걸 깨달았다. 그렇기에 [recipient.GetHerHis] 의 몸을 조각한다."
+ pog_character_interaction.0001.a:0 " [recipient.GetHerHis] 의 얼굴을 조각하여, [recipient.GetHerHim] 의 매력을 높인다."
+ pog_character_interaction.0001.b:0 " [recipient.GetHerHis] 의 몸을 고친다."
+ pog_character_interaction.0001.c:0 " [recipient.GetHerHis] 을(를) 불멸로 만든다."
+ pog_character_interaction.0001.a.tt:0 "대상의 얼굴을 아름답게 성형한다."
+ pog_character_interaction.0001.b.tt:0 "키와 몸무게를 고친다."
+ pog_character_interaction.0001.c.tt:0 "당신과 대상이 불멸이 아니라면 이는 작동하지 않을것입니다."
+ pog_character_interaction.0002.t:0 "살조각 - 무게관련"
+ pog_character_interaction.0002.desc:0 "나는 내게 흐르는 신성한 힘을 끌어내었다. 이로써 나는 내가 선택한 대상의 신체를 물리적으로 바꿀 수 있게 되었다."
+ pog_character_interaction.0002.a:0 "조금의 지방을 더한다."
+ pog_character_interaction.0002.b:0 "막대한 지방을 뺀다."
+ pog_character_interaction.0002.c:0 "조금의 지방을 더한다.."
+ pog_character_interaction.0002.d:0 "막대한 지방을 더한다."
+
+
