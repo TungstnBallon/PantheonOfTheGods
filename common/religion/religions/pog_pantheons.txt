@@ -208,6 +208,139 @@ pantheon_pure_religion = {
             holy_site = athens
             holy_site = sparta
             holy_site = carthage
+            holy_site = constantinople
+
+            localization = {
+                #HighGod
+                HighGodName = pantheon_pure_hellenic_high_god_name
+                HighGodNamePossessive = pantheon_pure_hellenic_high_god_name_possessive
+                HighGodNameSheHe = CHARACTER_SHEHE_HE
+                HighGodHerselfHimself = CHARACTER_HIMSELF
+                HighGodHerHis = CHARACTER_HERHIS_HIS
+                HighGodNameAlternate = pantheon_pure_hellenic_high_god_name_alternate
+                HighGodNameAlternatePossessive = pantheon_pure_hellenic_high_god_name_alternate_possessive
+
+                #HealthGod
+                HealthGodName = pantheon_pure_hellenic_health_god_name
+                HealthGodNamePossessive = pantheon_pure_hellenic_health_god_name_possessive
+                HealthGodSheHe = CHARACTER_SHEHE_HE
+                HealthGodHerHis = CHARACTER_HERHIS_HIS
+                HealthGodHerHim = CHARACTER_HERHIM_HIM
+
+                #FertilityGod
+                FertilityGodName = pantheon_pure_hellenic_fertility_god_name
+                FertilityGodNamePossessive = pantheon_pure_hellenic_fertility_god_name_possessive
+                FertilityGodSheHe = CHARACTER_SHEHE_HE
+                FertilityGodHerHis = CHARACTER_HERHIS_HIS
+                FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WealthGod
+                WealthGodName = pantheon_pure_hellenic_wealth_god_name
+                WealthGodNamePossessive = pantheon_pure_hellenic_wealth_god_name_possessive
+                WealthGodSheHe = CHARACTER_SHEHE_HE
+                WealthGodHerHis = CHARACTER_HERHIS_HIS
+                WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+                #HouseholdGod
+                HouseholdGodName = pantheon_pure_hellenic_household_god_name
+                HouseholdGodNamePossessive = pantheon_pure_hellenic_household_god_name_possessive
+                HouseholdGodSheHe = CHARACTER_SHEHE_HE
+                HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+                HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+                #FateGod
+                FateGodName = pantheon_pure_hellenic_fate_god_name
+                FateGodNamePossessive = pantheon_pure_hellenic_fate_god_name_possessive
+                FateGodSheHe = CHARACTER_SHEHE_HE
+                FateGodHerHis = CHARACTER_HERHIS_HIS
+                FateGodHerHim = CHARACTER_HERHIM_HIM
+
+                #KnowledgeGod
+                KnowledgeGodName = pantheon_pure_hellenic_knowledge_god_name
+                KnowledgeGodNamePossessive = pantheon_pure_hellenic_knowledge_god_name_possessive
+                KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+                KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+                KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WarGod
+                WarGodName = pantheon_pure_hellenic_war_god_name
+                WarGodNamePossessive = pantheon_pure_hellenic_war_god_name_possessive
+                WarGodSheHe = CHARACTER_SHEHE_HE
+                WarGodHerHis = CHARACTER_HERHIS_HIS
+                WarGodHerHim = CHARACTER_HERHIM_HIM
+
+                #TricksterGod
+                TricksterGodName = pantheon_pure_hellenic_trickster_god_name
+                TricksterGodNamePossessive = pantheon_pure_hellenic_trickster_god_name_possessive
+                TricksterGodSheHe = CHARACTER_SHEHE_HE
+                TricksterGodHerHis = CHARACTER_HERHIS_HIS
+                TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+                #NightGod
+                NightGodName = pantheon_pure_hellenic_night_god_name
+                NightGodNamePossessive = pantheon_pure_hellenic_night_god_name_possessive
+                NightGodSheHe = CHARACTER_SHEHE_HE
+                NightGodHerHis = CHARACTER_HERHIS_HIS
+                NightGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WaterGod
+                WaterGodName = pantheon_pure_hellenic_water_god_name
+                WaterGodNamePossessive = pantheon_pure_hellenic_water_god_name_possessive
+                WaterGodSheHe = CHARACTER_SHEHE_HE
+                WaterGodHerHis = CHARACTER_HERHIS_HIS
+                WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+                # PantheonTerm = pantheon_pure_hellenic_the_gods
+                # PantheonTermHasHave = pantheon_term_have
+                GoodGodNames = { pure_god_phoebus_apollo pure_god_hera pure_god_plutus pure_god_hestia pure_god_ananke pure_god_pallas_athena pure_god_ares_martialis pure_god_hermes pure_god_hypnos pure_god_poseidon pure_god_hades }
+                DevilName = pure_hellenic_devil_name
+                DevilNamePossessive = pure_hellenic_devil_name_possessive
+                DevilSheHe = CHARACTER_SHEHE_HE
+                DevilHerHis = CHARACTER_HERHIS_HIS
+                DevilHerselfHimself = CHARACTER_HIMSELF
+                EvilGodNames = { fallen_god_prometheus fallen_god_rhea fallen_god_hyperion fallen_god_themis fallen_god_hecate fallen_god_koios fallen_god_atlas fallen_god_iapetus fallen_god_nyx fallen_god_oceanus fallen_god_thanatos }
+                HouseOfWorship = pantheon_pure_hellenic_house_of_worship
+                HouseOfWorshipPlural = pantheon_pure_hellenic_house_of_worship_plural
+                ReligiousSymbol = pantheon_pure_hellenic_religious_symbol
+                ReligiousText = pantheon_pure_hellenic_religious_text
+                ReligiousHeadName = pantheon_pure_hellenic_religious_head_title
+                ReligiousHeadTitleName = pure_hellenic_religious_head_title_name
+                DevoteeMale = pantheon_pure_hellenic_devotee
+                DevoteeMalePlural = pantheon_pure_hellenic_devoteeplural
+                DevoteeFemale = pantheon_pure_hellenic_devotee
+                DevoteeFemalePlural = pantheon_pure_hellenic_devoteeplural
+                DevoteeNeuter = pantheon_pure_hellenic_devotee
+                DevoteeNeuterPlural = pantheon_pure_hellenic_devoteeplural
+                PriestMale = pantheon_pure_hellenic_priest_male
+                PriestMalePlural = pantheon_pure_hellenic_priest_male_plural
+                PriestFemale = pantheon_pure_hellenic_priest_female
+                PriestFemalePlural = pantheon_pure_hellenic_priest_female_plural
+                PriestNeuter = pantheon_pure_hellenic_priest_male
+                PriestNeuterPlural = pantheon_pure_hellenic_priest_male_plural
+                AltPriestTermPlural = pantheon_pure_hellenic_priest_alternate_plural
+                BishopMale = pantheon_pure_hellenic_bishop_male
+                BishopMalePlural = pantheon_pure_hellenic_bishop_male_plural
+                BishopFemale = pantheon_pure_hellenic_priest_female
+                BishopFemalePlural = pantheon_pure_hellenic_priest_female_plural
+                BishopNeuter = pantheon_pure_hellenic_priest_male
+                BishopNeuterPlural = pantheon_pure_hellenic_priest_male_plural
+                DivineRealm = pantheon_pure_hellenic_divine_realm
+                PositiveAfterLife = pantheon_pure_hellenic_death_deity_name
+                NegativeAfterLife = pantheon_pure_hellenic_death_deity_name
+                DeathDeityName = pantheon_pure_hellenic_death_deity_name
+                DeathDeityNamePossessive = pantheon_pure_hellenic_death_deity_name_possessive
+                DeathDeitySheHe = CHARACTER_SHEHE_HE
+                DeathDeityHerHis = CHARACTER_HERHIS_HIS
+                WitchGodName = hellenism_witchgodname_hekate
+                WitchGodHerHis = CHARACTER_HERHIS_HER
+                WitchGodSheHe = CHARACTER_SHEHE_HE
+                WitchGodHerHim = CHARACTER_HERHIM_HER
+                WitchGodMistressMaster = mistress
+                WitchGodMotherFather = mother
+
+                GHWName = ghw_crusade
+                GHWNamePlural = ghw_crusades
+            }
 
             doctrine = tenet_polyamory
             doctrine = tenet_ritual_celebrations
@@ -229,6 +362,138 @@ pantheon_pure_religion = {
         pure_norse_pantheon = {
             color = { 0.8 0.2 0.1 }
             graphical_faith = "pagan_gfx"
+
+            localization = {
+                #HighGod
+                HighGodName = pantheon_pure_norse_high_god_name
+                HighGodNamePossessive = pantheon_pure_norse_high_god_name_possessive
+                HighGodNameSheHe = CHARACTER_SHEHE_HE
+                HighGodHerselfHimself = CHARACTER_HIMSELF
+                HighGodHerHis = CHARACTER_HERHIS_HIS
+                HighGodNameAlternate = pantheon_pure_norse_high_god_name_alternate
+                HighGodNameAlternatePossessive = pantheon_pure_norse_high_god_name_alternate_possessive
+
+                #HealthGod
+                HealthGodName = pantheon_pure_norse_health_god_name
+                HealthGodNamePossessive = pantheon_pure_norse_health_god_name_possessive
+                HealthGodSheHe = CHARACTER_SHEHE_HE
+                HealthGodHerHis = CHARACTER_HERHIS_HIS
+                HealthGodHerHim = CHARACTER_HERHIM_HIM
+
+                #FertilityGod
+                FertilityGodName = pantheon_pure_norse_fertility_god_name
+                FertilityGodNamePossessive = pantheon_pure_norse_fertility_god_name_possessive
+                FertilityGodSheHe = CHARACTER_SHEHE_HE
+                FertilityGodHerHis = CHARACTER_HERHIS_HIS
+                FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WealthGod
+                WealthGodName = pantheon_pure_norse_wealth_god_name
+                WealthGodNamePossessive = pantheon_pure_norse_wealth_god_name_possessive
+                WealthGodSheHe = CHARACTER_SHEHE_HE
+                WealthGodHerHis = CHARACTER_HERHIS_HIS
+                WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+                #HouseholdGod
+                HouseholdGodName = pantheon_pure_norse_household_god_name
+                HouseholdGodNamePossessive = pantheon_pure_norse_household_god_name_possessive
+                HouseholdGodSheHe = CHARACTER_SHEHE_HE
+                HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+                HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+                #FateGod
+                FateGodName = pantheon_pure_norse_fate_god_name
+                FateGodNamePossessive = pantheon_pure_norse_fate_god_name_possessive
+                FateGodSheHe = CHARACTER_SHEHE_HE
+                FateGodHerHis = CHARACTER_HERHIS_HIS
+                FateGodHerHim = CHARACTER_HERHIM_HIM
+
+                #KnowledgeGod
+                KnowledgeGodName = pantheon_pure_norse_knowledge_god_name
+                KnowledgeGodNamePossessive = pantheon_pure_norse_knowledge_god_name_possessive
+                KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+                KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+                KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WarGod
+                WarGodName = pantheon_pure_norse_war_god_name
+                WarGodNamePossessive = pantheon_pure_norse_war_god_name_possessive
+                WarGodSheHe = CHARACTER_SHEHE_HE
+                WarGodHerHis = CHARACTER_HERHIS_HIS
+                WarGodHerHim = CHARACTER_HERHIM_HIM
+
+                #TricksterGod
+                TricksterGodName = pantheon_pure_norse_trickster_god_name
+                TricksterGodNamePossessive = pantheon_pure_norse_trickster_god_name_possessive
+                TricksterGodSheHe = CHARACTER_SHEHE_HE
+                TricksterGodHerHis = CHARACTER_HERHIS_HIS
+                TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+                #NightGod
+                NightGodName = pantheon_pure_norse_night_god_name
+                NightGodNamePossessive = pantheon_pure_norse_night_god_name_possessive
+                NightGodSheHe = CHARACTER_SHEHE_HE
+                NightGodHerHis = CHARACTER_HERHIS_HIS
+                NightGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WaterGod
+                WaterGodName = pantheon_pure_norse_water_god_name
+                WaterGodNamePossessive = pantheon_pure_norse_water_god_name_possessive
+                WaterGodSheHe = CHARACTER_SHEHE_HE
+                WaterGodHerHis = CHARACTER_HERHIS_HIS
+                WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+                # PantheonTerm = pantheon_pure_norse_the_gods
+                # PantheonTermHasHave = pantheon_term_have
+                GoodGodNames = { pure_god_freyr pure_god_freyja pure_god_njörðr pure_god_frigga pure_god_urðr pure_god_mímir pure_god_thór pure_god_loki pure_god_nótt pure_god_Ægir pure_god_hella }
+                DevilName = pure_norse_devil_name
+                DevilNamePossessive = pure_norse_devil_name_possessive
+                DevilSheHe = CHARACTER_SHEHE_HE
+                DevilHerHis = CHARACTER_HERHIS_HIS
+                DevilHerselfHimself = CHARACTER_HIMSELF
+                EvilGodNames = { fallen_god_gjálp fallen_god_angrboða fallen_god_jörð fallen_god_sinmara fallen_god_fornjótr fallen_god_fárbauti fallen_god_víðarr fallen_god_bölþorn fallen_god_höðr fallen_god_strömkarlen fallen_god_fenrisúlfr }
+                HouseOfWorship = pantheon_pure_norse_house_of_worship
+                HouseOfWorshipPlural = pantheon_pure_norse_house_of_worship_plural
+                ReligiousSymbol = pantheon_pure_norse_religious_symbol
+                ReligiousText = pantheon_pure_norse_religious_text
+                ReligiousHeadName = pantheon_pure_norse_religious_head_title
+                ReligiousHeadTitleName = pure_norse_religious_head_title_name
+                DevoteeMale = pantheon_pure_norse_devotee
+                DevoteeMalePlural = pantheon_pure_norse_devoteeplural
+                DevoteeFemale = pantheon_pure_norse_devotee
+                DevoteeFemalePlural = pantheon_pure_norse_devoteeplural
+                DevoteeNeuter = pantheon_pure_norse_devotee
+                DevoteeNeuterPlural = pantheon_pure_norse_devoteeplural
+                PriestMale = pantheon_pure_norse_priest_male
+                PriestMalePlural = pantheon_pure_norse_priest_male_plural
+                PriestFemale = pantheon_pure_norse_priest_female
+                PriestFemalePlural = pantheon_pure_norse_priest_female_plural
+                PriestNeuter = pantheon_pure_norse_priest_male
+                PriestNeuterPlural = pantheon_pure_norse_priest_male_plural
+                AltPriestTermPlural = pantheon_pure_norse_priest_alternate_plural
+                BishopMale = pantheon_pure_norse_bishop_male
+                BishopMalePlural = pantheon_pure_norse_bishop_male_plural
+                BishopFemale = pantheon_pure_norse_priest_female
+                BishopFemalePlural = pantheon_pure_norse_priest_female_plural
+                BishopNeuter = pantheon_pure_norse_priest_male
+                BishopNeuterPlural = pantheon_pure_norse_priest_male_plural
+                DivineRealm = pantheon_pure_norse_divine_realm
+                PositiveAfterLife = pantheon_pure_norse_death_deity_name
+                NegativeAfterLife = pantheon_pure_norse_death_deity_name
+                DeathDeityName = pantheon_pure_norse_death_deity_name
+                DeathDeityNamePossessive = pantheon_pure_norse_death_deity_name_possessive
+                DeathDeitySheHe = CHARACTER_SHEHE_HE
+                DeathDeityHerHis = CHARACTER_HERHIS_HIS
+                WitchGodName = hellenism_witchgodname_hekate
+                WitchGodHerHis = CHARACTER_HERHIS_HER
+                WitchGodSheHe = CHARACTER_SHEHE_HE
+                WitchGodHerHim = CHARACTER_HERHIM_HER
+                WitchGodMistressMaster = mistress
+                WitchGodMotherFather = mother
+
+                GHWName = ghw_crusade
+                GHWNamePlural = ghw_crusades
+            }
 
             holy_site = uppsala
             holy_site = lejre
@@ -517,6 +782,139 @@ pantheon_fallen_religion = {
             holy_site = athens
             holy_site = sparta
             holy_site = carthage
+            holy_site = constantinople
+
+            localization = {
+                #HighGod
+                HighGodName = pantheon_fallen_hellenic_high_god_name
+                HighGodNamePossessive = pantheon_fallen_hellenic_high_god_name_possessive
+                HighGodNameSheHe = CHARACTER_SHEHE_HE
+                HighGodHerselfHimself = CHARACTER_HIMSELF
+                HighGodHerHis = CHARACTER_HERHIS_HIS
+                HighGodNameAlternate = pantheon_fallen_hellenic_high_god_name_alternate
+                HighGodNameAlternatePossessive = pantheon_fallen_hellenic_high_god_name_alternate_possessive
+
+                #HealthGod
+                HealthGodName = pantheon_fallen_hellenic_health_god_name
+                HealthGodNamePossessive = pantheon_fallen_hellenic_health_god_name_possessive
+                HealthGodSheHe = CHARACTER_SHEHE_HE
+                HealthGodHerHis = CHARACTER_HERHIS_HIS
+                HealthGodHerHim = CHARACTER_HERHIM_HIM
+
+                #FertilityGod
+                FertilityGodName = pantheon_fallen_hellenic_fertility_god_name
+                FertilityGodNamePossessive = pantheon_fallen_hellenic_fertility_god_name_possessive
+                FertilityGodSheHe = CHARACTER_SHEHE_HE
+                FertilityGodHerHis = CHARACTER_HERHIS_HIS
+                FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WealthGod
+                WealthGodName = pantheon_fallen_hellenic_wealth_god_name
+                WealthGodNamePossessive = pantheon_fallen_hellenic_wealth_god_name_possessive
+                WealthGodSheHe = CHARACTER_SHEHE_HE
+                WealthGodHerHis = CHARACTER_HERHIS_HIS
+                WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+                #HouseholdGod
+                HouseholdGodName = pantheon_fallen_hellenic_household_god_name
+                HouseholdGodNamePossessive = pantheon_fallen_hellenic_household_god_name_possessive
+                HouseholdGodSheHe = CHARACTER_SHEHE_HE
+                HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+                HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+                #FateGod
+                FateGodName = pantheon_fallen_hellenic_fate_god_name
+                FateGodNamePossessive = pantheon_fallen_hellenic_fate_god_name_possessive
+                FateGodSheHe = CHARACTER_SHEHE_HE
+                FateGodHerHis = CHARACTER_HERHIS_HIS
+                FateGodHerHim = CHARACTER_HERHIM_HIM
+
+                #KnowledgeGod
+                KnowledgeGodName = pantheon_fallen_hellenic_knowledge_god_name
+                KnowledgeGodNamePossessive = pantheon_fallen_hellenic_knowledge_god_name_possessive
+                KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+                KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+                KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WarGod
+                WarGodName = pantheon_fallen_hellenic_war_god_name
+                WarGodNamePossessive = pantheon_fallen_hellenic_war_god_name_possessive
+                WarGodSheHe = CHARACTER_SHEHE_HE
+                WarGodHerHis = CHARACTER_HERHIS_HIS
+                WarGodHerHim = CHARACTER_HERHIM_HIM
+
+                #TricksterGod
+                TricksterGodName = pantheon_fallen_hellenic_trickster_god_name
+                TricksterGodNamePossessive = pantheon_fallen_hellenic_trickster_god_name_possessive
+                TricksterGodSheHe = CHARACTER_SHEHE_HE
+                TricksterGodHerHis = CHARACTER_HERHIS_HIS
+                TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+                #NightGod
+                NightGodName = pantheon_fallen_hellenic_night_god_name
+                NightGodNamePossessive = pantheon_fallen_hellenic_night_god_name_possessive
+                NightGodSheHe = CHARACTER_SHEHE_HE
+                NightGodHerHis = CHARACTER_HERHIS_HIS
+                NightGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WaterGod
+                WaterGodName = pantheon_fallen_hellenic_water_god_name
+                WaterGodNamePossessive = pantheon_fallen_hellenic_water_god_name_possessive
+                WaterGodSheHe = CHARACTER_SHEHE_HE
+                WaterGodHerHis = CHARACTER_HERHIS_HIS
+                WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+                # PantheonTerm = pantheon_fallen_hellenic_the_gods
+                # PantheonTermHasHave = pantheon_term_have
+                GoodGodNames = { fallen_god_prometheus fallen_god_rhea fallen_god_hyperion fallen_god_themis fallen_god_hecate fallen_god_koios fallen_god_atlas fallen_god_iapetus fallen_god_nyx fallen_god_oceanus fallen_god_thanatos }
+                DevilName = fallen_hellenic_devil_name
+                DevilNamePossessive = fallen_hellenic_devil_name_possessive
+                DevilSheHe = CHARACTER_SHEHE_HE
+                DevilHerHis = CHARACTER_HERHIS_HIS
+                DevilHerselfHimself = CHARACTER_HIMSELF
+                EvilGodNames = { pure_god_phoebus_apollo pure_god_hera pure_god_plutus pure_god_hestia pure_god_ananke pure_god_pallas_athena pure_god_ares_martialis pure_god_hermes pure_god_hypnos pure_god_poseidon pure_god_hades }
+                HouseOfWorship = pantheon_fallen_hellenic_house_of_worship
+                HouseOfWorshipPlural = pantheon_fallen_hellenic_house_of_worship_plural
+                ReligiousSymbol = pantheon_fallen_hellenic_religious_symbol
+                ReligiousText = pantheon_fallen_hellenic_religious_text
+                ReligiousHeadName = pantheon_fallen_hellenic_religious_head_title
+                ReligiousHeadTitleName = fallen_hellenic_religious_head_title_name
+                DevoteeMale = pantheon_fallen_hellenic_devotee
+                DevoteeMalePlural = pantheon_fallen_hellenic_devoteeplural
+                DevoteeFemale = pantheon_fallen_hellenic_devotee
+                DevoteeFemalePlural = pantheon_fallen_hellenic_devoteeplural
+                DevoteeNeuter = pantheon_fallen_hellenic_devotee
+                DevoteeNeuterPlural = pantheon_fallen_hellenic_devoteeplural
+                PriestMale = pantheon_fallen_hellenic_priest_male
+                PriestMalePlural = pantheon_fallen_hellenic_priest_male_plural
+                PriestFemale = pantheon_fallen_hellenic_priest_female
+                PriestFemalePlural = pantheon_fallen_hellenic_priest_female_plural
+                PriestNeuter = pantheon_fallen_hellenic_priest_male
+                PriestNeuterPlural = pantheon_fallen_hellenic_priest_male_plural
+                AltPriestTermPlural = pantheon_fallen_hellenic_priest_alternate_plural
+                BishopMale = pantheon_fallen_hellenic_bishop_male
+                BishopMalePlural = pantheon_fallen_hellenic_bishop_male_plural
+                BishopFemale = pantheon_fallen_hellenic_priest_female
+                BishopFemalePlural = pantheon_fallen_hellenic_priest_female_plural
+                BishopNeuter = pantheon_fallen_hellenic_priest_male
+                BishopNeuterPlural = pantheon_fallen_hellenic_priest_male_plural
+                DivineRealm = pantheon_fallen_hellenic_divine_realm
+                PositiveAfterLife = pantheon_fallen_hellenic_death_deity_name
+                NegativeAfterLife = pantheon_fallen_hellenic_death_deity_name
+                DeathDeityName = pantheon_fallen_hellenic_death_deity_name
+                DeathDeityNamePossessive = pantheon_fallen_hellenic_death_deity_name_possessive
+                DeathDeitySheHe = CHARACTER_SHEHE_HE
+                DeathDeityHerHis = CHARACTER_HERHIS_HIS
+                WitchGodName = hellenism_witchgodname_hekate
+                WitchGodHerHis = CHARACTER_HERHIS_HER
+                WitchGodSheHe = CHARACTER_SHEHE_HE
+                WitchGodHerHim = CHARACTER_HERHIM_HER
+                WitchGodMistressMaster = mistress
+                WitchGodMotherFather = mother
+
+                GHWName = ghw_crusade
+                GHWNamePlural = ghw_crusades
+            }
 
             doctrine = tenet_polyamory
             doctrine = tenet_ritual_celebrations
@@ -538,6 +936,138 @@ pantheon_fallen_religion = {
         fallen_norse_pantheon = {
             color = { 0.8 0.2 0.1 }
             graphical_faith = "pagan_gfx"
+
+            localization = {
+                #HighGod
+                HighGodName = pantheon_fallen_norse_high_god_name
+                HighGodNamePossessive = pantheon_fallen_norse_high_god_name_possessive
+                HighGodNameSheHe = CHARACTER_SHEHE_HE
+                HighGodHerselfHimself = CHARACTER_HIMSELF
+                HighGodHerHis = CHARACTER_HERHIS_HIS
+                HighGodNameAlternate = pantheon_fallen_norse_high_god_name_alternate
+                HighGodNameAlternatePossessive = pantheon_fallen_norse_high_god_name_alternate_possessive
+
+                #HealthGod
+                HealthGodName = pantheon_fallen_norse_health_god_name
+                HealthGodNamePossessive = pantheon_fallen_norse_health_god_name_possessive
+                HealthGodSheHe = CHARACTER_SHEHE_HE
+                HealthGodHerHis = CHARACTER_HERHIS_HIS
+                HealthGodHerHim = CHARACTER_HERHIM_HIM
+
+                #FertilityGod
+                FertilityGodName = pantheon_fallen_norse_fertility_god_name
+                FertilityGodNamePossessive = pantheon_fallen_norse_fertility_god_name_possessive
+                FertilityGodSheHe = CHARACTER_SHEHE_HE
+                FertilityGodHerHis = CHARACTER_HERHIS_HIS
+                FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WealthGod
+                WealthGodName = pantheon_fallen_norse_wealth_god_name
+                WealthGodNamePossessive = pantheon_fallen_norse_wealth_god_name_possessive
+                WealthGodSheHe = CHARACTER_SHEHE_HE
+                WealthGodHerHis = CHARACTER_HERHIS_HIS
+                WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+                #HouseholdGod
+                HouseholdGodName = pantheon_fallen_norse_household_god_name
+                HouseholdGodNamePossessive = pantheon_fallen_norse_household_god_name_possessive
+                HouseholdGodSheHe = CHARACTER_SHEHE_HE
+                HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+                HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+                #FateGod
+                FateGodName = pantheon_fallen_norse_fate_god_name
+                FateGodNamePossessive = pantheon_fallen_norse_fate_god_name_possessive
+                FateGodSheHe = CHARACTER_SHEHE_HE
+                FateGodHerHis = CHARACTER_HERHIS_HIS
+                FateGodHerHim = CHARACTER_HERHIM_HIM
+
+                #KnowledgeGod
+                KnowledgeGodName = pantheon_fallen_norse_knowledge_god_name
+                KnowledgeGodNamePossessive = pantheon_fallen_norse_knowledge_god_name_possessive
+                KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+                KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+                KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WarGod
+                WarGodName = pantheon_fallen_norse_war_god_name
+                WarGodNamePossessive = pantheon_fallen_norse_war_god_name_possessive
+                WarGodSheHe = CHARACTER_SHEHE_HE
+                WarGodHerHis = CHARACTER_HERHIS_HIS
+                WarGodHerHim = CHARACTER_HERHIM_HIM
+
+                #TricksterGod
+                TricksterGodName = pantheon_fallen_norse_trickster_god_name
+                TricksterGodNamePossessive = pantheon_fallen_norse_trickster_god_name_possessive
+                TricksterGodSheHe = CHARACTER_SHEHE_HE
+                TricksterGodHerHis = CHARACTER_HERHIS_HIS
+                TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+                #NightGod
+                NightGodName = pantheon_fallen_norse_night_god_name
+                NightGodNamePossessive = pantheon_fallen_norse_night_god_name_possessive
+                NightGodSheHe = CHARACTER_SHEHE_HE
+                NightGodHerHis = CHARACTER_HERHIS_HIS
+                NightGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WaterGod
+                WaterGodName = pantheon_fallen_norse_water_god_name
+                WaterGodNamePossessive = pantheon_fallen_norse_water_god_name_possessive
+                WaterGodSheHe = CHARACTER_SHEHE_HE
+                WaterGodHerHis = CHARACTER_HERHIS_HIS
+                WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+                # PantheonTerm = pantheon_fallen_norse_the_gods
+                # PantheonTermHasHave = pantheon_term_have
+                GoodGodNames = { fallen_god_gjálp fallen_god_angrboða fallen_god_jörð fallen_god_sinmara fallen_god_fornjótr fallen_god_fárbauti fallen_god_víðarr fallen_god_bölþorn fallen_god_höðr fallen_god_strömkarlen fallen_god_fenrisúlfr }
+                DevilName = fallen_norse_devil_name
+                DevilNamePossessive = fallen_norse_devil_name_possessive
+                DevilSheHe = CHARACTER_SHEHE_HE
+                DevilHerHis = CHARACTER_HERHIS_HIS
+                DevilHerselfHimself = CHARACTER_HIMSELF
+                EvilGodNames = { pure_god_freyr pure_god_freyja pure_god_njörðr pure_god_frigga pure_god_urðr pure_god_mímir pure_god_thór pure_god_loki pure_god_nótt pure_god_Ægir pure_god_hella }
+                HouseOfWorship = pantheon_fallen_norse_house_of_worship
+                HouseOfWorshipPlural = pantheon_fallen_norse_house_of_worship_plural
+                ReligiousSymbol = pantheon_fallen_norse_religious_symbol
+                ReligiousText = pantheon_fallen_norse_religious_text
+                ReligiousHeadName = pantheon_fallen_norse_religious_head_title
+                ReligiousHeadTitleName = fallen_norse_religious_head_title_name
+                DevoteeMale = pantheon_fallen_norse_devotee
+                DevoteeMalePlural = pantheon_fallen_norse_devoteeplural
+                DevoteeFemale = pantheon_fallen_norse_devotee
+                DevoteeFemalePlural = pantheon_fallen_norse_devoteeplural
+                DevoteeNeuter = pantheon_fallen_norse_devotee
+                DevoteeNeuterPlural = pantheon_fallen_norse_devoteeplural
+                PriestMale = pantheon_fallen_norse_priest_male
+                PriestMalePlural = pantheon_fallen_norse_priest_male_plural
+                PriestFemale = pantheon_fallen_norse_priest_female
+                PriestFemalePlural = pantheon_fallen_norse_priest_female_plural
+                PriestNeuter = pantheon_fallen_norse_priest_male
+                PriestNeuterPlural = pantheon_fallen_norse_priest_male_plural
+                AltPriestTermPlural = pantheon_fallen_norse_priest_alternate_plural
+                BishopMale = pantheon_fallen_norse_bishop_male
+                BishopMalePlural = pantheon_fallen_norse_bishop_male_plural
+                BishopFemale = pantheon_fallen_norse_priest_female
+                BishopFemalePlural = pantheon_fallen_norse_priest_female_plural
+                BishopNeuter = pantheon_fallen_norse_priest_male
+                BishopNeuterPlural = pantheon_fallen_norse_priest_male_plural
+                DivineRealm = pantheon_fallen_norse_divine_realm
+                PositiveAfterLife = pantheon_fallen_norse_death_deity_name
+                NegativeAfterLife = pantheon_fallen_norse_death_deity_name
+                DeathDeityName = pantheon_fallen_norse_death_deity_name
+                DeathDeityNamePossessive = pantheon_fallen_norse_death_deity_name_possessive
+                DeathDeitySheHe = CHARACTER_SHEHE_HE
+                DeathDeityHerHis = CHARACTER_HERHIS_HIS
+                WitchGodName = hellenism_witchgodname_hekate
+                WitchGodHerHis = CHARACTER_HERHIS_HER
+                WitchGodSheHe = CHARACTER_SHEHE_HE
+                WitchGodHerHim = CHARACTER_HERHIM_HER
+                WitchGodMistressMaster = mistress
+                WitchGodMotherFather = mother
+
+                GHWName = ghw_crusade
+                GHWNamePlural = ghw_crusades
+            }
 
             holy_site = uppsala
             holy_site = lejre
