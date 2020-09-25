@@ -416,6 +416,10 @@ pog_become_a_god.1000 = {
 			name = scheme_successful
 			value = flag:disciples
 		}
+		scope:target = {
+			set_character_faith = scope:owner.faith
+			set_culture = scope:owner.culture
+		}
 	}
 
 	option = {

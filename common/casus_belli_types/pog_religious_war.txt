@@ -18,6 +18,10 @@ major_religious_war = {
 		piety_level >= 4
 		custom_description = {
 			text = declared_major_religious_war_flag_tt
+			OR = {
+				NOT = { has_character_flag = declared_major_religious_war_flag }
+				is_deity = yes
+			}
 		}
 	}
 
