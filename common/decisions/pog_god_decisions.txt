@@ -32,3 +32,36 @@ pog_become_a_god_decision = {
         base = 0
     }
 }
+
+pog_ascension_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_become_a_god.dds"
+
+    title = pog_ascension_decision_title
+    desc = pog_ascension_decision_desc
+    selection_tooltip = pog_ascension_decision_tooltip
+    confirm_text = pog_ascension_decision_confirm
+
+    major = yes
+
+    is_valid_showing_failures_only = {
+        is_available_adult = yes
+    }
+    effect = {
+        depose = yes
+    }
+
+    is_shown = {
+        is_adult = yes
+        is_deity = yes
+    }
+
+    ai_check_interval = 0
+
+    ai_will_do = {
+        base = 0
+    }
+
+    ai_potential = {
+        always = no
+    }
+}

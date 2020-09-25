@@ -5,3 +5,11 @@
  pog_become_a_god_decision_confirm:0 "I shall sit and meditate."
  pog_become_a_god_decision_tooltip_effect:0 "You shall receive the start of the Strange Whispers in the Night event chain in about 7 days."
  pog_become_a_god_decision_tooltip:0 "Proceeding will give you the chance to become a deity, whether it be pure or fallen."
+
+ # God Ascension
+ pog_ascension_decision:0 "Ascend to the Heavens"
+ pog_ascension_decision_title:0 "Ascend to the Heavens"
+ pog_ascension_decision_desc:0 "For some time you have thought about the ethereal planes. After your time on earth you have realized that you do not wise to be apart of the mortal plane any longer. After telling your heir you quietly sit at the top of your highest tower and say goodbye to the world."
+ pog_ascension_decision_confirm:0 "I say goodbye to the mortal plane and ascend."
+ pog_ascension_decision_tooltip_effect:0 "You shall rise into the heavens leaving behind all of your earthly possessions and titles."
+ pog_ascension_decision_tooltip:0 "Proceeding will cause your heir to succeed you and succession shall take its natural course."
