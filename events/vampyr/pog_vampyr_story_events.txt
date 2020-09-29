@@ -1,0 +1,4 @@
+namespace = pog_vampyr_story
+
+pog_vampyr_story.0001 = {
+}

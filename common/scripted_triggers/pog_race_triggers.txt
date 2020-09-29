@@ -1,3 +1,15 @@
+is_human_culture = {
+    NAND = {
+        has_culture = aos_si
+    }
+}
+
+is_elven_culture = {
+    OR = {
+        has_culture = aos_si
+    }
+}
+
 is_elf = {
     has_trait = elf
 }
@@ -6,8 +18,8 @@ is_half_elf = {
     has_trait = half_elf
 }
 
-is_dwarf = {
-    has_trait = dwarf
+is_dwezgaz = {
+    has_trait = dwezgaz
 }
 
 is_human = {
