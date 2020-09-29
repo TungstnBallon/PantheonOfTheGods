@@ -1,4 +1,4 @@
-aos_pantheon_religion = {
+﻿aos_pantheon_religion = {
     family = rf_elven
 
     doctrine_background_icon = core_tenet_banner_divine.dds

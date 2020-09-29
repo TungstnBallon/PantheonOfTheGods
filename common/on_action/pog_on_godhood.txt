@@ -1,4 +1,4 @@
-random_yearly_everyone_pulse = {
+﻿random_yearly_everyone_pulse = {
 	trigger = {
 		age > 17
 	}

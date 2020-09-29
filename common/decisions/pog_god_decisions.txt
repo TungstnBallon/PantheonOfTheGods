@@ -1,4 +1,4 @@
-pog_become_a_god_decision = {
+﻿pog_become_a_god_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_become_a_god.dds"
 
     title = pog_become_a_god_decision_title

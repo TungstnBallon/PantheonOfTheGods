@@ -1,4 +1,4 @@
-namespace = pog_become_a_god
+﻿namespace = pog_become_a_god
 
 pog_become_a_god.0001 = {
 	type = character_event

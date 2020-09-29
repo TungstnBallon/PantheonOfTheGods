@@ -1,4 +1,4 @@
-pantheon_abrahamic_group = {
+﻿pantheon_abrahamic_group = {
     graphical_cultures = {
         latin_group_coa_gfx
         western_coa_gfx

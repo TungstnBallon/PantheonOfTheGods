@@ -1,4 +1,4 @@
-major_religious_war = {
+﻿major_religious_war = {
 	group = religious
 
 	defender_faith_can_join = yes

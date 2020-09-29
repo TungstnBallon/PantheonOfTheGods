@@ -1,4 +1,4 @@
-namespace = pog_character_interaction
+﻿namespace = pog_character_interaction
 
 pog_character_interaction.0001 = {
     type = character_event

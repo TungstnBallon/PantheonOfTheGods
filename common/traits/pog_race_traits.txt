@@ -1,5 +1,5 @@
-elf = {
-	index = 80000
+﻿elf = {
+	index = 8000
 
 	opposites = {
 	}
@@ -21,7 +21,7 @@ elf = {
 }
 
 human = {
-	index = 80001
+	index = 8001
 
 	opposites = {
 	}
@@ -39,7 +39,7 @@ human = {
 }
 
 dwarf = {
-	index = 80002
+	index = 8002
 
 	opposites = {
 	}
@@ -61,7 +61,7 @@ dwarf = {
 }
 
 half_elf = {
-	index = 80003
+	index = 8003
 
 	opposites = {
 	}

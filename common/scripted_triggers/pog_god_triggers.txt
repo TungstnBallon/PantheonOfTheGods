@@ -1,4 +1,4 @@
-is_deity = {
+﻿is_deity = {
     OR = {
         has_trait = fallen_deity
         has_trait = pure_deity

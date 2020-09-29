@@ -1,4 +1,4 @@
-is_elf = {
+﻿is_elf = {
     has_trait = elf
 }
 

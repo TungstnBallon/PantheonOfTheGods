@@ -1,4 +1,4 @@
-divine_conception = {
+﻿divine_conception = {
 	
 	skill = intrigue
 	is_secret = yes

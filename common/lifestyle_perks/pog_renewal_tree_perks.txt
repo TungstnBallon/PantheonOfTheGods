@@ -1,4 +1,4 @@
-regeneration_perk = {
+﻿regeneration_perk = {
 	lifestyle = pure_divine_lifestyle
 	tree = divine_renewal_focus
 	position = { 1 0 }

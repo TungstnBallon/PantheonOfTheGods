@@ -1,4 +1,4 @@
-michael_custom_dna = {
+﻿michael_custom_dna = {
     portrait_info={
         type=male
         id=1624137551

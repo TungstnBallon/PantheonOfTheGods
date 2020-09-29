@@ -1,4 +1,4 @@
-k_heavenly_hosts = {
+﻿k_heavenly_hosts = {
 	color = { 255 249 198 }
 	color2 = { 220 220 0 }
 	definite_form = yes

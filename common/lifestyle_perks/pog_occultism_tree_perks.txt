@@ -1,4 +1,4 @@
-fallen_light_conjuration_perk = {
+﻿fallen_light_conjuration_perk = {
 	lifestyle = fallen_divine_lifestyle
 	tree = divine_occultism_focus
 	position = { 0 0 }

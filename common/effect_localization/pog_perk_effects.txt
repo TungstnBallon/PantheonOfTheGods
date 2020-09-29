@@ -1,4 +1,4 @@
-uplifter_perk_effect = {
+﻿uplifter_perk_effect = {
 	global = uplifter_perk_effect_desc
 }
 bringer_of_rain_perk_effect = {

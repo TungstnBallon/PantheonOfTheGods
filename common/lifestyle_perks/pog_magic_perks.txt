@@ -1,4 +1,4 @@
-pure_light_conjuration_perk = {
+﻿pure_light_conjuration_perk = {
 	lifestyle = pure_divine_lifestyle
 	tree = divine_magic_focus
 	position = { 0 0 }

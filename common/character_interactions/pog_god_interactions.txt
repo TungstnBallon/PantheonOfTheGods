@@ -1,4 +1,4 @@
-disciple_interaction = {
+﻿disciple_interaction = {
   category = interaction_category_friendly
   desc = disciple_interaction_desc
   common_interaction = yes

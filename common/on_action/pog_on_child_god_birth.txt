@@ -1,4 +1,4 @@
-# called for the newborn child
+﻿# called for the newborn child
 # scope:child is the new born character
 # scope:mother is the pregnant mother
 # scope:father is the family father (not the biological)

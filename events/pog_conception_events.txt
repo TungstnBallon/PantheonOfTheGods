@@ -1,4 +1,4 @@
-namespace = pog_conception
+﻿namespace = pog_conception
 
 pog_conception.0001 = {
     type = character_event

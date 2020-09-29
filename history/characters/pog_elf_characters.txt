@@ -1,4 +1,4 @@
-9754320 = {
+﻿9754320 = {
     name = "Lyklor"
     dna = lkylor_custom_dna
     dynasty = 97543201
