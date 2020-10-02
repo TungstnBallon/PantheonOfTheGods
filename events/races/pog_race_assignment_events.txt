@@ -12,12 +12,12 @@ pog_race_assignment.1000 = {
 				}
 				add_trait = elf
 			}
-			if = {
-				limit = {
-					is_human_culture = yes
-				}
-				add_trait = human
-			}
+			##if = {
+			##	limit = {
+			##		is_human_culture = yes
+			##	}
+			##	add_trait = human
+			##}
 		}
 	}
 }

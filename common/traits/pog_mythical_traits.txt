@@ -1,5 +1,5 @@
 elf = {
-	index = 80000
+	index = 8000
 
 	opposites = {
 		dwezgaz
@@ -23,7 +23,7 @@ elf = {
 }
 
 human = {
-	index = 80001
+	index = 8001
 
 	opposites = {
 		elf
@@ -44,7 +44,7 @@ human = {
 }
 
 dwezgaz = {
-	index = 80002
+	index = 8002
 
 	opposites = {
 		elf
@@ -68,7 +68,7 @@ dwezgaz = {
 }
 
 half_elf = {
-	index = 80003
+	index = 8003
 
 	opposites = {
 		dwezgaz
@@ -92,7 +92,7 @@ half_elf = {
 }
 
 faerie = {
-	index = 80004
+	index = 8004
 
 	opposites = {
 		elf
@@ -112,7 +112,7 @@ faerie = {
 }
 
 changeling = {
-	index = 80005
+	index = 8005
 
 	opposites = {
 		vampyr
@@ -129,7 +129,7 @@ changeling = {
 }
 
 vampyr = {
-	index = 80006
+	index = 8006
 
 	opposites = {
 		changeling
@@ -151,7 +151,7 @@ vampyr = {
 }
 
 lycanthrope = {
-	index = 80007
+	index = 8007
 
 	opposites = {
 		vampyr
@@ -169,7 +169,7 @@ lycanthrope = {
 }
 
 therianthrope = {
-	index = 80008
+	index = 8008
 
 	opposites = {
 		vampyr
