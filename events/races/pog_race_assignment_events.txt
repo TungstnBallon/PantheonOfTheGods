@@ -1,0 +1,23 @@
+namespace = pog_race_assignment
+
+pog_race_assignment.1000 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		every_living_character = {
+            if = {
+				limit = {
+					is_elven_culture = yes
+				}
+				add_trait = elf
+			}
+			if = {
+				limit = {
+					is_human_culture = yes
+				}
+				add_trait = human
+			}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+namespace = pog_changeling_birth
+
+pog_changeling_birth = {
+}
