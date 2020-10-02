@@ -1,4 +1,4 @@
-betrayer_perk = {
+﻿betrayer_perk = {
 	lifestyle = fallen_divine_lifestyle
 	tree = divine_dark_legions_focus
 	position = { 2 0 }

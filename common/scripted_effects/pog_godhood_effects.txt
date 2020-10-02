@@ -1,4 +1,4 @@
-pure_godhood_effect = {
+﻿pure_godhood_effect = {
 	remove_trait = callous
 	remove_trait = sadistic
 	remove_trait = greedy

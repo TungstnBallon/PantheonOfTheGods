@@ -1,4 +1,4 @@
-namespace = pog_religion_culture
+﻿namespace = pog_religion_culture
 
 # Religion conversion
 pog_religion_culture.1000 = {

@@ -1,4 +1,4 @@
-divine_ascension_focus = {
+﻿divine_ascension_focus = {
 	
 	is_valid = {
 		is_pure = yes

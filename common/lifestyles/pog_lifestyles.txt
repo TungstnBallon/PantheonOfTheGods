@@ -1,4 +1,4 @@
-pure_divine_lifestyle = {
+﻿pure_divine_lifestyle = {
 
 	is_highlighted = {
         OR = {

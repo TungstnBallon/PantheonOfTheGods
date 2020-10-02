@@ -1,4 +1,4 @@
-uplifter_perk = {
+﻿uplifter_perk = {
 	lifestyle = pure_divine_lifestyle
 	tree = divine_ascension_focus
 	position = { 2 0 }

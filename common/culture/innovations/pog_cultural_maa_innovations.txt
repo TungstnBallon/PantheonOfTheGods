@@ -1,4 +1,4 @@
-innovation_divine_infantry = {
+﻿innovation_divine_infantry = {
 	group = culture_group_regional
 	culture_era = culture_era_early_medieval
 	icon = @special_maa_02

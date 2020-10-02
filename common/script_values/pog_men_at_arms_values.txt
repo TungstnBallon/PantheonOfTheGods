@@ -1,4 +1,4 @@
-pure_divine_infantry_recruitment_cost = 500
+﻿pure_divine_infantry_recruitment_cost = 500
 pure_divine_infantry_low_maint_cost = 4
 pure_divine_infantry_high_maint_cost = 6
 

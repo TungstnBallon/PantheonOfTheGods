@@ -1,4 +1,4 @@
-elven_group = {
+﻿elven_group = {
     graphical_cultures = {
         western_coa_gfx
         western_building_gfx

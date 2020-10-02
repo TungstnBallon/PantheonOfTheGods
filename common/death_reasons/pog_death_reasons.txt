@@ -1,4 +1,4 @@
-death_divine_smite = {
+﻿death_divine_smite = {
 	public_knowledge = no
 	icon = "death_murder.dds"
 }

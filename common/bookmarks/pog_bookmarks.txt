@@ -1,4 +1,4 @@
-bm_867_pantheon_of_the_gods = {
+﻿bm_867_pantheon_of_the_gods = {
 	start_date = 867.1.1
 	is_playable = yes
 

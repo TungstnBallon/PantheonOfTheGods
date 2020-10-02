@@ -3,8 +3,8 @@
  elven_group:0 "Aëlven Group"
 
  # Cultures
- aos_si:0 "Aos Si"
- aos_si_collective_noun:0 "Aos Si'i"
+ aos_si:0 "Aos Sí"
+ aos_si_collective_noun:0 "Aos Sí'i"
 
  alaeyrian:0 "Alåeyrían"
- alaeyrian_collective_noune:0 "Alåeyrían"
+ alaeyrian:0_collective_noune:0 "Alåeyrían"

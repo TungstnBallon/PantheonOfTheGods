@@ -1,0 +1,83 @@
+﻿elf = {
+	index = 8000
+
+	opposites = {
+	}
+
+	diplomacy = 3
+	learning = 3
+
+	physical = yes
+
+	same_opinion = 10
+    opposite_opinion = -10
+
+    health = 2
+
+	ai_rationality = dominant_positive_ai_value
+
+	compatibility = {
+	}
+}
+
+human = {
+	index = 8001
+
+	opposites = {
+	}
+
+	intrigue = 3
+	martial = 3
+
+	physical = yes
+
+	same_opinion = 10
+    opposite_opinion = -10
+
+	compatibility = {
+	}
+}
+
+dwarf = {
+	index = 8002
+
+	opposites = {
+	}
+
+	stewardship = 3
+	martial = 3
+
+	physical = yes
+
+	same_opinion = 10
+    opposite_opinion = -10
+
+    health = 2
+
+	ai_rationality = dominant_positive_ai_value
+
+	compatibility = {
+	}
+}
+
+half_elf = {
+	index = 8003
+
+	opposites = {
+	}
+
+	diplomacy = 3
+	learning = 3
+
+	physical = yes
+
+	same_opinion = 10
+    opposite_opinion = -10
+
+    health = 1
+
+	ai_rationality = dominant_positive_ai_value
+
+	compatibility = {
+	}
+}

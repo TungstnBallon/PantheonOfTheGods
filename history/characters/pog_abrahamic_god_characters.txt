@@ -1,4 +1,4 @@
-600000 = {
+﻿600000 = {
     name = "Michael"
     dna = michael_custom_dna
     dynasty = 600000

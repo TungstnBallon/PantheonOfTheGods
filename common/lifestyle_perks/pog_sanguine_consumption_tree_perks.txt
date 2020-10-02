@@ -1,4 +1,4 @@
-dark_mending_perk = {
+﻿dark_mending_perk = {
 	lifestyle = fallen_divine_lifestyle
 	tree = divine_sanguine_consumption_focus
 	position = { 1 0 }

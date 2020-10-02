@@ -1,4 +1,4 @@
-attempted_apotheosis = {
+﻿attempted_apotheosis = {
 	icon = learning_positive
 }
 

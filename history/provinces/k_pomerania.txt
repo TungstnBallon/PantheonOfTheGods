@@ -1,4 +1,4 @@
-#k_pomerania
+﻿#k_pomerania
 ##d_pomerania ###################################
 ###c_stettin (c_szczecin)
 2823 = {	#SZCZECZIN
