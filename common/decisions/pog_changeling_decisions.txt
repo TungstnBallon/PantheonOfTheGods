@@ -1,0 +1,32 @@
+pog_changeling_reveal_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_changeling_reveal.dds"
+
+    title = pog_changeling_reveal_decision_title
+    desc = pog_changeling_reveal_decision_desc
+    selection_tooltip = pog_changeling_reveal_decision_tooltip
+    confirm_text = pog_changeling_reveal_decision_confirm
+
+    major = yes
+
+    ai_check_interval = 0
+
+    is_shown = {
+       is_changeling = yes
+    }
+
+    effect = {
+        custom_tooltip = "pog_changeling_reveal_decision_tooltip_effect"
+        trigger_event = {
+            id = pog_changeling_secret.0002
+            days = 3
+        }
+    }
+
+    ai_potential = {
+        is_changeling = yes
+    }
+
+    ai_will_do = {
+        base = 5
+    }
+}
