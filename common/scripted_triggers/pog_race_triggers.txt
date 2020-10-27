@@ -23,3 +23,11 @@ is_dwezgaz = {
 is_human = {
     has_trait = human
 }
+
+is_changeling = {
+     OR = {
+         has_trait = changeling
+         has_character_flag = pog_exposed_changeling
+         has_character_flag = pog_hidden_changeling
+     }
+}

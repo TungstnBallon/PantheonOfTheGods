@@ -1,0 +1,6 @@
+remove_race_traits_effect = {
+    remove_trait = human
+    remove_trait = elf
+    remove_trait = changeling
+    remove_trait = dwezgaz
+}

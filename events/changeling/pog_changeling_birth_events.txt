@@ -1,4 +1,19 @@
 namespace = pog_changeling_birth
 
-pog_changeling_birth = {
+pog_changeling_birth.0001 = {
+    type = empty
+	hidden = yes
+
+    immediate = {
+        scope:child = {
+            add_character_flag = {
+                flag = pog_hidden_changeling
+            }
+            add_secret = {
+                type = secret_changeling
+                target = scope:child
+			}
+            add_trait = intellect_good_3
+        }
+    }
 }

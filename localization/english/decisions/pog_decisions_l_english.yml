@@ -13,3 +13,11 @@
  pog_ascension_decision_confirm:0 "I say goodbye to the mortal plane and ascend."
  pog_ascension_decision_tooltip_effect:0 "You shall rise into the heavens leaving behind all of your earthly possessions and titles."
  pog_ascension_decision_tooltip:0 "Proceeding will cause your heir to succeed you and succession shall take its natural course."
+
+ # Changeling Reveal
+ pog_changeling_reveal_decision:0 "Reveal Your True Nature"
+ pog_changeling_reveal_decision_title:0 "Reveal Your True Nature"
+ pog_changeling_reveal_decision_desc:0 "When the child of your name was born, the Faeries took that mortal being back to Annwfn, however you remain to alter the course of the world for the Faerie realm. Here in the realm of possibility your Faerie nature is feared and reviled. Though should you choose, you can reveal your nature to the world proudly."
+ pog_changeling_reveal_decision_confirm:0 "I reveal my true nature as a Change-ling."
+ pog_changeling_reveal_decision_tooltip_effect:0 "Your hidden nature as a husk inhabited by a Faerie shall be publicly made known. Be aware, some mortals hate to see the supernatural in their midst."
+ pog_changeling_reveal_decision_tooltip:0 "Proceeding will cause you to gain the Change-ling race, removing from you all of your humanity that is left."

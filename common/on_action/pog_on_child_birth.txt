@@ -6,6 +6,7 @@
 # scope:is_bastard, true if a known bastard
 on_birth_child = {
 	events = {
+		# pog_changeling_birth.0001
 	}
 	effect = {
 		if = {
@@ -238,6 +239,57 @@ on_birth_child = {
 				}
 			}
 		}
+
+		# Human Assignment
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						is_human = yes
+					}
+					scope:mother = {
+						is_human = yes
+					}
+				}
+			}
+			add_trait = human
+		}
+
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						scope:real_father = {
+							is_human = no
+							is_half_elf = yes
+						}
+						scope:mother = {
+							is_human = yes
+							is_half_elf = no
+						}
+					}
+					AND = {
+						scope:real_father = {
+							is_human = yes
+							is_half_elf = no
+						}
+						scope:mother = {
+							is_human = no
+							is_half_elf = yes
+						}
+					}
+				}
+			}
+			random_list = {
+				50 = {
+					add_trait = human
+				}
+				50 = {
+					add_trait = half_elf
+				}
+			}
+		}
+
 
 		# ELves Assignment
 		if = {
