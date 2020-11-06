@@ -597,3 +597,43 @@ pog_become_a_god.1004 = {
 		}
 	}
 }
+
+pog_become_a_god.1005 = {
+	type = character_event
+	title = pog_become_a_god.1005.t
+	desc = pog_become_a_god.1005.desc
+	theme = crown
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	option = {
+		name = pog_become_a_god.1005.a
+
+		add_trait = fallen_deity
+		add_trait = god_of_darkness_1
+
+		add_character_flag = { flag = pog_godhood_acquired }
+
+		trigger_event = {
+			id = pog_religion_culture.2000
+			days = 30
+		}
+	}
+
+	option = {
+		name = pog_become_a_god.1005.a
+
+		add_trait = pure_deity
+		add_trait = god_of_light_1
+
+		add_character_flag = { flag = pog_godhood_acquired }
+
+		trigger_event = {
+			id = pog_religion_culture.1000
+			days = 30
+		}
+	}
+}

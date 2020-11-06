@@ -1,4 +1,4 @@
-namespace = pog_changeling_birth
+﻿namespace = pog_changeling_birth
 
 pog_changeling_birth.0001 = {
     type = empty

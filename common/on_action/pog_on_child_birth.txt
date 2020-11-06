@@ -5,8 +5,8 @@
 # scope:real_father is the biological father
 # scope:is_bastard, true if a known bastard
 on_birth_child = {
-	events = {
-		# pog_changeling_birth.0001
+	random_events = {
+		10 = pog_changeling_birth.0001
 	}
 	effect = {
 		if = {

@@ -1,0 +1,12 @@
+﻿pog_ascension_type = {
+	default = lore_pog_ascension_type
+
+	lore_pog_ascension_type = {
+	}
+	
+	quick_pog_ascension_type = {
+	}
+
+    off_pog_ascension_type = {
+	}
+}
