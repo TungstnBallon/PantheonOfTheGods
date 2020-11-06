@@ -9,3 +9,13 @@
     name = "dynn_Tal_Ferres"
 	culture = "aos_si"
 }
+
+90000 = {
+    name = "dynn_of_Cerew"
+	culture = "occitan"
+}
+
+90001 = {
+    name = "dynn_of_Antony"
+	culture = "italian"
+}

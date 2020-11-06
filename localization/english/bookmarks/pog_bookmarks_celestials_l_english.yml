@@ -1,0 +1,43 @@
+﻿l_english:
+ bm_867_celestials:0 "The Celestial Eclipse"
+ bm_867_celestials_desc:0 "For centuries, the celestial deities have fought each other in the heavens, not daring to step into the mortal world for fear of the destruction they could wreak. However, Lucifer the Morning star has begun to spread his insidious influence in the mortal plane, supplanting the roots of traditional Christianity. Michael, the archangel must respond in kind.\n\n#bold Will you work for the prince of darkness himself? Or seek the coming of the dawn on the wings of angels?#"
+
+ bm_867_aelven_civil_war:0 "A War of Slaves"
+ bm_867_aelven_civil_war_desc:0 "Aëlves have stepped through planar gates. Having arrived only a few years earlier, they have already brought their war and strife with them. The civil war that raged the plains of Avalon has now been taken up again, a war of the old against the new arises once more. Who even knows why the Courts of the Fae let the Aëlves leave their homesteads, perhaps their plans stretch beyond the plane of Annwfn and into the mortal realm?\n\n#bold Many trials await, mothers will weep and fathers cry out for their children. The fates have yet to determine who will reign superior and inherit the world of mortals...#"
+
+ bm_867_the_old_gods:0 "Return of the Old Gods"
+ bm_867_the_old_gods_desc:0 "Millenia ago, the ancient gods of Tyre, Egypt and the Levant held the ancient world in the palm of their hands. Civilizations rose and fell at their whims. Nobody knows why they disappeared though one thing is for sure, they have returned. In the east the ancient gods of Egypt rise again, unlike others the old gods have no home other than the mortal plane, and they lay dominion over it.\n\n#bold The Old Gods rise again, they lay a curse upon the living, for the sands will rise once more and engulf the civilizations of man. Those who do not bend the knee shall be ground to dust...#"
+
+ bookmark_aelven_civil_war_aelduin:0 "Ældüin the Cursed"
+ bookmark_aelven_civil_war_aelduin_desc:0 "Once a great sorcerer and leader himself, the now cursed Ældüin has fled the plane of Annwfn running from the ire of his once beloved brother. Ældüin seeks to rebuild the mortal plane in his image, creating a new Annwfn with him as a God over it all."
+
+ bookmark_aelven_civil_war_ortalan:0 "Ör'Talån, High King of Alåeyría"
+ bookmark_aelven_civil_war_ortalan_desc:0 "The devout and strict king of the Aëlves of Annwfn, Ör'Talån seeks to purify and purge the mortal world and with it his brother as well. Only then shall he return to the storied halls of Alåeyría to once again bask in his supernal glory once more. Only after all rebellion has been quelled."
+
+ #Jean Cerew
+ bookmark_celestials_jean_cerew:0 "Jean Cerew"
+ bookmark_celestials_jean_cerew_desc:0 "A man ahead of his time, the count Jean Cerew of southern France is an adept occultist universally reviled by the devout Catholics that surround him. However with his ardent thirst for knowledge Jean has recently stumbled on the Lemegeton, and ancient occult grimoire from the days of Solomon. With this new found power Cerew has banded himself with the forces of darkness. He moves ever forward with the promise that his dynasty shall lead the world into a terrible darkness..."
+
+ #Marcus Antony
+ bookmark_celestials_marcus_antony:0 "Marcus Antony"
+ bookmark_celestials_marcus_antony_desc:0 "Named after the famed member of the Roman triumvirate, Marcus is a true son of the light. Borne to an adulteress out of wedlock, the illegitimate child inherited nothing but the grace of God. Being a devout Catholic for many years, Marcus rose through the ranks of the church. \n It wasn't until his late thirties that the priest was visited by the archangel Michael. He has been tasked with bringing darkness and the forces of Lucifer low, and grinding them into dust underneath the heals of light!"
+
+ #EVENTS
+ bookmark.0101.t:0 "What's in a Name?"
+ bookmark.0101.desc_intro:0 "For generations [hausaland.GetNameNoTier] has been ruled by the Magajiya, a line of matriarchal rulers of which I am the latest.\n\nOur traditions have served us well, but the world is changing. The heroic deeds of my [ROOT.Char.Custom2('RelationToMeShort', bayajidda)] [bayajidda.GetFirstName] have earned him great wealth and respect... though as [bayajidda.GetSheHe] hails from distant lands, [bayajidda.GetHerHis] successes also portend great change for my people.\n\n"
+ bookmark.0101.desc_living:1 "My son, [bewo.GetTitledFirstName], is the apple of his father's eye. Though a mere babe, I wonder if he will identify more with his adventuring father, or my own traditional legacy?"
+ bookmark.0101.desc_dead:1 "My son, [bewo.GetTitledFirstName], was the apple of his father's eye. Though a mere babe, I wonder if he will identify more with the legend of his adventuring father, or my own traditional legacy?"
+ bookmark.0101.a:1 "[bewo.GetFirstNameNoTooltip] must carry the traditions of the [ROOT.Char.GetCulture.GetNameNoTooltip] into a new age."
+ bookmark.0101.a.tt:1 "[bewo.GetUIName] will become your [player_heir|E]"
+ bookmark.0101.b:1 "My son is my son, whatever his name or culture."
+ bookmark.0101.b.tt:1 "#warning @warning_icon! This option may leave you without a [player_heir|E]!#!"
+ bookmark.0101.c:0 "The Magajiya do not need men to carry on their legacy!"
+ bookmark.0101.c.tt:1 "Your sister [shawata.GetUIName] will remain your [player_heir|E]"
+
+ #WARS
+ war_867_Aghlabid_Conquest_of_Sicily:0 "Aghlabid Conquest of Sicily"
+ war_867_Saffarid_Tahirid_War:0 "Saffarid-Tahirid War"
+ war_867_Reconquest_of_Bari:0 "Reconquest of Bari"
+ war_867_Lothbrok_Invasion_of_East_Anglia:1 "Sons of Loðbrók Invasion of East Anglia"
+ war_867_Lothbrok_Invasion_of_Lothian:1 "Sons of Loðbrók Invasion of Lothian"
+ war_867_Lothbrok_Invasion_of_Northumberland:1 "Sons of Loðbrók Invasion of Northumberland"

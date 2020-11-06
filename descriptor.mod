@@ -8,5 +8,5 @@ tags={
 	"Character Interactions"
 }
 name="Pantheon of the Gods"
-supported_version="1.1.1"
+supported_version="1.1.3"
 remote_file_id="2218562682"

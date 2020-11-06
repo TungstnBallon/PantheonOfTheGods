@@ -1,0 +1,41 @@
+90000 = {
+    name = "Jean Cerew"
+    dna = jean_cerew_custom_dna
+    dynasty = 90000
+    martial = 4
+    diplomacy = 3
+    intrigue = 4
+    stewardship = 5
+    learning = 15
+    religion = fallen_abrahamic_pantheon
+    culture = occitan
+    trait = education_learning_3
+    trait = jealous
+    trait = diligent
+    trait = zealous
+
+    834.1.1 = {
+        birth = yes
+    }
+}
+
+90001 = {
+    name = "Marcus Antony"
+    dna = marcus_antony_custom_dna
+    dynasty = 90001
+    martial = 15
+    diplomacy = 3
+    intrigue = 4
+    stewardship = 5
+    learning = 3
+    religion = pure_abrahamic_pantheon
+    culture = italian
+    trait = education_martial_3
+    trait = humble
+    trait = diligent
+    trait = zealous
+
+    830.1.1 = {
+        birth = yes
+    }
+}
