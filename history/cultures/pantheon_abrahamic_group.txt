@@ -9,7 +9,6 @@
 	discover_innovation = innovation_currency_01
 	discover_innovation = innovation_crop_rotation
 	discover_innovation = innovation_ledger
-	discover_innovation = innovation_divine_infantry
 
     join_era = culture_era_early_medieval
 }
