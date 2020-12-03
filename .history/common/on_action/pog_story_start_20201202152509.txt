@@ -1,0 +1,24 @@
+﻿war_in_heavens = {
+   effect = {
+       every_living_character = {
+           limit = {
+               current_date <= 867.2.1
+           }
+           trigger_event = {
+               id = pog_war_in_heavens.0001
+               days = 25
+           }
+       }
+   }
+}
+
+war_in_heavens_war = {
+    # trigger = {
+    #     current_date <= 867.1.26
+    # }
+
+    events = {
+        delay = { days = 25 }
+        pog_war_in_heavens.0001
+    }
+}

@@ -1,0 +1,5 @@
+k_demonic_supplicants = {
+    867.1.1 = {
+		holder = 90000
+	}
+}

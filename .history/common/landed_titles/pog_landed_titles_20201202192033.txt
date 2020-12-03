@@ -24,24 +24,28 @@ k_pandaemonium = {
 	de_jure_drift_disabled = yes
 }
 
-e_demonic_supplicants = {
-    color = { 0 0 0 }
-	color2 = { 0 0 0 }
+k_demonic_supplicants = {
+    color = { 255 249 198 }
+	color2 = { 220 220 0 }
 	definite_form = yes
 	ruler_uses_title_name = no
+	landless = yes
 
 	destroy_if_invalid_heir = no
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
 }
 
-e_heavenly_supplicants = {
-    color = { 255 255 255 }
-	color2 = { 255 220 220 }
+k_heavenly_supplicants = {
+    color = { 255 249 198 }
+	color2 = { 220 220 0 }
 	definite_form = yes
 	ruler_uses_title_name = no
+	landless = yes
 
 	destroy_if_invalid_heir = no
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
 }

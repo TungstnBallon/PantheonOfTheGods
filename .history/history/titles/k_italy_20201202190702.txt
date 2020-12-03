@@ -4118,7 +4118,6 @@ d_toscana = {
 	
 	713.1.1 = {
 		# liege = k_italy
-		liege = e_heavenly_supplicants
 	}
 	713.1.1 = {
 		holder = 190278
@@ -4145,7 +4144,7 @@ d_toscana = {
 		holder = lombard0148 # Agano
 	}
 	846.1.1 = {
-		liege = e_heavenly_supplicants
+		liege = k_heavenly_supplicants
 		holder = 90001 # Marcus Antony
 	}
 	884.1.1 = {

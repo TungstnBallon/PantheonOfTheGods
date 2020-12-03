@@ -1,0 +1,41 @@
+namespace = pog_war_in_heavens
+
+pog_war_in_heavens.0001 = {
+	type = character_event
+	title = pog_war_in_heavens.0001.t
+	theme = realm
+	left_portrait = root.faith.religious_head
+	right_portrait = root
+
+	if = {
+		limit = {
+			root = character:90001
+		}
+		desc = pog_war_in_heavens.0001.b.desc
+	}
+	if = {
+		limit = {
+			root = character:90000
+		}
+		desc = pog_war_in_heavens.0001.c.desc
+	}
+	else = {
+		desc = pog_war_in_heavens.0001.a.desc
+	}
+
+	option = {
+		name = pog_war_in_heavens.0001.a
+
+		trigger = {
+			is_christian_trigger = yes
+		}
+	}
+
+	option = {
+		name = pog_war_in_heavens.0001.b
+
+		trigger = {
+			is_christian_trigger = no
+		}
+	}
+}

@@ -1,0 +1,254 @@
+namespace = pog_war_in_heavens
+
+pog_war_in_heavens.0001 = {
+	type = character_event
+	title = pog_war_in_heavens.0001.t
+	theme = realm
+	left_portrait = root.faith.religious_head
+	right_portrait = root
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					root = character:90000
+				}
+				desc = pog_war_in_heavens.0001.b.desc
+			}
+			triggered_desc = {
+				trigger = {
+					root = character:90001
+				}
+				desc = pog_war_in_heavens.0001.c.desc
+			}
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						root = character:90000
+						root = character:90001
+					}
+				}
+				desc = pog_war_in_heavens.0001.a.desc
+			}
+		}
+	}
+
+	option = {
+		name = {
+			trigger = { is_christian_trigger = yes }
+			text = pog_war_in_heavens.0001.a
+		}
+
+		name = {
+			trigger = { is_christian_trigger = no }
+			text = pog_war_in_heavens.0001.b
+		}
+
+		trigger = {
+			NOR = {
+				root = character:90000
+				root = character:90001
+			}
+		}
+
+		trigger_event = {
+			id = pog_war_in_heavens.0002
+			days = 5
+		}
+	}
+
+	option = {
+		name = pog_war_in_heavens.0001.c
+
+		trigger = {
+			root = character:90000
+		}
+
+		trigger_event = {
+			id = pog_war_in_heavens.0003
+			days = 5
+		}
+
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = pog_war_in_heavens.0001.d
+
+		trigger = {
+			root = character:90001
+		}
+
+		trigger_event = {
+			id = pog_war_in_heavens.0004
+			days = 5
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+pog_war_in_heavens.0002 = {
+	type = character_event
+	title = pog_war_in_heavens.0002.t
+	theme = war
+	left_portrait = root.faith.religious_head
+	right_portrait = root
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					is_christian_trigger = yes
+				}
+				desc = pog_war_in_heavens.0002.a.desc
+			}
+			triggered_desc = {
+				trigger = {
+					is_christian_trigger = no
+				}
+				desc = pog_war_in_heavens.0002.b.desc
+			}
+		}
+	}
+
+	option = {
+		name = pog_war_in_heavens.0002.a
+
+		trigger = {
+			is_christian_trigger = yes
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = pog_war_in_heavens.0002.b
+
+		trigger = {
+			is_christian_trigger = no
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+pog_war_in_heavens.0003 = {
+	type = character_event
+	title = pog_war_in_heavens.0003.t
+	theme = war
+	left_portrait = root.faith.religious_head
+	right_portrait = root
+
+	desc = pog_war_in_heavens.0003.desc
+
+	option = {
+		name = pog_war_in_heavens.0003.a
+
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = {
+				type = horse_archers
+				stacks = 100
+			}
+			levies = 5000
+			location = capital_province
+			uses_supply = no
+		}
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 20000
+			location = capital_province
+			uses_supply = no
+		}
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 20000
+			location = capital_province
+			uses_supply = no
+		}
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 20000
+			location = capital_province
+			uses_supply = no
+		}
+
+		character:90000 = {
+			start_war = {
+				cb = directed_great_holy_war
+				target = character:90104
+				target_title = k_aquitaine
+			}
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+pog_war_in_heavens.0004 = {
+	type = character_event
+	title = pog_war_in_heavens.0004.t
+	theme = war
+	left_portrait = root.faith.religious_head
+	right_portrait = root
+
+	desc = pog_war_in_heavens.0004.desc
+
+	option = {
+		name = pog_war_in_heavens.0004.a
+
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = {
+				type = pure_divine_infantry
+				stacks = 100
+			}
+			levies = 5000
+			location = capital_province
+			uses_supply = no
+		}
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 20000
+			location = capital_province
+			uses_supply = no
+		}
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 20000
+			location = capital_province
+			uses_supply = no
+		}
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 20000
+			location = capital_province
+			uses_supply = no
+		}
+
+		character:90001 = {
+			start_war = {
+				cb = directed_great_holy_war
+				target = character:30228
+				# target = k_italy.holder
+				target_title = k_italy
+			}
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}
