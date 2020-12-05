@@ -1,0 +1,7 @@
+3.0:
+    * Added two new characters to simulate a war in the heavens on the side of the Celestials
+    * Added a gamerule to fascilitate what kind of divine ascension if any you want to experience
+    * Added 108 new Men at Arms six for each side (pure/fallen) can only be recruited if you have a God culture and you have unlocked the culture innovation (should take about 15 years)
+    * Added new bookmarks and removed vanilla ones, you should only be able to start in the 867 bookmark for now.
+    * Added a new questline centered around the celestial conflict between Jean Cerew and Marcus Antony
+    * Added new race traits which will fascilitate the many races to be added soon (e.g Vampyrs, Shapeshifters, Changelings, Dwarves, Halflings, Werewolves and more)

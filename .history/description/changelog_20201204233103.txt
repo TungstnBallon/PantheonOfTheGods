@@ -6,5 +6,4 @@
     * Added a new questline centered around the celestial conflict between Jean Cerew and Marcus Antony.
     * Added new race traits which will fascilitate the many races to be added soon (e.g Vampyrs, Shapeshifters, Changelings, Dwarves, Halflings, Werewolves and more)
     * Restructured the ways religions work, now instead of strict pure vs. fallen boundaries, your faiths are based on a particular pantheon or plane of existence. (e.g Celtic pantheons are all one religion with two default opposing faiths. This also means you can create your own faith in the culture type as well as possible new faiths as story events are added.)
-    * Super secret easter egg events related to various supernatural things ;)
     * Finished religion localization

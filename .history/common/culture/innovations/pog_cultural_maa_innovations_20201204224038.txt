@@ -8,7 +8,9 @@ innovation_pure_abrahamic_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:pure_abrahamic
+        OR = {
+            this = culture:pure_abrahamic
+        }
     }
 
     unlock_maa = pure_abrahamic_divine_infantry
@@ -27,7 +29,10 @@ innovation_fallen_celtic_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:fallen_abrahamic
+        AND = {
+            this = culture:fallen_abrahamic
+            this = faith:fallen_abrahamic_pantheon
+        }
     }
 
     unlock_maa = fallen_abrahamic_divine_infantry
@@ -47,7 +52,10 @@ innovation_pure_celtic_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:pure_celtic
+        AND = {
+            this = culture:pure_celtic
+            this = faith:pure_celtic_pantheon
+        }
     }
 
     unlock_maa = pure_celtic_divine_infantry
@@ -66,7 +74,10 @@ innovation_fallen_celtic_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:fallen_celtic
+        AND = {
+            this = culture:fallen_celtic
+            this = faith:fallen_celtic_pantheon
+        }
     }
 
     unlock_maa = fallen_celtic_divine_infantry
@@ -86,7 +97,10 @@ innovation_pure_hellenic_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:pure_hellenic
+        AND = {
+            this = culture:pure_hellenic
+            this = faith:pure_hellenic_pantheon
+        }
     }
 
     unlock_maa = pure_hellenic_divine_infantry
@@ -105,7 +119,10 @@ innovation_fallen_hellenic_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:fallen_hellenic
+        AND = {
+            this = culture:fallen_hellenic
+            this = faith:fallen_hellenic_pantheon
+        }
     }
 
     unlock_maa = fallen_hellenic_divine_infantry
@@ -125,7 +142,10 @@ innovation_pure_slavic_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:pure_slavic
+        AND = {
+            this = culture:pure_slavic
+            this = faith:pure_slavic_pantheon
+        }
     }
 
     unlock_maa = pure_slavic_divine_infantry
@@ -144,7 +164,10 @@ innovation_fallen_slavic_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:fallen_slavic
+        AND = {
+            this = culture:fallen_slavic
+            this = faith:fallen_slavic_pantheon
+        }
     }
 
     unlock_maa = fallen_slavic_divine_infantry
@@ -164,7 +187,10 @@ innovation_pure_norse_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:pure_norse
+        AND = {
+            this = culture:pure_norse
+            this = faith:pure_norse_pantheon
+        }
     }
 
     unlock_maa = pure_norse_divine_infantry
@@ -183,7 +209,10 @@ innovation_fallen_norse_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:fallen_norse
+        AND = {
+            this = culture:fallen_norse
+            this = faith:fallen_norse_pantheon
+        }
     }
 
     unlock_maa = fallen_norse_divine_infantry
@@ -203,7 +232,10 @@ innovation_pure_eastern_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:pure_eastern
+        AND = {
+            this = culture:pure_eastern
+            this = faith:pure_eastern_pantheon
+        }
     }
 
     unlock_maa = pure_eastern_divine_infantry
@@ -222,7 +254,10 @@ innovation_fallen_eastern_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:fallen_eastern
+        AND = {
+            this = culture:fallen_eastern
+            this = faith:fallen_eastern_pantheon
+        }
     }
 
     unlock_maa = fallen_eastern_divine_infantry
@@ -242,7 +277,10 @@ innovation_pure_hindu_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:pure_hindu
+        AND = {
+            this = culture:pure_hindu
+            this = faith:pure_hindu_pantheon
+        }
     }
 
     unlock_maa = pure_hindu_divine_infantry
@@ -261,7 +299,10 @@ innovation_fallen_hindu_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:fallen_hindu
+        AND = {
+            this = culture:fallen_hindu
+            this = faith:fallen_hindu_pantheon
+        }
     }
 
     unlock_maa = fallen_hindu_divine_infantry
@@ -281,7 +322,10 @@ innovation_pure_egyptian_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:pure_egyptian
+        AND = {
+            this = culture:pure_egyptian
+            this = faith:pure_egyptian_pantheon
+        }
     }
 
     unlock_maa = pure_egyptian_divine_infantry
@@ -300,7 +344,10 @@ innovation_fallen_egyptian_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:fallen_egyptian
+        AND = {
+            this = culture:fallen_egyptian
+            this = faith:fallen_egyptian_pantheon
+        }
     }
 
     unlock_maa = fallen_egyptian_divine_infantry
@@ -320,7 +367,10 @@ innovation_pure_persian_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:pure_persian
+        AND = {
+            this = culture:pure_persian
+            this = faith:pure_persian_pantheon
+        }
     }
 
     unlock_maa = pure_persian_divine_infantry
@@ -339,7 +389,10 @@ innovation_fallen_persian_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:fallen_persian
+        AND = {
+            this = culture:fallen_persian
+            this = faith:fallen_persian_pantheon
+        }
     }
 
     unlock_maa = fallen_persian_divine_infantry
@@ -359,7 +412,10 @@ innovation_pure_african_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:pure_african
+        AND = {
+            this = culture:pure_african
+            this = faith:pure_african_pantheon
+        }
     }
 
     unlock_maa = pure_african_divine_infantry
@@ -378,7 +434,10 @@ innovation_fallen_african_divine_armies = {
     icon = @special_maa_02
 
     potential = {
-        this = culture:fallen_african
+        AND = {
+            this = culture:fallen_african
+            this = faith:fallen_african_pantheon
+        }
     }
 
     unlock_maa = fallen_african_divine_infantry

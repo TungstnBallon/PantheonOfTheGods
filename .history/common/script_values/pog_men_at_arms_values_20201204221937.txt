@@ -1,0 +1,7 @@
+﻿pure_abrahamic_divine_infantry_recruitment_cost = 500
+pure_abrahamic_divine_infantry_low_maint_cost = 4
+pure_abrahamic_divine_infantry_high_maint_cost = 6
+
+fallen_abrahamic_divine_infantry_recruitment_cost = 500
+fallen_abrahamic_divine_infantry_low_maint_cost = 4
+fallen_abrahamic_divine_infantry_high_maint_cost = 6

@@ -1,0 +1,71 @@
+﻿pure_abrahamic_divine_infantry_recruitment_cost = 500
+pure_abrahamic_divine_infantry_low_maint_cost = 4
+pure_abrahamic_divine_infantry_high_maint_cost = 6
+
+fallen_abrahamic_divine_infantry_recruitment_cost = 500
+fallen_abrahamic_divine_infantry_low_maint_cost = 4
+fallen_abrahamic_divine_infantry_high_maint_cost = 6
+
+pure_african_divine_infantry_recruitment_cost = 500
+pure_african_divine_infantry_low_maint_cost = 4
+pure_african_divine_infantry_high_maint_cost = 6
+
+fallen_african_divine_infantry_recruitment_cost = 500
+fallen_african_divine_infantry_low_maint_cost = 4
+fallen_african_divine_infantry_high_maint_cost = 6
+
+pure_celtic_divine_infantry_recruitment_cost = 500
+pure_celtic_divine_infantry_low_maint_cost = 4
+pure_celtic_divine_infantry_high_maint_cost = 6
+
+fallen_celtic_divine_infantry_recruitment_cost = 500
+fallen_celtic_divine_infantry_low_maint_cost = 4
+fallen_celtic_divine_infantry_high_maint_cost = 6
+
+pure_eastern_divine_infantry_recruitment_cost = 500
+pure_eastern_divine_infantry_low_maint_cost = 4
+pure_eastern_divine_infantry_high_maint_cost = 6
+
+fallen_eastern_divine_infantry_recruitment_cost = 500
+fallen_eastern_divine_infantry_low_maint_cost = 4
+fallen_eastern_divine_infantry_high_maint_cost = 6
+
+pure_hellenic_divine_infantry_recruitment_cost = 500
+pure_hellenic_divine_infantry_low_maint_cost = 4
+pure_hellenic_divine_infantry_high_maint_cost = 6
+
+fallen_hellenic_divine_infantry_recruitment_cost = 500
+fallen_hellenic_divine_infantry_low_maint_cost = 4
+fallen_hellenic_divine_infantry_high_maint_cost = 6
+
+pure_hindu_divine_infantry_recruitment_cost = 500
+pure_hindu_divine_infantry_low_maint_cost = 4
+pure_hindu_divine_infantry_high_maint_cost = 6
+
+fallen_hindu_divine_infantry_recruitment_cost = 500
+fallen_hindu_divine_infantry_low_maint_cost = 4
+fallen_hindu_divine_infantry_high_maint_cost = 6
+
+pure_norse_divine_infantry_recruitment_cost = 500
+pure_norse_divine_infantry_low_maint_cost = 4
+pure_norse_divine_infantry_high_maint_cost = 6
+
+fallen_norse_divine_infantry_recruitment_cost = 500
+fallen_norse_divine_infantry_low_maint_cost = 4
+fallen_norse_divine_infantry_high_maint_cost = 6
+
+pure_persian_divine_infantry_recruitment_cost = 500
+pure_persian_divine_infantry_low_maint_cost = 4
+pure_persian_divine_infantry_high_maint_cost = 6
+
+fallen_persian_divine_infantry_recruitment_cost = 500
+fallen_persian_divine_infantry_low_maint_cost = 4
+fallen_persian_divine_infantry_high_maint_cost = 6
+
+pure_slavic_divine_infantry_recruitment_cost = 500
+pure_slavic_divine_infantry_low_maint_cost = 4
+pure_slavic_divine_infantry_high_maint_cost = 6
+
+fallen_slavic_divine_infantry_recruitment_cost = 500
+fallen_slavic_divine_infantry_low_maint_cost = 4
+fallen_slavic_divine_infantry_high_maint_cost = 6
