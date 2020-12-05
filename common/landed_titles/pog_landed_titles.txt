@@ -45,3 +45,15 @@ e_heavenly_supplicants = {
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 }
+
+d_thurimos = {
+	color = { 105 105 105 }
+	color2 = { 105 105 105 }
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	destroy_if_invalid_heir = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}

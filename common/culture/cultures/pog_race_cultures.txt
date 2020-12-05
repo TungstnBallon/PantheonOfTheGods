@@ -55,3 +55,63 @@
         }
     }
 }
+
+dwezgaz_group = {
+    graphical_cultures = {
+        western_coa_gfx
+        western_building_gfx
+        western_clothing_gfx
+        western_unit_gfx
+    }
+
+    arakhuth = {
+        color = { 0.00 0.55 0.00 }
+
+        graphical_cultures = {
+            scottish_coa_gfx
+            northern_clothing_gfx
+        }
+
+        male_names = {
+            Dhozmaic Bruddic Reingrad Bosoug Jalgrel Silmaeg Arakhuth Groorroug Brasulir Dunmuk Gloritgreat Thrasoud Douddam Thubeath Broumdeal Bemdock Gruberlig 
+            Khustick Thorbonlim Thafouk Lussoc Govratin Sirneat Sideck Ruruth Thrasgrud Brastaeck Reinaet Brukdrouck Dorareck Koloun Sangroun Detdran Modrok Groovrem 
+            Noralatin Haddarlig Goznoun Muldraeg Fonmaer Lomomri Thrornoir Groggoug Khoulgror Arammarlun Volmak Nuramorlim Fothear Snataet Erirfour Whundoid Thuzeth 
+            Skotgraen Mufrun Dourgrok Doufrerlum Grurrak Yukgron Krorhaeg Durikgratir Fokdroick Silgorlim Narsim Khougrolin Broted Hukrumi Noraldrot Thernuli Toredoick 
+        }
+
+        female_names = {
+            Oridmubelynn Nurawotaine Kromraelda Dormatrude Thumrugith Savealine Vanakara Whuwokara Tuluda Skodgruhilda Morhakara Khutoudeth Torefroutelin Rululine Thisseatelyn 
+            Grogretalyn Saghuibelyn Khukhobelynn Dworobera Thulgregaer Houbobyrn Dhogrirgith Loddulda Gamnubella Sirebera Wergrebelynn Rugnuhilda Nonongrid Barirhula Hurearra
+            Khuldrawynn Thethobo Umidmaetrud Oridmalsia Whurnedrid Norakuthra Foznihilda Kozmunelynn Oritdrahilda Krothealsia Grugnaenelyn Nanwealynn Skatraesli Berhusli Kotmemora 
+            Hukgruibelyn Kothoulyn Dalokgringrid Jarhaetalyn Thratgrolda Hedreserd Salgini Simnubera Thuldrerika Grawoda Sisurika Burdeala Banmalyn Weralgraebelyn Thilgenelynn Kandolyn 
+        }
+
+        dynasty_names = {
+			"dynn_Immortalitrix"
+            "dynn_Berylhand"
+            "dynn_Merryriver"
+            "dynn_Icemantle"
+            "dynn_Bloodbender"
+		}
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+           100 = race_dwezgaz
+        }
+    }
+}
