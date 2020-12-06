@@ -1,11 +1,16 @@
 is_human_culture = {
     NAND = {
         has_culture = culture:aos_si
+        has_culture = culture:arakhuth
     }
 }
 
 is_elven_culture = {
     has_culture = culture:aos_si
+}
+
+is_dwezgaz_culture = {
+    has_culture = culture:arakhuth
 }
 
 is_elf = {

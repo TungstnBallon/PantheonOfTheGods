@@ -9,3 +9,8 @@ attempted_discipleship = {
 attempted_divine_conception = {
 	icon = intrigue_positive
 }
+
+attempted_divine_pregnancy = {
+	icon = health_negative
+	health = -0.15
+}

@@ -3,10 +3,20 @@
 
 	lore_pog_ascension_type = {
 	}
-	
+
 	quick_pog_ascension_type = {
 	}
 
-    off_pog_ascension_type = {
+	off_pog_ascension_type = {
+	}
+}
+
+pog_blood_dilution_type = {
+	default = all_blood_dilution
+
+	all_blood_dilution_type = {
+	}
+
+	no_blood_dilution_type = {
 	}
 }
