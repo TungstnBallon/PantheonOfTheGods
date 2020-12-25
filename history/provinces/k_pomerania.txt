@@ -2,8 +2,8 @@
 ##d_pomerania ###################################
 ###c_stettin (c_szczecin)
 2823 = {	#SZCZECZIN
-	culture = pommeranian
-	religion = slavic_pagan
+	culture = aos_si
+	religion = aos_way
 	holding = tribal_holding
 	880.1.1 = {
 		holding = castle_holding
@@ -74,8 +74,8 @@
 
 ###c_cammin (c_kolobrzeg)
 2826 = {	#b_cammin KOLOBRZEG
-	culture = pommeranian
-	religion = slavic_pagan
+	culture = aos_si
+	religion = aos_way
 	holding = tribal_holding
 	950.1.1 = {
 		holding = castle_holding
@@ -121,8 +121,8 @@
 
 ###c_landsberg (c_santok)
 3152 = {	#b_landsberg SANTOK
-	culture = pommeranian
-	religion = slavic_pagan
+	culture = aos_si
+	religion = aos_way
 	holding = tribal_holding
 	1000.1.1 = {
 		holding = castle_holding
@@ -150,8 +150,8 @@
 ##d_pomerelia ###################################
 ###c_danzig (c_gdansk)
 2830 = {	#GDANSK
-	culture = pommeranian
-	religion = slavic_pagan
+	culture = aos_si
+	religion = aos_way
 	holding = tribal_holding
 	985.1.1 = {
 		holding = castle_holding
@@ -223,8 +223,8 @@
 
 ###c_berent (c_swiecie)
 3196 = {	#b_schwetz SWIECIE
-	culture = pommeranian
-	religion = slavic_pagan
+	culture = aos_si
+	religion = aos_way
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding

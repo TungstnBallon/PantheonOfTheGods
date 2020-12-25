@@ -38,6 +38,9 @@ rain_of_fire_perk = {
 
 	parent = betrayer_perk
 
+	character_modifier = {
+		dread_gain_mult = 0.75
+	}
 	effect = {
 		custom_description_no_bullet = {
 			text = rain_of_fire_perk_effect

@@ -11,7 +11,8 @@
 
   # Other: War In Heavens start
   pog_war_in_heavens.0002.t:0 "A War in the Heavens"
-  pog_war_in_heavens.0002.desc:0 "War has come to the lands of God, the pope of the Catholics has declared a holy war on the heretics and the battle for Europe has started. Even now the greatest armies the world has even known have mobilised seeking to destroy the greatest heresy the Catholic church has seen in centuries. \n \n Many will die in the days to come, and the heart and soul of Europe hangs in the balance."
+  pog_war_in_heavens.0002.a.desc:0 "War has come to the lands of God, the pope of the Catholics has declared a holy war on the heretics and the battle for Europe has started. Even now the greatest armies the world has even known have mobilised seeking to destroy the greatest heresy the Catholic church has seen in centuries. \n \n Many will die in the days to come, and the heart and soul of Europe hangs in the balance."
+  pog_war_in_heavens.0002.b.desc:0 "War has come to the lands of God, the pope of the Catholics has declared a holy war on the heretics and the battle for Europe has started. Even now the greatest armies the world has even known have mobilised seeking to destroy the greatest heresy the Catholic church has seen in centuries. \n \n Many will die in the days to come, and the heart and soul of Europe hangs in the balance."
   pog_war_in_heavens.0002.a:0 "Let them come."
   pog_war_in_heavens.0002.b:0 "Ha! Christendom's days are numbered."
     

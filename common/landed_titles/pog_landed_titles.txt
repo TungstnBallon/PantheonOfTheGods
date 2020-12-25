@@ -57,3 +57,27 @@ d_thurimos = {
 	always_follows_primary_heir = yes
 	de_jure_drift_disabled = yes
 }
+
+d_elvhanhan = {
+	color = { 59 122 87 }
+	color2 = { 59 122 87 }
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	destroy_if_invalid_heir = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}
+
+d_ortalan_host = {
+	color = { 17 102 0 }
+	color2 = { 17 102 0 }
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	destroy_if_invalid_heir = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}

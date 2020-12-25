@@ -1,5 +1,5 @@
 ﻿9754320 = {
-    name = "Lyklor"
+    name = "Ældüin"
     dna = lkylor_custom_dna
     dynasty = 97543201
     martial = 10
@@ -50,7 +50,7 @@
 }
 
 9754322 = {
-    name = "Faeranduil"
+    name = "Ör'Talån"
     dna = faeranduil_custom_dna
     dynasty = 97543202
     martial = 6

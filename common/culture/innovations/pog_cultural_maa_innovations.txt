@@ -21,7 +21,7 @@ innovation_pure_abrahamic_divine_armies = {
     flag = global_maa
 }
 
-innovation_fallen_celtic_divine_armies = {
+innovation_fallen_abrahamic_divine_armies = {
     group = culture_group_regional
     culture_era = culture_era_early_medieval
     icon = @special_maa_02

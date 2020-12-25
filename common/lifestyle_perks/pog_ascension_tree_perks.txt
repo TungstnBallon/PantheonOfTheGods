@@ -43,6 +43,9 @@ bringer_of_rain_perk = {
 			text = bringer_of_rain_perk_effect
 		}
 	}
+	character_modifier = {
+		fertility = 0.25
+	}
 }
 
 
