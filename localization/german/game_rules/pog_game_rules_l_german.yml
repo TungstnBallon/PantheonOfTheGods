@@ -1,0 +1,15 @@
+﻿l_german:
+ # Becoming a God Type
+ rule_pog_ascension_type:0 "Becoming a God"
+ setting_lore_pog_ascension_type:0 "Lore-Friendly God Ascension"
+ setting_lore_pog_ascension_type_desc:0 "This is the recommended longer route for becoming a god. (it's lore-friendly and ties into the story)"
+ setting_quick_pog_ascension_type:0 "Instant God Ascension"
+ setting_quick_pog_ascension_type_desc:0 "While unrecommended, we understand if you want to cheat yourself into god-hood."
+ setting_off_pog_ascension_type:0 "No God Ascension"
+ setting_off_pog_ascension_type_desc:0 "Nobody can ascend now, only the already existing gods are present."
+
+ rule_pog_blood_dilution_type:0 "Divine Blood Dilution"
+ setting_all_blood_dilution_type:0 "Blood Dilution"
+ setting_all_blood_dilution_type_desc:0 "When Divine beings have some bedtime fun with mortals you can end up with children who have diluted blood (the default lore-friendly setting)"
+ setting_no_blood_dilution_type:0 "No Blood Dilution"
+ setting_no_blood_dilution_type_desc:0 "Your Divine blood is to strong, no mortal can hold a child, thus all pregnancies with mortals end unexpectedly (useful for games where you want to maintain bloodline purity)"

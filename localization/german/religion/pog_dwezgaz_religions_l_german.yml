@@ -1,0 +1,44 @@
+﻿l_german:
+ rf_dwezgaz:0 "Dwezgaz"
+ honourforge_religion:0 "Honourforge Realms"
+ honourforge_religion_adj:0 "Honourforgers"
+ honourforge_religion_adherent:0 "Honourforger"
+ honourforge_religion_adherent_plural:0 "Honourforgers"
+ honourforge_religion_desc:0 "Though many faiths converge, all Dwezgaz believe in the story of Thurim Honourforge, the first Dwezgaz. He is worshipped as a living deity who through a sacrificial ritual is designated to be reincarnated into a chosen mortal Dwezgaz body. Though many different methods of worship still remain to this day, they all share a reverence for their living god, the rock and soil of the earth and the sanctity and piece of the Undergrowth."
+
+ honourforge:0 "Honourforge"
+ honourforge_adj:0 "Honourforge"
+ honourforge_adherent:0 "Honourforge Mechanist"
+ honourforge_adherent_plural:0 "Honourforge Mechanists"
+ honourforge_desc:0 "The Honourforge Mechanists are those who believe in the formalised worship of the Honourforge through underground rituals of science of technology. It is commonly believed ny those who worship Honourforge that the first Dwezgaz ascended to god-hood through the unique utilisation of arcane technology. Thus the storied machines of the ancestors are studied and passed down through the ages, though the research of immortality is forbidden."
+
+ ####################
+ # Dwezgaz Religions #
+ ####################
+
+ # Pure Dwezgaz complex localization
+ honourforge_religion_high_god_name:0 "Thurim Honourforge"
+ honourforge_religion_high_god_name_possessive:0 "Thurim's"
+ honourforge_religion_high_god_name_alternate:0 "Thurim"
+ honourforge_religion_high_god_name_alternate_possessive:0 "Thurim Honourforge's"
+ honourforge_religion_house_of_worship:0 "Gentarak"
+ honourforge_religion_house_of_worship_plural:0 "Gentaraks"
+ honourforge_religion_religious_symbol:0 "Hammer"
+ honourforge_religion_religious_text:0 "Diary of Thurim"
+ honourforge_religion_religious_head_title:0 "High-Machination-Priest"
+ honourforge_religious_head_title_name:0 "High-Machination-Priest"
+ honourforge_religion_devotee:0 "Mechanist"
+ honourforge_religion_devotee_plural:0 "Mechanists"
+ honourforge_religion_priest_male:0 "Mechanism-Priest"
+ honourforge_religion_priest_male_plural:0 "Mechanism-Priests"
+ honourforge_religion_priest_female:0 "Mechanism-Priest"
+ honourforge_religion_priest_female_plural:0 "Mechanism-Priests"
+ honourforge_religion_priest_alternate_plural:0 "Mechanism-Priest"
+ honourforge_religion_bishop_male:0 "Machination-Priest"
+ honourforge_religion_bishop_male_plural:0 "Machination-Priest"
+ honourforge_religion_divine_realm:0 "Honourforge Sanctum"
+ honourforge_religion_positive_afterlife:0 "Honourforge Sanctum"
+ honourforge_religion_negative_afterlife:0 "Depths Below"
+ honourforge_religion_devil_name:0 "Unceasing Darkness"
+ honourforge_religion_devil_name_possessive:0 "Unceasing Darkness's"
+ honourforge_religion_high_god_name_alternate_possessive:0 "Thurim's"

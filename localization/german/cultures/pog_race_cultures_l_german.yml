@@ -1,0 +1,15 @@
+﻿l_german:
+ # Culture groups
+ elven_group:0 "Aëlven Group"
+ dwezgaz_group:0 "Dwezgaz Group"
+
+ # Cultures
+ aos_si:0 "Aos Sí"
+ aos_si_collective_noun:0 "Aos Sí'i"
+
+ alaeyrian:0 "Alåeyrían"
+ alaeyrian:0_collective_noun:0 "Alåeyrían"
+
+ arakhuth:0 "Arakhuth"
+ arakhuthcollective_noun:0 "Arakhuth'en"
+

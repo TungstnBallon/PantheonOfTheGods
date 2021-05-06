@@ -22,7 +22,7 @@
  trait_demi_goddess:0 "Demi-Goddess"
  trait_demi_deity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the child of a mortal and a god, full of power but weakened by their mortal blood."
  trait_blood_of_gods:0 "Blood of the Gods"
- trait_blood_of_gods_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is imbued by the blood of gods, either through diving blessing or by a distant ancestor."
+ trait_blood_of_gods_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is imbued by the blood of gods, either through divine blessing or by a distant ancestor."
  trait_god_of_light_1:0 "Heir of the Light"
  trait_god_of_light_2:0 "Prince of Light"
  trait_god_of_light_3:0 "Light Incarnate"

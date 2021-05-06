@@ -39,5 +39,9 @@
  pog_become_a_god.1002.t:0 "Apotheosis Reached"
  pog_become_a_god.1002.desc:0 "Finally, after months of preparation I have cultivated my divine power in a way as to make [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] stronger, faster and smarter. In but a few moments [target.GetSheHe] become a deity, a living god in this mortal world. Who can tell what heights I will reach!"
  pog_become_a_god.1002.a:0 "Welcome to the hall of gods."
+ pog_become_a_god.1005.t:0 "Apotheosis Reached"
+ pog_become_a_god.1005.desc:0 "A choice lies before you. You must now decide whether you should walk the path of light or darkness. What will you decide!"
+ pog_become_a_god.1005.a:0 "I shall walk the path of darkness."
+ pog_become_a_god.1005.b:0 "I shall embrace the light!"
 
 
