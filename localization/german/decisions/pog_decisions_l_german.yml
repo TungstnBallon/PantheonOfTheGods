@@ -18,18 +18,15 @@
  # God Ascension
  pog_ascension_decision:0 "In den Himmel aufsteigen"
  pog_ascension_decision_title:0 "In den Himmel aufsteigen"
-
-#HIER GEHTS WEITER!!!!! 
-
-pog_ascension_decision_desc:0 "Seit einiger Zeit hast du über die ätherischen Ebenen nachgedacht. Nach Ihrer Zeit auf der Erde haben Sie erkannt, dass Sie nicht länger Teil der sterblichen Ebene sein wollen. Nachdem du deinem Erben davon erzählt hast, sitzt du still auf der Spitze deines höchsten Turms und nimmst Abschied von der Welt." 
- pog_ascension_decision_confirm:0 "I say goodbye to the mortal plane and ascend."
- pog_ascension_decision_tooltip_effect:0 "You shall rise into the heavens leaving behind all of your earthly possessions and titles."
- pog_ascension_decision_tooltip:0 "Proceeding will cause your heir to succeed you and succession shall take its natural course."
+ pog_ascension_decision_desc:0 "Seit einiger Zeit hast du über die ätherischen Ebenen nachgedacht. Nach deiner Zeit auf Erden hast du erkannt, dass du nicht länger Teil der sterblichen Ebene sein willst. Nachdem du deinem Erben davon erzählt hast, sitzt du still auf der Spitze deines höchsten Turms und nimmst Abschied von der Welt." 
+ pog_ascension_decision_confirm:0 "Ich verabschiede mich von der sterblichen Ebene und steige auf."
+ pog_ascension_decision_tooltip_effect:0 "Du wirst in den Himmel aufsteigen und all deine irdischen Besitztümer und Titel zurücklassen."
+ pog_ascension_decision_tooltip:0 "Wenn du fortfährst, wird dein Erbe die Nachfolge antreten und die Erbfolge wird ihren natürlichen Lauf nehmen."
 
  # Changeling Reveal
- pog_changeling_reveal_decision:0 "Reveal Your True Nature"
- pog_changeling_reveal_decision_title:0 "Reveal Your True Nature"
- pog_changeling_reveal_decision_desc:0 "When the child of your name was born, the Faeries took that mortal being back to Annwfn, however you remain to alter the course of the world for the Faerie realm. Here in the realm of possibility your Faerie nature is feared and reviled. Though should you choose, you can reveal your nature to the world proudly."
- pog_changeling_reveal_decision_confirm:0 "I reveal my true nature as a Change-ling."
- pog_changeling_reveal_decision_tooltip_effect:0 "Your hidden nature as a husk inhabited by a Faerie shall be publicly made known. Be aware, some mortals hate to see the supernatural in their midst."
- pog_changeling_reveal_decision_tooltip:0 "Proceeding will cause you to gain the Change-ling race, removing from you all of your humanity that is left."
+ pog_changeling_reveal_decision:0 "Enthülle deine wahre Natur"
+ pog_changeling_reveal_decision_title:0 "Enthülle deine wahre Natur"
+ pog_changeling_reveal_decision_desc:0 "Als das Kind deines Namens geboren wurde, nahmen die Feen dieses sterbliche Wesen zurück nach Annwfn, doch du bleibst, um den Lauf der Welt für das Feenreich zu verändern. Hier im Reich der Möglichkeiten wird deine feenhafte Natur gefürchtet und geschmäht. Solltest du dich jedoch dafür entscheiden, kannst du deine Natur der Welt mit Stolz offenbaren."
+ pog_changeling_reveal_decision_confirm:0 "Ich offenbare meine wahre Natur als Wechselbalg."
+ pog_changeling_reveal_decision_tooltip_effect:0 "Deine verborgene Natur, als eine von einer Fee bewohnte Hülle, soll öffentlich bekannt gemacht werden. Sei dir bewusst, dass einige Sterbliche es hassen, das Übernatürliche in ihrer Mitte zu sehen."
+ pog_changeling_reveal_decision_tooltip:0 "Wenn du fortfährst, wirst du die Wechselbalg-Rasse erlangen, die dir alle verbliebene Menschlichkeit nimmt."

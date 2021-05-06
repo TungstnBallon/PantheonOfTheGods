@@ -1,7 +1,7 @@
 ﻿l_german:
- pog_conception.0001.t:0 "The Divine Conception"
- pog_conception.0001.desc:0 "For months now I have been cultivating my relation ship with [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] and now [target.GetSheHe] is ready! I visit [target.GetHerHim] in the early hours of the evening, with lust in our eyes we head to the bedroom. Does [target.GetSheHe] know [target.GetSheHe] will be waking in the morning to discover the conception of a divine child?"
- pog_conception.0001.a:0 "We lay together"
- pog_conception.0001.a.tt:0 "I spend a wonderful evening with [target.GetHerHim] one which [target.GetSheHe] will remember forever. After all, I am a god!"
+ pog_conception.0001.t:0 "Die göttliche Empfängnis"
+ pog_conception.0001.desc:0 "Seit Monaten kultiviere ich meine Beziehung zu [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] und jetzt ist [target.GetSheHe] bereit! Ich besuche [target.GetHerHim] in den frühen Abendstunden, mit Lust in den Augen gehen wir ins Schlafzimmer. Weiß [target.GetSheHe], dass [target.GetSheHe] am Morgen aufwachen wird, um die Empfängnis eines göttlichen Kindes zu entdecken?"
+ pog_conception.0001.a:0 "Wir liegen zusammen"
+ pog_conception.0001.a.tt:0 "Ich verbringe einen wunderbaren Abend mit [target.GetHerHim], an den sich [target.GetSheHe] für immer erinnern wird. Immerhin bin ich ein Gott!"
 
 
