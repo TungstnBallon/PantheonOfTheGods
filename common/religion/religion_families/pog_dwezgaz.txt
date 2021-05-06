@@ -1,5 +1,0 @@
-﻿rf_dwezgaz = {
-    graphical_faith = "pagan_gfx"
-    hostility_doctrine = dwezgaz_hostility_doctrine
-    doctrine_background_icon = core_tenet_banner_divine.dds
-}

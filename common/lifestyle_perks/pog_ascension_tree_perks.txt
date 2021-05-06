@@ -164,10 +164,15 @@ lightbringer_perk = {
 		learning = 15
 		monthly_prestige = 5
 	}
+	
+	unlock_mma = pure_abrahamic_divine_infantry
+	
 	effect = {
 		custom_description_no_bullet = {
 			text = lightbringer_perk_effect
 		}
+		
+		unlock_mma = pure_abrahamic_divine_cavalry 
 	}
 }
 

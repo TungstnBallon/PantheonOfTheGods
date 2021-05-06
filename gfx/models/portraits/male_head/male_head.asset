@@ -84,6 +84,7 @@ pdxmesh = {
 		blend_shape = { id = "male_bs_ear_size_max"		type = "blendshapes/male_bs_ear_size_max.mesh" }
 		blend_shape = { id = "male_bs_ear_upper_bend_max"		type = "blendshapes/male_bs_ear_upper_bend_max.mesh" }
 
+		#### RACE BLEND SHAPES ####
 		blend_shape = { id = "male_bs_elf_ears"		type = "blendshapes/male_bs_elf_ears.mesh" }
 
 		blend_shape = { id = "male_bs_eye_corner_depth_min"	type = "blendshapes/male_bs_eye_corner_depth_min.mesh" }
@@ -376,6 +377,7 @@ entity = {
 	attribute = { name = "bs_ear_size_max"					blend_shape = "male_bs_ear_size_max" }
 	attribute = { name = "bs_ear_upper_bend_max"					blend_shape = "male_bs_ear_upper_bend_max" }
 
+	#### RACE BLEND SHAPES ####
 	attribute = { name = "bs_elf_ears"					blend_shape = "male_bs_elf_ears" }
 
 	attribute = { name = "bs_eye_corner_depth_min"				blend_shape = "male_bs_eye_corner_depth_min" }

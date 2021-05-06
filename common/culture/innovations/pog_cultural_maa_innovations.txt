@@ -3,8 +3,8 @@
 
 # Abrahamic MAA
 innovation_pure_abrahamic_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+	culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -22,8 +22,8 @@ innovation_pure_abrahamic_divine_armies = {
 }
 
 innovation_fallen_abrahamic_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -42,8 +42,8 @@ innovation_fallen_abrahamic_divine_armies = {
 
 # Celtic MAA
 innovation_pure_celtic_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -61,8 +61,8 @@ innovation_pure_celtic_divine_armies = {
 }
 
 innovation_fallen_celtic_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -81,8 +81,8 @@ innovation_fallen_celtic_divine_armies = {
 
 # Hellenic MAA
 innovation_pure_hellenic_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -100,8 +100,8 @@ innovation_pure_hellenic_divine_armies = {
 }
 
 innovation_fallen_hellenic_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -120,8 +120,8 @@ innovation_fallen_hellenic_divine_armies = {
 
 # Slavic MAA
 innovation_pure_slavic_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -139,8 +139,8 @@ innovation_pure_slavic_divine_armies = {
 }
 
 innovation_fallen_slavic_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -159,8 +159,8 @@ innovation_fallen_slavic_divine_armies = {
 
 # Norse MAA
 innovation_pure_norse_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -178,8 +178,8 @@ innovation_pure_norse_divine_armies = {
 }
 
 innovation_fallen_norse_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -198,8 +198,8 @@ innovation_fallen_norse_divine_armies = {
 
 # Eastern MAA
 innovation_pure_eastern_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -217,8 +217,8 @@ innovation_pure_eastern_divine_armies = {
 }
 
 innovation_fallen_eastern_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -237,8 +237,8 @@ innovation_fallen_eastern_divine_armies = {
 
 # Hindu MAA
 innovation_pure_hindu_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -256,8 +256,8 @@ innovation_pure_hindu_divine_armies = {
 }
 
 innovation_fallen_hindu_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -276,8 +276,8 @@ innovation_fallen_hindu_divine_armies = {
 
 # Egyptian MAA
 innovation_pure_egyptian_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -295,8 +295,8 @@ innovation_pure_egyptian_divine_armies = {
 }
 
 innovation_fallen_egyptian_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -315,8 +315,8 @@ innovation_fallen_egyptian_divine_armies = {
 
 # Persian MAA
 innovation_pure_persian_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -334,8 +334,8 @@ innovation_pure_persian_divine_armies = {
 }
 
 innovation_fallen_persian_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -354,8 +354,8 @@ innovation_fallen_persian_divine_armies = {
 
 # African MAA
 innovation_pure_african_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {
@@ -373,8 +373,8 @@ innovation_pure_african_divine_armies = {
 }
 
 innovation_fallen_african_divine_armies = {
-    group = culture_group_regional
-    culture_era = culture_era_early_medieval
+    group = culture_group_military
+    culture_era = culture_era_tribal
     icon = @special_maa_02
 
     potential = {

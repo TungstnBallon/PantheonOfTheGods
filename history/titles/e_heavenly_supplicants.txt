@@ -1,5 +1,0 @@
-﻿e_heavenly_supplicants = {
-    841.1.1 = {
-		holder = 90001
-	}
-}

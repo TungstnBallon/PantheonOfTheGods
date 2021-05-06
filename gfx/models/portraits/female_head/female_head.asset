@@ -83,6 +83,9 @@ pdxmesh = {
 		blend_shape = { id = "female_bs_ear_size_max"		type = "blendshapes/female_bs_ear_size_max.mesh" }
 		blend_shape = { id = "female_bs_ear_upper_bend_max"		type = "blendshapes/female_bs_ear_upper_bend_max.mesh" }
 
+		#### RACE BLEND SHAPES ####
+		blend_shape = { id = "female_bs_elf_ears"		type = "blendshapes/female_bs_elf_ears.mesh" }
+
 		blend_shape = { id = "female_bs_eye_corner_depth_min"	type = "blendshapes/female_bs_eye_corner_depth_min.mesh" }
 		blend_shape = { id = "female_bs_eye_corner_depth_max"	type = "blendshapes/female_bs_eye_corner_depth_max.mesh" }
 		blend_shape = { id = "female_bs_eye_corner_height_min"	type = "blendshapes/female_bs_eye_corner_height_min.mesh" }
@@ -95,8 +98,6 @@ pdxmesh = {
 		blend_shape = { id = "female_bs_eye_upper_lid_size_max"		type = "blendshapes/female_bs_eye_upper_lid_size_max.mesh" }
 		blend_shape = { id = "female_bs_eye_upper_lid_droop_min"		type = "blendshapes/female_bs_eye_upper_lid_droop_min.mesh" }
 		blend_shape = { id = "female_bs_eye_upper_lid_droop_max"		type = "blendshapes/female_bs_eye_upper_lid_droop_max.mesh" }
-
-		blend_shape = { id = "female_bs_elf_ears"		type = "blendshapes/female_bs_elf_ears.mesh" }
 
 		blend_shape = { id = "female_bs_forehead_brow_curve_min"		type = "blendshapes/female_bs_forehead_brow_curve_min.mesh" }
 		blend_shape = { id = "female_bs_forehead_brow_curve_max"		type = "blendshapes/female_bs_forehead_brow_curve_max.mesh" }
@@ -376,6 +377,7 @@ entity = {
 	attribute = { name = "bs_ear_size_max"					blend_shape = "female_bs_ear_size_max" }
 	attribute = { name = "bs_ear_upper_bend_max"					blend_shape = "female_bs_ear_upper_bend_max" }
 
+	#### RACE BLEND SHAPES ####
 	attribute = { name = "bs_elf_ears"					blend_shape = "female_bs_elf_ears" }
 
 	attribute = { name = "bs_eye_corner_depth_min"				blend_shape = "female_bs_eye_corner_depth_min" }
@@ -475,6 +477,10 @@ entity = {
 	attribute = { name = "bs_wounded_3"					blend_shape = "female_bs_wounded_3" }
 
 	attribute = { name = "bs_breast_size_max"		blend_shape = "female_bs_neutral" }
+	attribute = { name = "bs_cloak"					blend_shape = "female_bs_neutral" }
+	attribute = { name = "bs_cap"					blend_shape = "female_bs_neutral" }
+	attribute = { name = "bs_crown"					blend_shape = "female_bs_neutral" }
+	attribute = { name = "bs_cap_02"					blend_shape = "female_bs_neutral" }
 
 	#### Face detail blendshapes to go together with decals
 	attribute = { name = "bs_cheek_def_01"					blend_shape = "female_bs_cheek_def_01" }

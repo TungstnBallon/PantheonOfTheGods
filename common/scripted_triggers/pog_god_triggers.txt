@@ -9,6 +9,15 @@
     }
 }
 
+is_adult_deity = {
+    OR = {
+        has_trait = fallen_deity
+        has_trait = pure_deity
+        has_trait = elder_fallen_deity
+        has_trait = elder_pure_deity
+    }
+}
+
 is_pure = {
     OR = {
         has_trait = pure_deity
@@ -17,10 +26,24 @@ is_pure = {
     }
 }
 
+is_adult_pure = {
+    OR = {
+        has_trait = pure_deity
+        has_trait = elder_pure_deity
+    }
+}
+
 is_fallen = {
     OR = {
         has_trait = fallen_deity
         has_trait = young_fallen_deity
+        has_trait = elder_fallen_deity
+    }
+}
+
+is_adult_fallen = {
+    OR = {
+        has_trait = fallen_deity
         has_trait = elder_fallen_deity
     }
 }
@@ -43,3 +66,28 @@ is_immortal_being = {
         has_trait = demi_deity
     }
 }
+
+is_ascended = {
+	OR = {
+		AND = {
+			has_perk = god_rankup_dark_legions
+			has_perk = god_rankup_sanguine_consumption
+		}
+		AND = {
+			has_perk = god_rankup_ascension
+			has_perk = god_rankup_renewal
+		}
+	}
+}
+
+is_pure_ascended = {
+	has_perk = god_rankup_ascension
+	has_perk = god_rankup_renewal
+}
+
+is_fallen_ascended = {
+	has_perk = god_rankup_dark_legions
+	has_perk = god_rankup_sanguine_consumption
+}
+
+
