@@ -1,24 +1,27 @@
 ﻿l_german:
  # Becoming a God - Lore
- pog_become_a_god_decision:0 "Becoming a God"
- pog_become_a_god_decision_title:0 "Becoming a God"
- pog_become_a_god_decision_desc:0 "For some time you have thought about your life, and you know you need to seek change and move forward. The voices in your head you have heard since you were young grow louder and stronger as you seek to move down this path."
- pog_become_a_god_decision_confirm:0 "I shall sit and meditate."
- pog_become_a_god_decision_tooltip_effect:0 "You shall receive the start of the Strange Whispers in the Night event chain in about 7 days."
+ pog_become_a_god_decision:0 "Zum Gott werden"
+ pog_become_a_god_decision_title:0 "Zum Gott werden"
+ pog_become_a_god_decision_desc:0 "Seit einiger Zeit haben du über dein Leben nachgedacht und du weißt, dass du eine Veränderung anstrebst und vorwärts gehen musst. Die Stimmen in deinem Kopf, die du seit deiner Jugend gehört hast, werden lauter und stärker, während du versuchst, diesen Weg einzuschlagen."
+ pog_become_a_god_decision_confirm:0 "Ich werde sitzen und meditieren."
+ pog_become_a_god_decision_tooltip_effect:0 "Du erhälst in ca. 7 Tagen den Start der Ereigniskette 'Seltsames Flüstern in der Nacht'."
  pog_become_a_god_decision_tooltip:0 "Proceeding will give you the chance to become a deity, whether it be pure or fallen."
 
  # Becoming a God - Quick
- pog_quick_become_a_god_decision:0 "Becoming a God"
- pog_quick_become_a_god_decision_title:0 "Becoming a God"
- pog_quick_become_a_god_decision_desc:0 "For some time you have thought about your life, and you know you need to seek change and move forward. The voices in your head you have heard since you were young grow louder and stronger as you seek to move down this path."
- pog_quick_become_a_god_decision_confirm:0 "I shall sit and meditate."
- pog_quick_become_a_god_decision_tooltip_effect:0 "You shall meditate then receive a decision instantly to become a God."
- pog_quick_become_a_god_decision_tooltip:0 "Proceeding will give you the chance to become a deity, whether it be pure or fallen."
+ pog_quick_become_a_god_decision:0 "Zum Gott werden"
+ pog_quick_become_a_god_decision_title:0 "Zum Gott werden"
+ pog_quick_become_a_god_decision_desc:0 "Seit einiger Zeit haben du über dein Leben nachgedacht und du weißt, dass du eine Veränderung anstrebst und vorwärts gehen musst. Die Stimmen in deinem Kopf, die du seit deiner Jugend gehört hast, werden lauter und stärker, während du versuchst, diesen Weg einzuschlagen."
+ pog_quick_become_a_god_decision_confirm:0 "Ich werde sitzen und meditieren."
+ pog_quick_become_a_god_decision_tooltip_effect:0 "Du wirst meditieren und dann sofort die Entscheidung erhalten, ein Gott zu werden."
+ pog_quick_become_a_god_decision_tooltip:0 "Wenn du fortfährst, hast du die Chance, eine Gottheit zu werden, egal ob sie rein oder gefallen ist."
 
  # God Ascension
- pog_ascension_decision:0 "Ascend to the Heavens"
- pog_ascension_decision_title:0 "Ascend to the Heavens"
- pog_ascension_decision_desc:0 "For some time you have thought about the ethereal planes. After your time on earth you have realized that you do not wise to be apart of the mortal plane any longer. After telling your heir you quietly sit at the top of your highest tower and say goodbye to the world."
+ pog_ascension_decision:0 "In den Himmel aufsteigen"
+ pog_ascension_decision_title:0 "In den Himmel aufsteigen"
+
+#HIER GEHTS WEITER!!!!! 
+
+pog_ascension_decision_desc:0 "Seit einiger Zeit hast du über die ätherischen Ebenen nachgedacht. Nach Ihrer Zeit auf der Erde haben Sie erkannt, dass Sie nicht länger Teil der sterblichen Ebene sein wollen. Nachdem du deinem Erben davon erzählt hast, sitzt du still auf der Spitze deines höchsten Turms und nimmst Abschied von der Welt." 
  pog_ascension_decision_confirm:0 "I say goodbye to the mortal plane and ascend."
  pog_ascension_decision_tooltip_effect:0 "You shall rise into the heavens leaving behind all of your earthly possessions and titles."
  pog_ascension_decision_tooltip:0 "Proceeding will cause your heir to succeed you and succession shall take its natural course."
